@@ -524,7 +524,7 @@ head(stop_words)
 # number of rows, text has before removal of stop words
 nrow(rstats_tweets_clean)
 
-# removingstop words
+# removing stop words
 rstats_tweet_words <- rstats_tweets_clean %>%
   anti_join(stop_words)
  
