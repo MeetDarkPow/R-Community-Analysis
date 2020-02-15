@@ -39,7 +39,7 @@ package_names <- CRAN_package_wbpg %>%
   html_text()
 package_names <- package_names[!package_names %in% LETTERS]
 
-# storing and cleaning package sumaary
+# storing and cleaning package summary
 package_summary <- CRAN_package_wbpg %>%
   html_nodes("td+ td") %>%
   html_text()
