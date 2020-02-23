@@ -656,7 +656,7 @@ Rrepos_df <- data.frame(Repository = repos_names[1:10],
                  Open_Issue = Openissue_count[1:10])
 ```
 Output Image: <br>
-<img src="Images/Rrepos_df.png" height="100%" width="100%"> <br>
+<img src="Images/Rrepos_df.png" height="50%" width="50%"> <br>
 
 #### **Most popular R - Repositories**
 
