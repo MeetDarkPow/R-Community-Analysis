@@ -379,7 +379,7 @@ Package Dependencies : *rtweet*, *tidytext*, *ggplot2*, *dplyr*, *igraph*, *ggra
 * Statistics for tweets between specified dates
 * Twitter users - unique locations
 * Count of unique words found in tweets
-* Word network of tweets
+* Word network of tweets - Paired Word Analysis
 
 Let's see a detailed view of these following sections :-
 
@@ -560,7 +560,7 @@ Output Plots: <br>
 <img src="Images/countuniq_stop_words.png" height="50%" width="50%"> <br>
 
 
-#### **Word network of tweets - Paired word analysis**
+#### **Word network of tweets - Paired Word Analysis**
 
 This is a plot-network of most frequently two words which were used together in #rstats tweets by the users.
 
