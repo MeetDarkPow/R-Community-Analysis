@@ -621,6 +621,8 @@ install.packages("jsonlite")
 library(httr)
 library(jsonlite)
 
+# turning off the feature of R to turn multinomial variables,
+# dummy variables in regression models and produce nice cross tables.
 options(stringsAsFactors = FALSE)
 
 url <- "https://api.github.com"
