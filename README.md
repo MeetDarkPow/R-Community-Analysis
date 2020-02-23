@@ -404,6 +404,8 @@ rstats_tweets$stripped_text <- gsub("@.*","",rstats_tweets$stripped_text)
 
 #### **Statistics for tweets between specific dates**
 
+This section gives us an insight for getting the number of #rstats tweets between specified dates.
+
 ```
 install.packages("ggplot2")
 
@@ -438,6 +440,8 @@ Output plot: <br>
 <img src="Images/rt_date_specific.png" height="50%" width="50%"> <br>
 
 #### **Twitter users - unique locations**
+
+Getting an idea of locations from where the most #rstats tweets were made from different locations of the world.
 
 ```
 install.packages("rtweet")
@@ -483,6 +487,8 @@ Output Plots: <br>
 <img src="Images/twitter_top_user_loc.png" height="100%" width="100%"> <br>
 
 #### **Count of unique words found in tweets** 
+
+Taking the count of most unique words which were most frequently used in #rstats tweets by the users.
 
 ```
 install.packages("rtweet")
@@ -554,7 +560,9 @@ Output Plots: <br>
 <img src="Images/countuniq_stop_words.png" height="50%" width="50%"> <br>
 
 
-#### **Word network of tweets**
+#### **Word network of tweets - Paired word analysis**
+
+This is a plot-network of most frequently two words which were used together in #rstats tweets by the users.
 
 ```
 install.packages("widyr")
@@ -851,4 +859,4 @@ Output Plots: <br>
 
 
 ---
-  Thanks for reading!! - MEET BHATNAGAR
+  **Thanks for reading!! - MEET BHATNAGAR**
