@@ -700,7 +700,7 @@ open_issues_plot <- ggplot(data=Rrepos_df, aes(x=Repository, y=Open_Issue)) +
 plot_grid(star_plot, fork_plot, open_issues_plot, labels = "AUTO")
 ```
 Output Image: <br>
-<img src="Images/Top10_repos.png" height="80%" width="80%"> <br>
+<img src="Images/Top10_repos.png" height="110%" width="110%"> <br>
 
 #### **Trending repos per day/week/month**
 
@@ -767,11 +767,11 @@ formattable(month_df, align = c("l", rep("r", NCOL(month_df) - 1)))
 ```
 Output Plots: <br>
 (i) Creating the table for trending R-repositories on daily basis: <br>
-<img src="Images/star_today.png" height="50%" width="50%"> <br>
+<img src="Images/star_today.png" height="40%" width="40%"> <br>
 (ii) Creating the table for trending R-repositories on weekly basis: <br>
-<img src="Images/star_week.png" height="50%" width="50%"> <br>
+<img src="Images/star_week.png" height="40%" width="40%"> <br>
 (iii) Creating the table for trending R-repositories on monthly basis: <br>
-<img src="Images/stars_month.png" height="50%" width="50%"> <br>
+<img src="Images/stars_month.png" height="40%" width="40%"> <br>
 
 #### **Trending developers per day/week/month**
 
@@ -841,11 +841,11 @@ formattable(month_dev_df, align = c("l", rep("r", NCOL(month_dev_df) - 1)))
 ```
 Output Plots: <br>
 (i) Creating the table for trending R-repository Developers on daily basis: <br>
-<img src="Images/dev_today.png" height="50%" width="50%"> <br>
+<img src="Images/dev_today.png" height="40%" width="40%"> <br>
 (ii) Creating the table for trending R-repository Developers on weekly basis: <br>
-<img src="Images/dev_week.png" height="50%" width="50%"> <br>
+<img src="Images/dev_week.png" height="40%" width="40%"> <br>
 (iii) Creating the table for trending R-repository Developers on monthly basis: <br>
-<img src="Images/dev_month.png" height="50%" width="50%"> <br>
+<img src="Images/dev_month.png" height="40%" width="40%"> <br>
 
 
 ---
