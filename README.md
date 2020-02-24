@@ -1,8 +1,8 @@
 # R-Community-Exploration
 ================
 
-Meet Bhatnagar
-February-March 2020
+Meet Bhatnagar <br>
+February-March 2020 <br>
 
 [![Project](https://img.shields.io/badge/Project-R%20Community%20Exploration-brightgreen)](https://github.com/rstats-gsoc/gsoc2020/wiki/R-Community-Exploration)
 [![GSOC](https://img.shields.io/badge/This%20is%20for-GSOC2020-red)](https://summerofcode.withgoogle.com/)
