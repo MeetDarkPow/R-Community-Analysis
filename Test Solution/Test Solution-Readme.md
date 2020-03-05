@@ -60,7 +60,7 @@ repoExtract <- function(year){
 }
 ```
 
-* **repoSave() Function** - This function is used to read and combine all the `.rds` files, generated from the above *repoExtract()* function. The combined data is saved as one csv file and one json file.
+* **repoSave() Function** - This function is used to read and combine all the `.rds` files, generated from the above *repoExtract()* function. The combined data is saved as one csv file and one json file. The `.csv` file is stored in CSV_File folder and `.json` file is stored in JSON_File folder respectively.
 
 *Parameter* - csv = 'Your .csv file name'; json = 'Your .json file name';
 
