@@ -4,7 +4,7 @@ library(taskscheduleR)
 
 test2_script <- "C:\\Users\\MeetDarkPow\\Desktop\\R_Community_Explorer\\Test2.R"
 
-# Schedulded to run every day at 6:00 AM
+# Scheduled to run every day at 6:00 AM
 taskscheduler_create(
   taskname = "Rtweet_taskscheduler",
   rscript = test2_script,
