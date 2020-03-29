@@ -477,7 +477,7 @@ weekly_plot <- ggplot(data=weekly_frame, aes(x=weekend, y=weekly_number_tweets, 
   xlab("Days") + ylab("Number of Tweets")
 ```
 Output plot: <br>
-<img src="Images/rt_date_specific.png" height="50%" width="50%"> <br>
+<img src="Images/rt_date_specific.png" height="40%" width="40%"> <br>
 
 #### **Twitter users - unique locations**
 
@@ -522,9 +522,9 @@ users %>%
 ```
 Output Plots: <br>
 (i) Twitter users - Unique Locations: <br>
-<img src="Images/twitter_user_uniq_loc.png" height="100%" width="100%"> <br>
+<img src="Images/twitter_user_uniq_loc.png" height="60%" width="60%"> <br>
 (ii) Twitter user's for tweeting #rstats in top 50 unique locations: <br>
-<img src="Images/twitter_top_user_loc.png" height="100%" width="100%"> <br>
+<img src="Images/twitter_top_user_loc.png" height="60%" width="60%"> <br>
 
 #### **Count of unique words found in tweets** 
 
@@ -602,7 +602,7 @@ Output Plots: <br>
 
 #### **Word network of tweets - Paired Word Analysis**
 
-This is a plot-network of most frequently two words which were used together in #rstats tweets by the users.
+The tweets text is studied and most frequently 2 words used together are collected with their respective word frequency. These words do include stop-words too. So, for the proper study we have to remove the stop-words from the tweets text. Therefore, after removing the stop-words we get a proper information of 2 words used together. An output word network can be created of these words displayed as below.
 
 ```
 install.packages("widyr")
@@ -643,7 +643,7 @@ rstats_words_counts %>%
        x = "", y = "")
 ```
 Output plot: <br>
-<img src="Images/word_network.png" height="80%" width="80%"> <br>
+<img src="Images/word_network.png" height="70%" width="70%"> <br>
 
 ### C. GitHub Exploration
 
@@ -662,6 +662,8 @@ Let's see a detailed view of these following sections :-
 
 APIs are the driving force behind data mash-ups. It is APIs that allow machines to access data programmatically – that is automatically from within a program – to make use of API provided functionalities and data. Searching for the R-repositories and arranging them in descending order on the basis of number of stars. 
 
+This patch of code results in the creation of a data frame (“Rrepos_df”). Containing the information about the top 10 most starred repos on GitHub along with their respective Star_count, Fork_count and Open_issue_count.
+
 ```
 install.packages("httr")
 install.packages("jsonlite")
@@ -678,24 +680,18 @@ path <- "search/repositories?q=language:R&per_page=100&sort=stars&order=desc"
 
 # getting data
 raw.result <- GET(url = url, path = path)
-
 # checking status code for extracting data
 raw.result$status_code
-
 # raw data
 this.raw.content <- rawToChar(raw.result$content)
-
 # creating "list" from JSON file
 this.content <- fromJSON(this.raw.content)
 class(this.content)
-
 # Most starred repos
 repos_names <- this.content[["items"]][["name"]]
 Star_count <- this.content[["items"]][["stargazers_count"]]
-
 # Most forked repos
 Fork_count <- this.content[["items"]][["forks_count"]]
-
 # Most open_issues repos
 Openissue_count <- this.content[["items"]][["open_issues_count"]]
 
@@ -750,11 +746,11 @@ open_issues_plot <- ggplot(data=Rrepos_df, aes(x=Repository, y=Open_Issue)) +
 plot_grid(star_plot, fork_plot, open_issues_plot, labels = "AUTO")
 ```
 Output Image: <br>
-<img src="Images/Top10_repos.png" height="110%" width="110%"> <br>
+<img src="Images/Top10_repos.png" height="100%" width="100%"> <br>
 
 #### **Trending repos per day/week/month**
 
-Representing the top 11 repositories with most number of stars, forks and open issues count in all of R repositories on GitHub.
+The trending R repos are extracted from the GitHub page by web scrapping done using R. The repo_name and their stars_gained are extracted and text mined, cleaned to remove any white spaces. The required information of trending repos is displayed in table format using `formattable()` function under formattable library. Sample table is created/searched for the date of 19th March, 2020.
 
 ```
 install.packages("xml2")
@@ -817,15 +813,15 @@ formattable(month_df, align = c("l", rep("r", NCOL(month_df) - 1)))
 ```
 Output Plots: <br>
 (i) Creating the table for trending R-repositories on daily basis: <br>
-<img src="Images/star_today.png" height="40%" width="40%"> <br>
+<img src="Images/star_today.png" height="30%" width="30%"> <br>
 (ii) Creating the table for trending R-repositories on weekly basis: <br>
-<img src="Images/star_week.png" height="40%" width="40%"> <br>
+<img src="Images/star_week.png" height="30%" width="30%"> <br>
 (iii) Creating the table for trending R-repositories on monthly basis: <br>
-<img src="Images/stars_month.png" height="40%" width="40%"> <br>
+<img src="Images/stars_month.png" height="30%" width="30%"> <br>
 
 #### **Trending developers per day/week/month**
 
-Representing the top 25 repository developers with their respective repository name in all of R repositories on GitHub.
+The trending R developers are extracted from the GitHub page by web scrapping done using R. The repo_author_name and their repo_name is extracted and text mined, cleaned to remove any white spaces. The required information of trending repos is displayed in table format using `formattable()` function under formattable library. Sample table is created/searched for the date of 19th March, 2020.
 
 ```
 install.packages("xml2")
@@ -891,11 +887,11 @@ formattable(month_dev_df, align = c("l", rep("r", NCOL(month_dev_df) - 1)))
 ```
 Output Plots: <br>
 (i) Creating the table for trending R-repository Developers on daily basis: <br>
-<img src="Images/dev_today.png" height="40%" width="40%"> <br>
+<img src="Images/dev_today.png" height="30%" width="30%"> <br>
 (ii) Creating the table for trending R-repository Developers on weekly basis: <br>
-<img src="Images/dev_week.png" height="40%" width="40%"> <br>
+<img src="Images/dev_week.png" height="30%" width="30%"> <br>
 (iii) Creating the table for trending R-repository Developers on monthly basis: <br>
-<img src="Images/dev_month.png" height="40%" width="40%"> <br>
+<img src="Images/dev_month.png" height="30%" width="30%"> <br>
 
 
 ---
