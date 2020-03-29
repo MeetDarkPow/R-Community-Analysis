@@ -13,7 +13,7 @@ February-March 2020 <br>
 
 Package Dependencies : *rvest*, *installr*, *ggplot2*, *data.table*, *cranlogs*, *lubridate*, *magrittr*, *tm*, *wordcloud*, *RColorBrewer*, *SnowballC*, *miniCRAN*, *igraph*, *cowplot*, *NLP*, *xml2*. <br>
 
-**All of the CRAN Exploration till now has been divided into Eight Sections**
+**All of the CRAN Exploration till now has been divided into Ten Sections**
 
 * Web scraping - Names of packages and respective summary 
 * Analysis of package statistics - Short duration data
@@ -21,7 +21,9 @@ Package Dependencies : *rvest*, *installr*, *ggplot2*, *data.table*, *cranlogs*,
 * Most popular package - last-day, last-week, last-month
 * Statistics - R software downloaded
 * Statistics - R version downloaded
+* Most dependent upon packages
 * Word-cloud of popular package keywords
+* Popular package authors
 * Network-graph of package dependencies
 
 Let's see a detailed view of these following sections :-
@@ -95,9 +97,9 @@ barplot_package_users_per_day("Rcpp", RStudio_CRAN_data)
 ```
 Output Plots: <br>
 (i) Line plot for top six package downloads from '2020-01-01' till '2020-01-10': <br>
-<img src="Images/lineplot.png" height="70%" width="70%"> <br>
+<img src="Images/lineplot.png" height="60%" width="60%"> <br>
 (ii) Bar plot for day to day package download statistics for "ggplot" and "Rcpp": <br>
-<img src="Images/d2d_pkg_stat.png" height="100%" width="100%"> <br>
+<img src="Images/d2d_pkg_stat.png" height="80%" width="80%"> <br>
 
 #### **Analysis of package statistics - Yearly data**
 
@@ -158,9 +160,9 @@ total_downld[, .(count = sum(count)), round_month] %>%
 ```
 Output Plots: <br>
 (i) Weekly package download analysis from '2019-01-01' till '2019-12-31': <br>
-<img src="Images/pkg_downld_week.png" height="80%" width="80%"> <br>
+<img src="Images/pkg_downld_week.png" height="60%" width="60%"> <br>
 (ii) Monthly package download analysis from '2019-01-01' till '2019-12-31': <br>
-<img src="Images/pkg_downld_month.png" height="80%" width="80%"> <br>
+<img src="Images/pkg_downld_month.png" height="60%" width="60%"> <br>
 
 #### **Most popular package - last-day, last-week, last-month** 
 
@@ -263,9 +265,9 @@ total_R[, .(count = sum(count)), round_month_r] %>%
 ```
 Output Plots: <br>
 (i) Weekly package download analysis from '2019-01-01' till '2019-12-31': <br>
-<img src="Images/r_downld_week.png" height="80%" width="80%"> <br>
+<img src="Images/r_downld_week.png" height="60%" width="60%"> <br>
 (ii) Monthly package download analysis from '2019-01-01' till '2019-12-31': <br>
-<img src="Images/r_downld_month.png" height="80%" width="80%"> <br>
+<img src="Images/r_downld_month.png" height="60%" width="60%"> <br>
 
 #### **Statistics - R version downloaded**
 
@@ -298,7 +300,14 @@ total_R[, .(count = sum(count)), version][order(count, decreasing = TRUE)] %>%
   theme_minimal()
 ```
 Output plot: <br>
-<img src="Images/r_version_downld.png" height="80%" width="80%"> <br>
+<img src="Images/r_version_downld.png" height="60%" width="60%"> <br>
+
+#### **Most dependent upon packages**
+
+This information can be found out by using the `available.packages()` function, which gives the information of packages in matrix class. In which can create a separate data frame which contains the following columns: Package Name, Depends, Suggests.
+
+Output table:<br>
+<img src="Images/dependent_pkg.png" height="70%" width="70%"> <br>
 
 #### **Word-cloud of popular package keywords**
 
@@ -328,7 +337,6 @@ docs <- tm_map(docs, removeNumbers)
 docs <- tm_map(docs, removeWords, stopwords("english"))
 docs <- tm_map(docs, removePunctuation)
 docs <- tm_map(docs, stripWhitespace)
-docs <- tm_map(docs, stemDocument)
 docs <- tm_map(docs, PlainTextDocument)
 
 # creating a matrix for tabulation of word with respective frequency 
@@ -344,8 +352,33 @@ wordcloud(words = d$word, freq = d$freq, min.freq = 1,
           max.words=550, random.order=FALSE, rot.per=0.35, 
           colors=rev(colorRampPalette(brewer.pal(9,"Blues"))(32)[seq(8,32,6)]))
 ```
-Output plot:
-<img src="Images/word_cloud.png" height="80%" width="80%"> <br>
+Output plot:<br>
+<img src="Images/word_cloud.png" height="60%" width="60%"> <br>
+
+#### **Popular package authors**
+
+This information can be retrieved by using the `cranlogs` library, on the basis of number of downloads. The author network plot can be drawn in which one can view how the different authors (i.e. nodes) are connected to one another via edges. This is an interactive way viewing authors involvement with different packages. Sample author taken is “Bob Rudis” displays 176 collaborators in 47 packages.
+
+```
+# popular authors
+library(tools)
+library(cranly)
+
+p_db <- tools::CRAN_package_db()
+clean_p_db <- clean_CRAN_db(p_db)
+author_net <- build_network(object = clean_p_db, perspective = "author")
+plot(author_net, author = "Bob Rudis", exact = FALSE)
+
+author_summary <- summary(author_net)
+plot(author_summary)
+```
+Output network: <br>
+<img src="Images/cran_author_network.png" height="60%" width="60%"> <br>
+
+A bar plot can be drawn using command: `plot(summary(author_net))`. This plot is also helpful to know who the most specific CRAN package authors are.
+
+Output plot: <br>
+<img src="Images/cran_top_npkg.png" height="60%" width="60%"> <br>
 
 #### **Network-graph of package dependencies**
 
@@ -373,8 +406,8 @@ set.seed(50)
 plot(makeDepGraph(tags, includeBasePkgs=FALSE, suggests=TRUE, enhances=TRUE), 
      legendPosEdge = c(-1, 1), legendPosVertex = c(1, 1), vertex.size=9)
 ```
-Output plot:
-<img src="Images/Network_Package_Graph.png" height="80%" width="80%"> <br>
+Output plot:<br>
+<img src="Images/Network_Package_Graph.png" height="70%" width="70%"> <br>
 
 ### B. Twitter Exploration
 
