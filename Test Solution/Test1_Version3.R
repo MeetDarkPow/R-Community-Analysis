@@ -52,6 +52,7 @@ monthExtract <- function(year, month, lastday_month){
       this.raw.content <- rawToChar(raw.result$content)
       this.content <- fromJSON(this.raw.content)
       final_list[[i]] <- this.content
+      Sys.sleep(time = 20)
     }
     
     # cleaning time format 
