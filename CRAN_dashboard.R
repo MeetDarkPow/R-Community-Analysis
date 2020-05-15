@@ -20,7 +20,6 @@ CRAN_package_data <- data.frame(
 write.csv(CRAN_package_data, file = paste0("Pkg_byNames.csv"), row.names = F)
 
 ### TASK - 2
-
 library(rvest)
 library(ggplot2)
 
