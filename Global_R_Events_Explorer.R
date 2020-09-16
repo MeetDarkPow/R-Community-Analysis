@@ -5,6 +5,7 @@
 
 library(rvest)
 library(lubridate)
+library(stringr)
 
 RStudio.edu.events <- function(year){
   Revents_wbpg <- read_html("https://education.rstudio.com/events/archive/")
@@ -16,6 +17,18 @@ RStudio.edu.events <- function(year){
     html_nodes("td:nth-child(2)") %>%
     html_text()
   date <- gsub('\\s+','',date)
+  date_month <- gsub("[^[:alpha:]]","",date)
+  date_day <- gsub("[[:alpha:]]","",date)
+  date_day <- gsub(",.*","",date_day)
+  date_SE_list <- str_extract_all(date_day, '[0-9]+')
+  date_start <- c()
+  date_end <- c()
+  for (i in 1:length(date_month)) {
+    date_start[i] <- date_SE_list[[i]][1]
+    date_end[i] <- date_SE_list[[i]][2]
+  }
+  event_from <- as.Date(paste(date_start, date_month, rep(year,length(date_month))), "%d %B %Y")
+  event_till <- as.Date(paste(date_end, date_month, rep(year,length(date_month))), "%d %B %Y")
   
   description <- Revents_wbpg %>%
     html_nodes("td:nth-child(3)") %>%
@@ -29,16 +42,14 @@ RStudio.edu.events <- function(year){
     html_nodes("td:nth-child(1) a") %>%
     html_attr('href')
   
-  df <- data.frame(Events = eve, Date = date, 
+  df <- data.frame(Events = eve, Event_From = event_from, Event_Till = event_till, 
                    Description = description, Location = location,
                    Year = year(as.Date(gsub(".*,","",date), format = "%Y")),
                    Link = event_url)
   event_details <- df[df$Year==year,]
-  
+
   return(event_details)
 }
-
-
 
 ###  2. Global R Events Data from Jumping Rivers  ###
 
@@ -69,16 +80,18 @@ R_trainingC_jumping_Rivers <- function(year){
       html_nodes(".single-course__description") %>%
       html_text()
   }
+  date_month <- gsub("[^[:alpha:]]","",date_event)
+  date_day <- gsub("[[:alpha:] ]","",date_event)
+  date_day <- gsub(",.*","",date_day)
+  date_start <- as.Date(paste(date_day, date_month, rep(year,length(date_month))), "%d %B %Y")
   
-  df_event <- data.frame(Event = title_event, Date = date_event,
+  df_event <- data.frame(Event = title_event, Date = date_start,
                          Description = description_event, URL = link_event,
                          Year = year(as.Date(gsub(".*, ","",date_event), format = "%Y")))
   event_table <- df_event[df_event$Year==year,]
   
   return(event_table)
 }
-
-
 
 ###  3. Global R Events Data from Jumping Rivers  ###
 
@@ -105,4 +118,3 @@ Rjumping_rivers_events <- function(year){
   
   return(R_event_details)
 }
-
