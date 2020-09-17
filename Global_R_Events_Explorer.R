@@ -100,6 +100,8 @@ R_trainingC_jumping_Rivers <- function(year){
 
 library(rvest)
 library(tidyr)
+library(lubridate)
+library(tibble)
 
 Rjumping_rivers_events <- function(year){
   wbpg <- read_html("https://github.com/jumpingrivers/meetingsR/blob/gh-pages/events.csv")
@@ -115,6 +117,10 @@ Rjumping_rivers_events <- function(year){
   temp_df$Year <- year(as.Date(gsub("\\D","",temp_df$Year), format = "%Y"))
   temp_df$NAs <- NULL
   R_event_details <- temp_df[temp_df$Year==year,]
+  date_day <- gsub("[[:alpha:] ]","",R_event_details$Date)
+  date_day <- gsub("-.*","",date_day)
+  date_start <- as.Date(paste(date_day, R_event_details$Month, rep(year,length(date_day))), "%d %B %Y")
+  R_event_details <- add_column(R_event_details, Event_From = date_start, .after = "Date")
   
   return(R_event_details)
 }
