@@ -95,3 +95,45 @@ ggplot(data=monthly_df, aes(x=Month, y=Count)) +
   theme_minimal()+
   labs(title = "R Bloggers Monthly Count",
        x = "Month", y = "Number of Blogs Posted")
+
+### Extracting blog information from R Bloggers
+
+library(rvest)
+library(purrr)
+
+main_wbpg <- read_html("https://www.r-bloggers.com/")
+pg_max <- main_wbpg %>%
+  html_nodes(".dots+ .page-numbers") %>%
+  html_text()
+pg_max <- 1:as.numeric(gsub(",", "", pg_max))
+
+# Important points to note down here are as follows:
+# 'pg_max' variable gives the number of blog pages available on R-bloggers
+# BUT!!!! the max number I can access on the website is till page number 45.
+# So, in my mapping function which created the data-frame named 'Blog_Information'
+# I have taken input from page 1 till page 45.
+# As soon as the website allows till 'pg_max' just put "pg_max" instead of "1:45" as input
+surf_wbpg <- "https://www.r-bloggers.com/page/%d/"
+
+map_df(1:45, function(i){
+  
+  page <- read_html(sprintf(surf_wbpg, i))
+  blog_title <- page %>%
+    html_nodes(".loop-title a") %>%
+    html_text()
+  
+  blog_author <- page %>%
+    html_nodes(".fn") %>%
+    html_text()
+  
+  blog_date <- page %>%
+    html_nodes(".meta") %>%
+    html_text()
+  blog_date <- gsub(" \\|.*","",blog_date)
+  
+  data.frame(Title = blog_title,
+             Date = blog_date,
+             Author = blog_author)
+}) -> Blog_Information
+
+View(Blog_Information)
