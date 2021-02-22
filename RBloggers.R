@@ -1,14 +1,14 @@
-### Counts number of blogs on R Bloggers
+### Counts number of types of blogs on R Bloggers
 
 library(rvest)
 
 wbpg <- read_html("https://www.r-bloggers.com/blogs-list/")
 
-blog_name <- wbpg %>%
-  html_nodes(".entry a") %>%
+blog_typename <- wbpg %>%
+  html_nodes("#content a") %>%
   html_text()
 
-blog_count <- length(blog_name)
+blog_typecount <- length(blog_typename)
 
 ### Count of Blog posts - Monthwise, Yearwise
 
@@ -16,7 +16,7 @@ library(stringr)
 library(ggplot2)
 library(rvest)
 
-wbpg <- read_html("https://www.r-bloggers.com/blogs-list/")
+wbpg <- read_html("https://www.r-bloggers.com/")
 
 blog_text <- wbpg %>%
   html_nodes(xpath = "//*[@id='archives-dropdown-3']/option") %>%
