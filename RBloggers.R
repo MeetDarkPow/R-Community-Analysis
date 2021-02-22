@@ -98,6 +98,7 @@ ggplot(data=monthly_df, aes(x=Month, y=Count)) +
 
 ### Extracting blog information from R Bloggers
 
+# Version 1
 library(rvest)
 library(purrr)
 
@@ -137,3 +138,56 @@ map_df(1:45, function(i){
 }) -> Blog_Information
 
 View(Blog_Information)
+
+# Version 2
+
+# month wise function - combines full data into data-frame for that particular month and year as input
+month_blogs <- function(year, month){
+  
+  ym_wbpg <- "https://www.r-bloggers.com/%d/%d/"
+  ym_wbpg <- sprintf(ym_wbpg, year, month)
+  temp_wbpg <- paste0(ym_wbpg, "page/2/")
+  xpage <- read_html(temp_wbpg)
+  pg_ym_max <- xpage %>%
+    html_nodes(".dots+ .page-numbers") %>%
+    html_text()
+  pg_ym_max <- 1:as.numeric(gsub(",", "", pg_ym_max))
+  remove(temp_wbpg)
+  surf_wbpg <- paste0(ym_wbpg, "page/%d/")
+  
+  map_df(pg_ym_max, function(i){
+    
+    page <- read_html(sprintf(surf_wbpg, i))
+    blog_title <- page %>%
+      html_nodes(".loop-title a") %>%
+      html_text()
+    
+    blog_author <- page %>%
+      html_nodes(".fn") %>%
+      html_text()
+    
+    blog_date <- page %>%
+      html_nodes(".meta") %>%
+      html_text()
+    blog_date <- gsub(" \\|.*","",blog_date)
+    
+    data.frame(Title = blog_title,
+               Date = blog_date,
+               Author = blog_author)
+  }) -> Month_Blog_Information
+  Month_Blog_Information
+}
+
+# Note that year wise function is only valid from year 2008 till 2020
+# Inorder to get the year before 2008 - use `month_blogs` function which will individually find monthly blogs
+# For present year use `month_blogs` function too, as the year is not completed yet
+
+# year wise function - combines full data into data-frame for that particular year as input
+year_blogs <- function(year_date){
+  
+  map_df(1:12, function(i){
+    
+    month_blogs(year = year_date, month = i)
+  }) -> Year_Blog_Information
+  Year_Blog_Information
+}
