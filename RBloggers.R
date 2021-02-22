@@ -140,6 +140,8 @@ map_df(1:45, function(i){
 View(Blog_Information)
 
 # Version 2
+library(rvest)
+library(purrr)
 
 # month wise function - combines full data into data-frame for that particular month and year as input
 month_blogs <- function(year, month){
@@ -171,15 +173,20 @@ month_blogs <- function(year, month){
       html_text()
     blog_date <- gsub(" \\|.*","",blog_date)
     
+    author_blogs_hyperlink <- page %>%
+      html_nodes("[class='fn']") %>%
+      html_attr("href")
+    
     data.frame(Title = blog_title,
                Date = blog_date,
-               Author = blog_author)
+               Author = blog_author,
+               Author_Hyperlink = author_blogs_hyperlink)
   }) -> Month_Blog_Information
   Month_Blog_Information
 }
 
-# Note that year wise function is only valid from year 2008 till 2020
-# Inorder to get the year before 2008 - use `month_blogs` function which will individually find monthly blogs
+# Note that year wise function is only valid from year 2009 till 2020
+# Inorder to get the year before 2009 - use `month_blogs` function which will individually find monthly blogs
 # For present year use `month_blogs` function too, as the year is not completed yet
 
 # year wise function - combines full data into data-frame for that particular year as input
