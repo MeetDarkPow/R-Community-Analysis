@@ -57,6 +57,12 @@ temp_df <- data.frame(ID=integer(), Title=character(), View_Count=integer(),
 
 pg <- 1
 
+fromDate <- "2021-01-01"
+fromDate <- as.numeric(as.POSIXct(fromDate, tz="UTC"))
+
+toDate <- "2021-01-03"
+toDate <- as.numeric(as.POSIXct(toDate, tz="UTC"))
+
 repeat{
   url1 <- paste0("https://api.stackexchange.com/2.2/questions?key=", key, "&page=", pg, "&pagesize=100&fromdate=", fromDate, "&todate=", toDate, "&order=desc&sort=activity&access_token=", token, "&tagged=r&site=stackoverflow")
   url1 <- GET(url1)
@@ -82,6 +88,43 @@ repeat{
   pg <- pg + 1
 }
 
+# Questions related queries from `fromDate` till `toDate`
+# 2 parameters - fromDate, toDate
+# 1 default parameter - pg
+
+Ques_query <- function(fromDate, toDate, pg=1){
+  
+  fromDate <- as.numeric(as.POSIXct(fromDate, tz="UTC"))
+  toDate <- as.numeric(as.POSIXct(toDate, tz="UTC"))
+  
+  ques_df <- data.frame(ID=integer(), Title=character(), View_Count=integer(), 
+                        Answer=logical(), Link=character())
+  repeat{
+    wbpg <- paste0("https://api.stackexchange.com/2.2/questions?key=", key, "&page=", pg, "&pagesize=100&fromdate=", fromDate, "&todate=", toDate, "&order=desc&sort=activity&access_token=", token, "&tagged=r&site=stackoverflow")
+    wbpg <- GET(wbpg)
+    wbpg_jsonParsed <- content(wbpg, as="parsed")
+    wbpg_items <- wbpg_jsonParsed$items
+    
+    if(length(wbpg_items)==0){
+      break
+    }
+    
+    len <- as.vector(1:length(wbpg_items))
+    
+    quesId <- lapply(len, function(x){wbpg_items[[x]][["question_id"]]})
+    quesTitle <- lapply(len, function(x){wbpg_items[[x]][["title"]]})
+    quesViewCount <- lapply(len, function(x){wbpg_items[[x]][["view_count"]]})
+    quesAnswered <- lapply(len, function(x){wbpg_items[[x]][["is_answered"]]})
+    quesLink <- lapply(len, function(x){wbpg_items[[x]][["link"]]})
+    
+    df <- data.frame(ID=unlist(quesId), Title=unlist(quesTitle), View_Count=unlist(quesViewCount), 
+                     Answer=unlist(quesAnswered), Link=unlist(quesLink))
+    
+    ques_df <- rbind(ques_df, df)
+    pg <- pg + 1
+  }
+  ques_df
+}
 
 
 
