@@ -94,3 +94,46 @@ Ans_query <- function(fromDate, toDate, pg=1){
 }
 
 
+# Comments related queries from `fromDate` till `toDate`
+# 2 parameters - fromDate, toDate
+# 1 default parameter - `pg` as page number
+# pass fromDate or toDate as string parameters such as
+# Comnt_query("2021-01-01", "2021-01-02")
+
+library(lubridate)
+
+Comnt_query <- function(fromDate, toDate, pg=1){
+  
+  fromDate <- as.numeric(as.POSIXct(fromDate, tz="UTC"))
+  toDate <- as.numeric(as.POSIXct(toDate, tz="UTC"))
+  
+  cmt_df <- data.frame(CommentID=integer(), PostID=integer(), 
+                       CreationDate=POSIXct(), Score=integer())
+  repeat{
+    
+    wbpg <- paste0("https://api.stackexchange.com/2.2/comments?key=", key, "&page=", pg, "&pagesize=100&fromdate=", fromDate, "&todate=", toDate, "&order=desc&sort=votes&access_token=", token, "&tagged=r&site=stackoverflow")
+    wbpg <- GET(wbpg)
+    wbpg_jsonParsed <- content(wbpg, as="parsed")
+    wbpg_items <- wbpg_jsonParsed$items
+    
+    if(length(wbpg_items)==0){
+      break
+    }
+    
+    len <- as.vector(1:length(wbpg_items))
+    
+    cmtId <- lapply(len, function(x){wbpg_items[[x]][["comment_id"]]})
+    pId <- lapply(len, function(x){wbpg_items[[x]][["post_id"]]})
+    createDate <- lapply(len, function(x){wbpg_items[[x]][["creation_date"]]})
+    cmtScore <- lapply(len, function(x){wbpg_items[[x]][["score"]]})
+    
+    df <- data.frame(CommentID=unlist(cmtId), PostID=unlist(pId), 
+                     CreationDate=as_datetime(unlist(createDate)), 
+                     Score=unlist(cmtScore))
+    
+    cmt_df <- rbind(cmt_df, df)
+    pg <- pg + 1
+  }
+  cmt_df
+}
+
