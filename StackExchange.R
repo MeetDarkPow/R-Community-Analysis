@@ -52,6 +52,7 @@ Ques_query <- function(fromDate, toDate, pg=1){
   ques_df
 }
 
+
 # Obtaining list of Question IDs whose Answer is PRESENT on Stack Overflow
 Ques_df <- Ques_query("2021-01-01", "2021-01-02")
 temp_ques_df <- filter(Ques_df, Answer==TRUE)
@@ -130,6 +131,7 @@ Comnt_query <- function(quesId){
   }
   cmt_df
 }
+
 
 # General Answers related queries from `fromDate` till `toDate`
 # 2 parameters - fromDate, toDate
