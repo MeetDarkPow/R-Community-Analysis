@@ -16,6 +16,9 @@ library(ggraph)
 library(widyr)
 library(tidyr)
 
+# API Key - Vasln0HaAY8pkXu7J2xQkBX8c
+# API key secret - h5ra23jvrY8nq7vkUBld1mXXYwjsKR5iyNoH2CATUNKO1rdzq3
+
 # searching for #rstats tweets 
 rstats_tweets <- search_tweets(q="#rstats", retryonratelimit = T)
 head(rstats_tweets)
