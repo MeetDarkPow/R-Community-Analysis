@@ -18,6 +18,9 @@ library(tidyr)
 
 # API Key - Vasln0HaAY8pkXu7J2xQkBX8c
 # API key secret - h5ra23jvrY8nq7vkUBld1mXXYwjsKR5iyNoH2CATUNKO1rdzq3
+# Access Token - 1013338789580713984-2oRZj3Btzvgl0yZqJ8Wfr0GEmTzW34
+# Access Token Secret - 92oQXpMxvdNI7gwIAji2ZfEdN905eGudFoeNWd4sb6Wnn
+
 
 # searching for #rstats tweets 
 rstats_tweets <- search_tweets(q="#rstats", retryonratelimit = T)
