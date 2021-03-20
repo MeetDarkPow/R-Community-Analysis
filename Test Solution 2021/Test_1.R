@@ -20,5 +20,8 @@ rtweet_data <- search_tweets(q="#rstats", since = Sys.Date()-1,
 
 rtweet_df <- data.frame(User_ID=rtweet_data$user_id, Status_ID=rtweet_data$status_id,
                         Tweet_Date=rtweet_data$created_at, Tweet_Text=rtweet_data$text, 
-                        Retweet_Count=rtweet_data$retweet_count)
+                        Retweet_Count=rtweet_data$retweet_count, Likes = rtweet_data$favorite_count)
 
+write.table(rtweet_df, file = "rstats_Tweet.csv", sep = ",",
+            row.names = FALSE, col.names = !file.exists("rstats_Tweet.csv"), 
+            append = TRUE)
