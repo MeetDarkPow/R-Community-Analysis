@@ -1,0 +1,31 @@
+name: Update and recombine rstats tweets data
+
+on:
+  schedule:
+    # Everyday At 12:05 AM 
+    - cron: "5 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  build_data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: r-lib/actions/setup-r@master
+      
+      - name: Install dependencies
+        run: |
+          Rscript -e 'install.packages("rtweet")'
+          
+      - name: Fetch data
+        run: |
+          Rscript Test_1.R   
+      
+      - name: Update csv
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add rstats_Tweet.csv
+          git commit -m "chore: Update tweet data" || echo "Error commit"
+          git push || echo "Error push"
