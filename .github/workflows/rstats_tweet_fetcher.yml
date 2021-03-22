@@ -1,0 +1,27 @@
+name: Recombine Tweet Data
+on:
+  schedule:
+    # Everyday At 12:05 AM 
+    - cron: "5 0 * * *"
+  workflow_dispatch:
+jobs:
+  build_data:
+    runs-on: windows-latest
+    env: 
+      REPO_KEY: ${{ secrets.GITHUB_TOKEN }}
+      username: github-actions
+    steps:
+      - uses: actions/checkout@master
+      - uses: r-lib/actions/setup-r@master
+      - name: Install dependencies
+        run: Rscript -e "install.packages('rtweet', dependencies= TRUE)"
+      - name: Fetch data
+        run: |
+          Rscript ./Test Solution 2021/Test_1.R   
+      - name: Update csv
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add --all
+          git commit -am "add data"
+          git push 
