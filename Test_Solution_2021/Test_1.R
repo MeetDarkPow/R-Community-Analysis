@@ -15,10 +15,11 @@ token <- create_token(
 )
 
 # searching for required #rstats tweets
-rtweet_data <- search_tweets(q="#rstats", since = Sys.Date()-2, 
-                             until = Sys.Date()-1, 
+rtweet_data <- search_tweets(q="#rstats", since = Sys.Date()-1, 
+                             until = Sys.Date(), 
                              retryonratelimit = TRUE, include_rts = FALSE)
 
+# creating a structured data frame
 rtweet_df <- data.frame(User_ID=rtweet_data$user_id, Status_ID=rtweet_data$status_id,
                         Tweet_Date=rtweet_data$created_at, Tweet_Text=rtweet_data$text, 
                         Retweet_Count=rtweet_data$retweet_count, Likes = rtweet_data$favorite_count)
