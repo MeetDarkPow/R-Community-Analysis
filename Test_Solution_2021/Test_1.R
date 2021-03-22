@@ -24,6 +24,6 @@ rtweet_df <- data.frame(User_ID=rtweet_data$user_id, Status_ID=rtweet_data$statu
                         Retweet_Count=rtweet_data$retweet_count, Likes = rtweet_data$favorite_count)
 
 # saving #rstats tweets to a csv file
-write.table(rtweet_df, file = "rstats_data/rstats_Tweet.csv", sep = ",",
+write.table(rtweet_df, file = "Test_Solution_2021/rstats_data/rstats_Tweet.csv", sep = ",",
             row.names = FALSE, col.names = !file.exists("rstats_Tweet.csv"), 
             append = TRUE)
