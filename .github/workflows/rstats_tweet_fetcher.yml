@@ -2,8 +2,7 @@ name: Recombine Tweet Data
 on:
   schedule:
     # Everyday At 12:05 AM 
-    #- cron: "5 0 * * *"
-    - cron: "*/16 * * * *"
+    - cron: "5 0 * * *"
   workflow_dispatch:
 jobs:
   build_data:
