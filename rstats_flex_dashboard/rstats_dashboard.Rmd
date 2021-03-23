@@ -11,6 +11,15 @@ output:
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
+library(knitr)
+library(DT)
+library(rpivotTable)
+library(ggplot2)
+library(plotly)
+library(dplyr)
+library(openintro)
+library(highcharter)
+library(ggvis)
 ```
 
 Column {data-width=650}
