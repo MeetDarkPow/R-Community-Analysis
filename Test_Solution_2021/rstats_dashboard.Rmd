@@ -35,6 +35,8 @@ tweets_today <- daily_count_df$Freq[nrow(daily_count_df)]
 today_df <- read_df %>%
   filter(Tweet_Date == Sys.Date()-2)
 users_today <- length(unique(today_df$User_ID))
+
+
 ```
 
 # Interactive Data Visualization
@@ -64,3 +66,6 @@ valueBox(tweets_today, icon = "fa-comments", color = "purple")
 ```{r}
 valueBox(users_today, icon = "fa-users", color = "orange")
 ```
+
+## Row
+
