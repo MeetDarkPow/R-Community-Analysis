@@ -1,0 +1,66 @@
+---
+title: "Rstats Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    vertical_layout: fill
+    social: [ "twitter", "facebook", "menu"]
+    source_code: embed
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(rtweet)
+library(lubridate)
+library(anytime)
+library(dplyr)
+
+read_df <- read_twitter_csv("rstats_data/rstats_Tweet.csv")
+
+mycolors <- c("blue", "#FFC125", "darkgreen", "darkorange")
+
+creation_date <- read_df$Tweet_Date
+first_part <- suppressWarnings(as_date(creation_date[!is.na(as_date(creation_date))]))
+second_part <- suppressWarnings(anydate(as.numeric(creation_date[!is.na(as.numeric(creation_date))]), tz="UTC", asUTC = FALSE))
+creation_date <- c(first_part, second_part)
+remove(first_part, second_part)
+read_df$Tweet_Date <- creation_date
+
+total_tweets <- length(unique(read_df$Status_ID))
+total_users <- length(unique(read_df$User_ID))
+
+daily_count_df <- as.data.frame(table(creation_date))
+tweets_today <- daily_count_df$Freq[nrow(daily_count_df)]
+
+today_df <- read_df %>%
+  filter(Tweet_Date == Sys.Date()-2)
+users_today <- length(unique(today_df$User_ID))
+```
+
+# Interactive Data Visualization
+
+## Row
+
+### Total #rstats Tweets
+
+```{r}
+valueBox(total_tweets, icon = "fa-twitter", color = "aqua")
+```
+
+### Total Tweeters
+
+```{r}
+valueBox(total_users, icon = "fa-user", color = "green")
+```
+
+### Tweets Today
+
+```{r}
+valueBox(tweets_today, icon = "fa-comments", color = "purple")
+```
+
+### Tweeters Today
+
+```{r}
+valueBox(users_today, icon = "fa-users", color = "orange")
+```
