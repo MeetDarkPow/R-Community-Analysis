@@ -18,8 +18,6 @@ library(plotly)
 
 read_df <- read_twitter_csv("rstats_data/rstats_Tweet.csv")
 
-mycolors <- c("blue", "#FFC125", "darkgreen", "darkorange")
-
 creation_date <- read_df$Tweet_Date
 first_part <- suppressWarnings(as_date(creation_date[!is.na(as_date(creation_date))]))
 second_part <- suppressWarnings(anydate(as.numeric(creation_date[!is.na(as.numeric(creation_date))]), tz="UTC", asUTC = FALSE))
@@ -36,9 +34,8 @@ daily_count_df <- as.data.frame(table(creation_date))
 tweets_today <- daily_count_df$Freq[nrow(daily_count_df)]
 
 today_df <- read_df %>%
-  filter(Tweet_Date == Sys.Date()-2)
+  filter(Tweet_Date == Sys.Date()-1)
 users_today <- length(unique(today_df$User_ID))
-
 
 ```
 
