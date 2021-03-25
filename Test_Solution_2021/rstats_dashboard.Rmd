@@ -14,6 +14,7 @@ library(rtweet)
 library(lubridate)
 library(anytime)
 library(dplyr)
+library(plotly)
 
 read_df <- read_twitter_csv("rstats_data/rstats_Tweet.csv")
 
@@ -28,6 +29,8 @@ read_df$Tweet_Date <- creation_date
 
 total_tweets <- length(unique(read_df$Status_ID))
 total_users <- length(unique(read_df$User_ID))
+total_likes <- sum(read_df$Likes)
+total_retweets <- sum(read_df$Retweet_Count)
 
 daily_count_df <- as.data.frame(table(creation_date))
 tweets_today <- daily_count_df$Freq[nrow(daily_count_df)]
@@ -55,6 +58,18 @@ valueBox(total_tweets, icon = "fa-twitter", color = "aqua")
 valueBox(total_users, icon = "fa-user", color = "green")
 ```
 
+### Total Likes
+
+```{r}
+valueBox(total_likes, icon = "fa-thumbs-up", color = "red")
+```
+
+### Total Retweets
+
+```{r}
+valueBox(total_retweets, icon = "fa-twitter", color = "fuchsia")
+```
+
 ### Tweets Today
 
 ```{r}
@@ -69,3 +84,52 @@ valueBox(users_today, icon = "fa-users", color = "orange")
 
 ## Row
 
+### Daily Count of Tweets
+
+```{r}
+plot1 <- daily_count_df %>%
+  plot_ly(x = ~creation_date,
+          y = ~Freq,
+          color = "orange",
+          type = 'bar') %>%
+  layout(xaxis = list(title = "Date"), yaxis = list(title = "Number of Tweets"))
+plot1
+```
+
+### Re-tweets vs Likes on tweets
+
+```{r}
+unique_days <- unique(creation_date)
+len <- 1:length(unique_days)
+rtc <- lapply(len, function(x){sum(subset(read_df, Tweet_Date==unique_days[x])$Retweet_Count)})
+rtc <- unlist(rtc)
+lc <- lapply(len, function(x){sum(subset(read_df, Tweet_Date==unique_days[x])$Likes)})
+lc <- unlist(lc)
+
+data <- data.frame(unique_days, rtc, lc)
+
+data <- data.frame(unique_days, rtc, lc)
+
+plot2 <- plot_ly(data, x = ~unique_days, y = ~rtc, type = 'bar', name = 'Re-Tweets',
+               marker = list(color = 'rgb(55, 83, 109)')) %>%
+  add_trace(y = ~lc, name = 'Likes', marker = list(color = 'rgb(26, 118, 255)')) %>% 
+  layout(title = 'Count of Re-Tweets and Likes for #rstats ',
+         xaxis = list(
+           title = "Date",
+           type = 'date',
+           tickformat = "%d %B (%a)<br>%Y",
+           tickfont = list(
+             size = 14,
+             color = 'rgb(107, 107, 107)')),
+         yaxis = list(
+           title = 'Frequency',
+           titlefont = list(
+             size = 16,
+             color = 'rgb(107, 107, 107)'),
+           tickfont = list(
+             size = 14,
+             color = 'rgb(107, 107, 107)')),
+         legend = list(x = 0, y = 1, bgcolor = 'rgba(255, 255, 255, 0)', bordercolor = 'rgba(255, 255, 255, 0)'),
+         barmode = 'group', bargap = 0.15, bargroupgap = 0.1)
+suppressWarnings(plot2)
+```
