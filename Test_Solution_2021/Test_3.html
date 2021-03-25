@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Chart - Plotly</title>
+
+    <!-- Include Plotly.js -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div id="myDiv">      <!-- Plotly chart will be drawn inside this DIV --> 
+    </div>
+    <script> 
+        var trace1 = {          
+            x: [1, 2, 3, 4, 5],          
+            y: [100, 60, 30, 60, 10],          
+            mode: 'lines+markers+text',          
+            type: 'scatter', name: 'Beta',          
+            text: ['Mobile A', 'Mobile B', 'Mobile C', 'Mobile D', 'Mobile E'],          
+            textposition: 'top center',   textfont: { family:  'Raleway, sans-serif' },       
+            marker: { size: 12 }};
+        var trace2 = {        
+            x: [1.5, 2.5, 3.5, 4.5, 5.5],        
+            y: [100, 10, 70, 150, 40],        
+            mode: 'lines+markers+text',        
+            type: 'scatter', name: 'Alpha',        
+            text: ['Product A', 'Product B', 'Product C', 'Product D', 'Product E'], 
+            textfont : {family:'Times New Roman'}, textposition: 'top center',        
+            marker: { size: 12 }};
+        var data = [trace1, trace2];  
+        var layout = {    
+            title:'Simple chart using Plotly',   
+            height: 550,
+            xaxis: { title: 'Distance travelled along x-axis', titlefont: {color: 'black', size: 12}, 
+                    range: [ 0.75, 6.25 ], rangemode: 'tozero'},        
+            yaxis: { title: 'Distance travelled along y-axis', titlefont: {color: 'black', size: 12}, 
+                    range: [0, 200], rangemode: 'tozero'},        
+            legend: { y: 0.5, yref: 'paper', font: { family: 'Arial, sans-serif', size: 20, color: 'black',}},  
+            font: {
+                family: 'Lato',
+                size: 16,
+                color: 'rgb(100,150,200)'},
+            plot_bgcolor: 'rgba(200,255,0,0.1)',
+            margin: {pad: 10}
+            };
+        Plotly.newPlot('myDiv', data, layout);
+    </script>
+</body>
+</html>

@@ -89,7 +89,8 @@ plot1 <- daily_count_df %>%
           y = ~Freq,
           color = "orange",
           type = 'bar') %>%
-  layout(xaxis = list(title = "Date"), yaxis = list(title = "Number of Tweets"))
+  layout(xaxis = list(title = "Date"), yaxis = list(title = "Number of Tweets", 
+                                                    range = c(0, max(daily_count_df$Freq))))
 plot1
 ```
 
@@ -102,8 +103,6 @@ rtc <- lapply(len, function(x){sum(subset(read_df, Tweet_Date==unique_days[x])$R
 rtc <- unlist(rtc)
 lc <- lapply(len, function(x){sum(subset(read_df, Tweet_Date==unique_days[x])$Likes)})
 lc <- unlist(lc)
-
-data <- data.frame(unique_days, rtc, lc)
 
 data <- data.frame(unique_days, rtc, lc)
 
@@ -120,6 +119,7 @@ plot2 <- plot_ly(data, x = ~unique_days, y = ~rtc, type = 'bar', name = 'Re-Twee
              color = 'rgb(107, 107, 107)')),
          yaxis = list(
            title = 'Frequency',
+           range = c(0, max(max(rtc), max(lc))),
            titlefont = list(
              size = 16,
              color = 'rgb(107, 107, 107)'),
