@@ -128,5 +128,5 @@ plot2 <- plot_ly(data, x = ~unique_days, y = ~rtc, type = 'bar', name = 'Re-Twee
              color = 'rgb(107, 107, 107)')),
          legend = list(x = 0, y = 1, bgcolor = 'rgba(255, 255, 255, 0)', bordercolor = 'rgba(255, 255, 255, 0)'),
          barmode = 'group', bargap = 0.15, bargroupgap = 0.1)
-suppressWarnings(plot2)
+plot2
 ```
