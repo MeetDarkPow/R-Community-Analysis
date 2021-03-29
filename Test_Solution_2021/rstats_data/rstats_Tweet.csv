@@ -10675,3 +10675,1256 @@ https://t.co/grkpJf071r https://t.co/0Gn67anpIF",5,5
 #IoT #flutter #javascript #Serverless #cybersecurity #RStats
 #Analytics #DeepLearning #Privacy #DigitalMarketing #BigData https://t.co/BOAFpGTxrY",9,3
 "248883268","1375602034406158341","1616804057","@jebyrnes @jebyrnes At the @arcticdatactr Berkman et al. published continuous historical AIS data from 2009-2016 for Arctic shipping: https://t.co/56ycLSFv0B Easy to load into #rstats with the `dataone` package.",1,1
+"935569091678691328","1376323122203394051","1616975977","R iterate over group in R dataframe with for-loop #tidyverse #rstats https://t.co/t4dLAU2WBe",1,0
+"935569091678691328","1376271355910455297","1616963635","How to create multiple geom_lines with two different variables #tidyverse #rstats https://t.co/GLQ8wdTDuF",2,3
+"935569091678691328","1376246575433912321","1616957727","R diverging bar chart #tidyverse #rstats https://t.co/3wY6kO23QG",3,1
+"935569091678691328","1376245399263051777","1616957447","How to swap axes on boxplot when one variable is discrete and the other is continuous #tidyverse #rstats https://t.co/0iEf2zKFKN",3,2
+"935569091678691328","1376195611326873604","1616945576","Second line graph not plotting as it should #tidyverse #rstats https://t.co/5KZRmkplvV",2,1
+"935569091678691328","1376195610643197952","1616945576","YAML title font and color in Rmarkdown #tidyverse #rstats https://t.co/56wXqnmyiz",2,1
+"935569091678691328","1375964709493563399","1616890525","How can you plot values from different rows on the same line in a dotchart? #tidyverse #rstats https://t.co/3PhdvC8uvB",1,0
+"935569091678691328","1375964708717658113","1616890525","Extract string based on some conditions, detect strings before and strings after #tidyverse #rstats https://t.co/RhEumpFXVd",1,0
+"935569091678691328","1376239004308406274","1616955922","Occurrence of a certain word within a text stored in columns using R #tidyverse #rstats https://t.co/gsNTROgWOq",3,1
+"935569091678691328","1376286656274300928","1616967283","Keeping some variables in a list object #tidyverse #rstats https://t.co/Ii5l3oRNmL",3,1
+"935569091678691328","1376265554244288518","1616962252","how can i create a stacked bar chart for multiple variables in R Studio? #tidyverse #rstats https://t.co/9PMxmh9Ytc",2,1
+"935569091678691328","1376213842913546244","1616949923","Dplyr or R base - looping through specific variables to produce individual PIE CHARTS with PERCENTAGES #tidyverse #rstats https://t.co/nMrdCUB7Ez",2,1
+"935569091678691328","1376237738819792899","1616955620","Merge 2 R dataframes keeping matched rows from 2nd dataframe and unmatched from 1st #tidyverse #rstats https://t.co/vceks4Th7s",3,3
+"935569091678691328","1376106935909548035","1616924435","The following objects are masked by '.GlobalEnv' and not appeared correct data #tidyverse #rstats https://t.co/IakeggMctv",2,1
+"935569091678691328","1376106935326539778","1616924434","R: Calculating difference between proportions for categorical data #tidyverse #rstats https://t.co/cU1OnMv1H4",3,4
+"935569091678691328","1376281860771299328","1616966140","R: Understanding the Basics of Markdown and Knitr #tidyverse #rstats https://t.co/YWt3wpOXLD",3,2
+"935569091678691328","1376065955625848839","1616914664","How can I take the mean of each category and put it in a new dataframe? #tidyverse #rstats https://t.co/SE2GnVvjDB",2,2
+"935569091678691328","1376260461667229696","1616961038","Subtract values within group #tidyverse #rstats https://t.co/GrGlrxpgdX",3,1
+"935569091678691328","1375964710168891401","1616890525","R: Run a function until conditional test on the previous output of function is True for all rows #tidyverse #rstats https://t.co/zuIAtLsUl3",2,2
+"935569091678691328","1376204280915505159","1616947643","font size for file labels #tidyverse #rstats https://t.co/lla3IZUcqd",2,2
+"935569091678691328","1376252916424663048","1616959239","Creating an inset for a temperature graph #tidyverse #rstats https://t.co/EVzFnNsGqJ",2,1
+"935569091678691328","1376232729898024964","1616954426","Fix the legend in ggplot when line and bar charts come from different dataframes #tidyverse #rstats https://t.co/XIRYmVNct0",2,1
+"935569091678691328","1376140335341039622","1616932398","How does dplyr handle empty groups? #tidyverse #rstats https://t.co/761TObp6LK",3,2
+"935569091678691328","1376096420529381377","1616921927","Take multiple values from dataframe for complex ggplot/dotplot #tidyverse #rstats https://t.co/fXRBEIsQSM",2,1
+"935569091678691328","1376297319818276868","1616969826","Tutor needed for a quick session: Visualisation &amp; Markdown #tidyverse #rstats https://t.co/V5m1N4WtCo",2,1
+"935569091678691328","1376216357843443717","1616950523","Can I combine tile view and presenter mode in Xaringan? #tidyverse #rstats https://t.co/aM7LFrC4pc",2,1
+"935569091678691328","1376295848808742915","1616969475","How Insert an expression in legend in ggplot2?:: correct color + multiple lines and point #tidyverse #rstats https://t.co/ZwVp9B7KLJ",3,1
+"935569091678691328","1376091846812778496","1616920837","ggplot not working properly inside eventReactive() in shiny #tidyverse #rstats https://t.co/zjVgJFyQu9",2,1
+"935569091678691328","1376307123534053379","1616972163","Variable not found while using facet_wrap in r #tidyverse #rstats https://t.co/tohmHyP6Dv",2,1
+"935569091678691328","1376303294197415945","1616971250","I cannot create a path of a file into RSudio! #tidyverse #rstats https://t.co/NYjXDRkSYb",2,2
+"935569091678691328","1376195611939209219","1616945577","Geographically Weighted Regression #tidyverse #rstats https://t.co/tR4eFhz83N",4,6
+"935569091678691328","1376130408857886723","1616930031","Putting together a patchwork of plots by creating single plots by iterating over a for loop #tidyverse #rstats https://t.co/7118o9YXIS",2,2
+"935569091678691328","1376076715710107658","1616917229","Subtracting only specific rows based on name value in R #tidyverse #rstats https://t.co/aSnITtjQBB",2,1
+"935569091678691328","1376166049410908166","1616938528","Whats the right way to add text to geom_histogram in ggplot? #tidyverse #rstats https://t.co/uFt1Y2v4oO",3,1
+"935569091678691328","1376006210688798722","1616900420","Data scraping from coinmarketcap #tidyverse #rstats https://t.co/1SqEvhpkS3",1,1
+"935569091678691328","1376084269450342400","1616919030","ggplot not working in eventReactive() correctly in shiny #tidyverse #rstats https://t.co/rP30DhZ9Qy",3,2
+"935569091678691328","1376297320636092419","1616969826","How to separate scatterplot by different colors by group in pairs.panels() in R #tidyverse #rstats https://t.co/ndP2hp1XhZ",2,1
+"935569091678691328","1375994995270897664","1616897746","[HELP] R session aborted very frequently #tidyverse #rstats https://t.co/4vbEdTdOWw",3,2
+"935569091678691328","1376125880909586436","1616928951","plot with geom_col with date on x-axis (multiple values) #tidyverse #rstats https://t.co/qiSIv1wYjD",3,1
+"935569091678691328","1376106934697390083","1616924434","R: Classifying a group based on the sequence of numbers in R #tidyverse #rstats https://t.co/f7G2MRbc0v",3,2
+"935569091678691328","1376216356388012033","1616950522","Can I combine tile view and presenter mode in Xaringan? #tidyverse #rstats https://t.co/unNWe4MCix",3,1
+"935569091678691328","1376063715439689728","1616914130","ggplot not working properly inside eventReactive() in shiny #tidyverse #rstats https://t.co/BLcsgj5fzs",4,3
+"935569091678691328","1375993626711490563","1616897419","Are there guidelines for contributing to https://t.co/MeLfI2gm4z? #tidyverse #rstats https://t.co/QYefB4RO16",3,1
+"935569091678691328","1376140336007938050","1616932398","Permanently convert multiple columns to numeric - dplyr #tidyverse #rstats https://t.co/uv5i66s5dM",3,3
+"935569091678691328","1376085527468896257","1616919330","Connection DB with Shiny #tidyverse #rstats https://t.co/5RyefnFMAz",2,2
+"935569091678691328","1376265563459219456","1616962254","How highlight are below and above certain line in ggplot #tidyverse #rstats https://t.co/V2R9GEgHmi",3,1
+"935569091678691328","1376257865904717825","1616960419","Processing .bib entries that contain asterisks in field names #tidyverse #rstats https://t.co/AGT65ZIyPX",3,2
+"935569091678691328","1376089775879434241","1616920343","Only write values to R dataframe and not lists with an element each #tidyverse #rstats https://t.co/u37TUVJ51A",3,1
+"935569091678691328","1376205790248321025","1616948003","Unbalaced panel data - dummy variable #tidyverse #rstats https://t.co/Zut97coXO9",2,1
+"935569091678691328","1376080508464029702","1616918134","R (dplyr package) - At least one row per group (random sampling with 10% rows from each group) #tidyverse #rstats https://t.co/rhfVoc3pWH",2,2
+"935569091678691328","1376255431014813696","1616959839","Creating an inset of a line graph on R studio (ggplot, facet_wrap) #tidyverse #rstats https://t.co/QGNDq39VjY",2,1
+"935569091678691328","1376216357210054656","1616950523","unwanted conversion to character #tidyverse #rstats https://t.co/UOqn0IkUSr",2,1
+"935569091678691328","1376251607097151497","1616958927","gganimate errors when rendering image #tidyverse #rstats https://t.co/MvnNVUAnHz",2,1
+"935569091678691328","1376086788008214529","1616919631","Plotting data in R: Error in plot.window(...) : need finite 'xlim' values #tidyverse #rstats https://t.co/7B843q9M3b",3,4
+"935569091678691328","1376250336646684674","1616958624","group_by and conditionally mutate by group #tidyverse #rstats https://t.co/vwWExdnhji",3,4
+"935569091678691328","1376279341244514310","1616965539","How to pipe in dplyr #tidyverse #rstats https://t.co/hXz2h7Dr62",3,1
+"1036918887265099777","1376321350986440705","1616975555","<U+0001F44F>Great blog post by @mattdray on how to get your #step #data from @Apple #Health and analyse them.
+<U+0001F9D0>Keen for more details?
+<U+0001F913>Hop onto my talk at @RLadiesBrisbane this Wed 
+https://t.co/J4ceuxY2NZ
+#R #RStats #DataAnalytics #DataScience https://t.co/yAwwrKiYHI",4,3
+"2489702532","1376321285446377472","1616975539","Tableau... because nothing says “data fam” like requiring a paid license to connect to #rstats.",2,2
+"946193338889318400","1376320206532935685","1616975282","Strange. Attractive. Sunday #RStats #rtistry #generativeart https://t.co/d5Ptl1Yw4G",2,1
+"942194832491122688","1376277428549660681","1616965083","Just finished running my first Carpentries workshop -- spent the weekend with a group going over intros to shell, git and #rstats and how they can help produce better, more reproducible research. 
+
+It was a fantastic group and a lot of fun!",2,4
+"942194832491122688","1376319087459057669","1616975015","Hey #rstats #lazyweb -- has anyone written anything about how much published code (in support of peer-reviewed lit) runs? About how much of it gets the same results as reported?",2,2
+"29983351","1376318487631699971","1616974872","Brasil - Posição no ranking de países:
+
+Novos casos (média 7 dias): 1° (27-mar)
+
+Total de Casos Confirmados: 2°
+
+Mortes ao dia (média 7 dias): 1°
+
+Total de Mortes: 2°
+#Rstats (3/7) https://t.co/5sp7g0jzKA",1,0
+"29983351","1376317702416052224","1616974685","Hot Spots (novos casos/habitantes-14 dias):RO SC AP
+
+Ajustes exponenciais em períodos superpostos de 9(1+7+1) dias da média móvel de novos casos
+
+Números indicam o coef.(%) de crescimento diário.
+
+Faça o gráfico do seu estado ou cidade: https://t.co/KEQ0WQBf2Z
+#Rstats 
+2/5 https://t.co/WETiVc9Ykl",1,0
+"29983351","1376318558305665027","1616974889","Ajustes de projeções exponenciais para períodos superpostos de 9(1+7+1) dias da média móvel de casos e mortes diárias. 
+
+Números indicam o coef.(%) de crescimento diário.
+
+#Rstats (5/7) https://t.co/W3VpYHgwe4",1,0
+"29983351","1376317764802076684","1616974700","Hot Spots (novos casos-14 dias):SP MG RS
+
+Ajustes exponenciais em períodos superpostos de 9(1+7+1) dias da média móvel de novos casos
+
+Números indicam o coef.(%) de crescimento diário.
+
+Faça o gráfico do seu estado ou cidade: https://t.co/KEQ0WQBf2Z
+#Rstats 
+3/5 https://t.co/nLovdQfKfI",1,0
+"29983351","1376318458875551745","1616974866","Brasil
+Novos casos: 45.633 (28-mar)
+Média 7 dias: 76.565
+Dia anterior: 77.117
+
+Mortes no dia: 1.575
+Média 7 dias: 2.599
+Dia anterior: 2.554
+
+Casos acumulados: 12.542.214
+
+Mortes: 312.432
+
+#Rstats (2/7) https://t.co/Cw5ucfwNyA",1,0
+"29983351","1376318512239632384","1616974878","Brasil
+Novos casos (Média 7 dias):
+Último dia: 76.565 (28-mar)
+Dia anterior: 77.117
+Há uma semana: 73.628
+Há 30 dias: 53.478
+
+Mortes diárias (Média 7 dias):
+Último dia: 2.599
+Dia anterior: 2.554
+Há uma semana: 2.251
+Há 30 dias: 1.153
+#Rstats (4/7) https://t.co/0lxdnXQzFd",1,0
+"268619848","1376279435717001220","1616965562","Facebook Data Privacy Scandal: A Cheat Sheet. #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/itT9xlWDYb",9,3
+"268619848","1376271829342502917","1616963748","Optimizers in Deep Learning. #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #PyTorch #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #GoLang #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/1Y1sDLZvKa",14,4
+"268619848","1376272843420352514","1616963990","Digital Transformation Game Plan. #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #PyTorch #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Books #Programming #Coding #100DaysofCode
+https://t.co/8Kra42TO6t",10,5
+"268619848","1376313613066047488","1616973710","Scrapy Vs Beautiful Soup: A Comparison of Web Crawling Tools. #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #Python #RStats #TensorFlow #JavaScript #ReactJS #CloudComputing #Serverless #Linux #Programming #Coding #100DaysofCode 
+https://t.co/dFEESixmKp",9,1
+"268619848","1376129682626740227","1616929858","Tacotron2 Podcast Speech Synthesis. #BigData #Analytics #DataScience #AI #MachineLearning #NLProc #IoT #IIoT #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/FqTlkng1vR",13,3
+"268619848","1376125773678063623","1616928926","Using #TensorIoT for Analyzing the Outliers. #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/wE5fZW75i7",14,9
+"268619848","1376272048767504387","1616963800","The Red Pill Executive Data Briefing. #BigData #Analytics #DataScience #IoT #IIoT #PyTorch #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Books #Programming #Coding #100DaysofCode 
+https://t.co/foMmx9eDBS",10,3
+"268619848","1376131162654052355","1616930211","7 Books of Python Machine-Learning. #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #GoLang #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/cs3bCZMFFI",22,6
+"268619848","1376274574724231173","1616964403","A Mindmap for Explainability Approaches in #MachineLearning. #BigData #Analytics #DataScience #AI #IoT #IIoT #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/sd0KM2dS4p",14,6
+"268619848","1376212022858289158","1616949489","#AI Best: An Approach to #MachineLearning and #BigData #Analytics Lifecycle in #HealthTech for CDOs by @gp_pulipaka. #DataScience #IoT #IIoT #Python #RStats #TensorFlow #JavaScript #ReactJS #CloudComputing #Serverless #Linux #Programming #100DaysofCode https://t.co/dRgteklEVt",6,2
+"268619848","1376314696421285892","1616973968","Top Digital Forensics: Includes Books Used by FBI. #BigData #Analytics #DataScience #CyberSecurity #IoT #IIoT #PyTorch #Python #RStats #TensorFlow #JavaScript #ReactJS #CloudComputing #Serverless #Linux #Books #Programming #Coding #100DaysofCode 
+https://t.co/9iMGUxZ3lE",18,4
+"268619848","1376318204717453313","1616974805","#DataScience Revealed with Feature Engineering. #BigData #Analytics #AI #MachineLearning #IoT #IIoT #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Books #Programming #Coding #100DaysofCode 
+https://t.co/9hmok0lJOj",15,5
+"268619848","1376313913864810497","1616973782","Infographic: How to Become a #DataScientist. #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #PyTorch #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #GoLang #CloudComputing #Serverless #Linux #Programming #Coding #100DaysofCode 
+https://t.co/y6kcGPUZQC",5,2
+"268619848","1376317874575392772","1616974726","6 Useful Distributions of Probability with Apps. #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #Python #RStats #TensorFlow #JavaScript #ReactJS #CloudComputing #Serverless #Linux #Statistics #Programming #Coding #100DaysofCode 
+https://t.co/XgvKi0suKS",21,3
+"268619848","1376212390908465155","1616949577","Top 10 Journals To Publish #MachineLearning Research In 2021. #BigData #Analytics #DataScience #AI #IoT #IIoT #Python #RStats #TensorFlow #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/JkSw8l4Z2a",12,5
+"268619848","1376271456175333381","1616963659","A Colossal Collection of Cheat Sheets for #AI, NumPy, Neural Networks. #BigData #Analytics #DataScience #MachineLearning #IoT #IIoT #Python #RStats #JavaScript #ReactJS #CloudComputing #Serverless #Linux #Mathematics #Programming #Coding #100DaysofCode 
+https://t.co/a57TkvaVkp",31,12
+"268619848","1376212932682518531","1616949706","Fooled by Randomness. #BigData #Analytics #MachineLearning #AI #IoT #IIoT #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #GoLang #CloudComputing #Serverless #DataScientist #Linux #Books #Statistics #Programming #Coding #100DaysofCode 
+https://t.co/YQt0Io3xTW",4,2
+"268619848","1376314772673675268","1616973987","What Stephen Hawking Said About Programming and Code ? #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #Python #RStats #TensorFlow #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/trKRpirWjQ.",11,1
+"268619848","1376126890176561152","1616929192","#TensorFlow Quantum Turns One Year Old. #BigData #Analytics #DataScience #AI #MachineLearning #QuantumComputing #IoT #IIoT #Python #RStats #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/5D0qbI4pCw",15,4
+"268619848","1376120918699864066","1616927768","That’s Maths : A Collection of Irish Times Articles on #Mathematics. #BigData #Analytics #DataScience #IoT #IIoT #Python #RStats #TensorFlow #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Books #Programming #Coding #100DaysofCode 
+https://t.co/jgnnsxayA1",10,3
+"268619848","1376127086637768704","1616929239","5 #Books About #QuantumComputing to Start from Scratch. #BigData #Analytics #DataScience #IoT #IIoT #PyTorch #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/sKIa5rrIby",18,9
+"268619848","1376121511837327364","1616927910","Newton’s Method for ML Optimization: Derivation. #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #Python #RStats #TensorFlow #JavaScript #ReactJS #CloudComputing #Serverless #Linux #Mathematics #Programming #Coding #100DaysofCode 
+https://t.co/k2cBsUMiU5",12,4
+"268619848","1376317653778894852","1616974674","#Android #Programming for New Learners, 2nd Ed. #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #PyTorch #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Coding #100DaysofCode 
+https://t.co/PduDVbWpKI",14,6
+"268619848","1376212292099006467","1616949553","Understanding Principal Component Analysis — PCA. #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/L9CfncME3Z",5,1
+"268619848","1376121029370769408","1616927795","Edge Computing: Efficient Deep Learning. #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #PyTorch #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/LTkF3yp464",12,4
+"268619848","1376281269638729728","1616965999","Cracking the Code — Harnessing the Exponential Power by @BoozAllen. #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #Python #RStats #TensorFlow #JavaScript #ReactJS #CloudComputing #Serverless #Linux #Programming #Coding #100DaysofCode 
+https://t.co/nZR3AAofJp",16,7
+"268619848","1376210439697207296","1616949112","Random Resampling Methods. #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #PyTorch #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #GoLang #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/936HAEJE2k",4,1
+"273781698","1376298371988721664","1616970076","Guess whose #rstats 3D rasterizer just entered the roaring 90's with gratuitous colored point lights <U+0001F44D><U+0001F44D>
+
+(also it's making quick work of complex models now) 
+
+#rayverse https://t.co/vEseZv3IgC",2,13
+"273781698","1376310455841521666","1616972957","Left: Rasterizer
+Right: Pathtracer (#rayrender)
+
+Completely different rendering techniques, but same general image (minus lighting + camera effects), all in #rstats https://t.co/uVTNDMK4yS",1,8
+"1141410142937911296","1376308511685156865","1616972494","<U+0001F52C> Course Files for Complete #Python 3 Bootcamp Course. #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #RStats #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/Oo8a9fX4Wy https://t.co/IVo2TxUcVY",4,1
+"1141410142937911296","1376308866858770434","1616972579","<U+0001F52C> Free AI and ML Courses by Google, Microsoft, &amp; Stanford University. #BigData #Analytics #DataScience #IIoT #Python #RStats #TensorFlow #Java #JavaScript #reactjs #GoLang #CloudComputing #Serverless #DataScientist #Linux #Mathematics #Programming #Coding #100DaysofCode https://t.co/7ncFSDkIjI",12,7
+"1141410142937911296","1376308681650937858","1616972534","<U+0001F52C> Machine Learning Refined. #BigData #Analytics #DataScience #AI #MachineLearning #IoT #PyTorch #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #GoLang #CloudComputing #Serverless #DataScientist #Linux #Books #Programming #Coding #100DaysofCode 
+https://t.co/VweEFjSZvr https://t.co/BJyJVrJuAS",11,5
+"1141410142937911296","1376173066913509380","1616940201","<U+0001F52C> Build More Accurate Forecasts with #Azure #MachineLearning. #BigData #Analytics #DataScience #AI #IoT #IIoT #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/jW0UEeN4JQ https://t.co/SR3lvVbQZ5",21,9
+"1141410142937911296","1376308587568463879","1616972512","<U+0001F52C> The 16 Best #ApacheSpark Books on Our Reading List. #BigData #Analytics #DataScience #IoT #IIoT #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #GoLang #CloudComputing #Serverless #DataScientist #Linux #Books #Programming #Coding #100DaysofCode 
+https://t.co/rcd8wz4uxa https://t.co/uPhSpZWmTw",6,2
+"1141410142937911296","1376309050321821699","1616972622","<U+0001F52C> Automated Machine Learning: AutoML. #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #PyTorch #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/N3F1fr94s5 https://t.co/px9WN7qdlQ",10,4
+"1141410142937911296","1376172929378095104","1616940169","<U+0001F52C> Practical #Statistics: ""50+ Essential Concepts Using #RStats and #Python."" #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless  #Linux #Programming #Coding #100DaysofCode 
+https://t.co/HvHN7vsZJQ https://t.co/AtsuXBo9fQ",28,17
+"1141410142937911296","1376308770419191811","1616972556","<U+0001F52C> #Azure #MachineLearning Service Example Notebooks. #BigData #Analytics #DataScience #AI #IoT #PyTorch #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #GoLang #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode
+https://t.co/jz6pKFTGub https://t.co/3nwAHLd79S",14,9
+"1141410142937911296","1376172781121982465","1616940133","<U+0001F52C> 5 #Books About #QuantumComputing to Start from Scratch. #BigData #Analytics #DataScience #IoT #IIoT #PyTorch #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/JQr0ikm94p https://t.co/mcAMm4Rtn5",16,11
+"1141410142937911296","1376172671533260802","1616940107","<U+0001F52C> #D4RL: Datasets for Deep #ReinforcementLearning. #BigData #Analytics #DataScience #AI #MachineLearning #IIoT #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/av6QJh6H9a https://t.co/vt141Ux8Ol",15,8
+"774550615204790272","1376008894976196608","1616901060","Statistics for Economics: Its Benefits and Limitations.
+
+https://t.co/fq3GoUMd9I
+
+#MachineLearning #Python #IoT #flutter #100DaysOfMLCode #AI #javascript #womenwhocode #RStats #Serverless #CodeNewbie #DataScience #100DaysOfCode https://t.co/N14MPgg9Se",26,15
+"774550615204790272","1376132207664902144","1616930460","PyQt6 Course For Beginners [Python GUI Framework PyQt ]
+
+https://t.co/GlTlfXNQyn
+
+#Python #programming #100DaysOfCode #IoT #MachineLearning #100DaysOfMLCode #AI #javascript #womenwhocode #RStats #Serverless #CodeNewbie #DataScience #DEVCommunity https://t.co/Ulmqq8cmGE",15,4
+"774550615204790272","1376308818993274881","1616972567","Programmers don't care about small things like hundreds of warnings <U+0001F602>
+
+#DEVCommunity #MachineLearning #Python #IoT #flutter #100DaysOfMLCode #AI #javascript #womenwhocode #RStats #Serverless #CodeNewbie #DataScience #100DaysOfCode https://t.co/p1Mh4Drf8a",12,6
+"1203623631856779264","1376275477212626952","1616964618","<U+0001F4E6><U+0001F3A8> xaringan-metropolis • Metropolis theme of R package xaringan
+
+<U+0001F464> Patrick Schratz @pjs_228  
+
+<U+0001F517> https://t.co/TM4f9Y0pTZ
+#rstats #datascience https://t.co/7K0DX0NqA6",8,30
+"1203623631856779264","1376110843662843905","1616925366","<U+0001F4E6><U+0001F50D> elastic • R client for the Elasticsearch HTTP API
+
+<U+0001F464> Scott Chamberlain @sckottie  
+
+<U+0001F517> https://t.co/hGF41x5Ul3
+#rstats #datascience",8,13
+"1203623631856779264","1375979031217197059","1616893940","<U+0001F4E6> vdemdata • An R package to load, explore and work with the most recent (v11) V-Dem (Varieties of Democracy) dataset.
+
+<U+0001F464> Seraphine Maerz @seraphinemaerz, Amanda B. Edgell @acrowinghen, Sebastian Hellmeier, Nina Ilchenko
+
+<U+0001F517> https://t.co/QbA0HuTNDr
+#rstats #datascience",15,19
+"1203623631856779264","1376176780306972672","1616941087","<U+270D><U+FE0F><U+0001F6B2> Estimating When CitiBike Rolled Out E-Bikes Using Change Point Detection
+
+<U+0001F464> Walker Harrison @walkwearscrocs  
+
+<U+0001F517> https://t.co/H90u4y0Cne
+#rstats #datascience https://t.co/KftqskcmsZ",11,27
+"1203623631856779264","1376078431071391746","1616917638","<U+0001F4E6> tweenr • Interpolate your data
+
+<U+0001F464> Thomas Lin Pedersen @thomasp85
+
+<U+0001F517> https://t.co/MpZX1NkQl1
+#rstats #datascience https://t.co/GH6ujNQFmd",14,61
+"1203623631856779264","1376242735355719683","1616956812","<U+270D><U+FE0F><U+0001F332> rFIA: an R package aimed at increasing the accessibility and use of the USFS Forest Inventory and Analysis (FIA) Database.
+
+<U+0001F464> Hunter Stanke @hunterstanke, Andrew O. Finley
+
+<U+0001F517> https://t.co/rmyuNd09cU
+#rstats #datascience https://t.co/KE8yvcqAjp",15,43
+"1203623631856779264","1376144091755462664","1616933293","<U+270D><U+FE0F> gfortran support for R on macOS
+
+<U+0001F464> Patrick Schratz @pjs_228  
+
+<U+0001F517> https://t.co/KcWy2XcYUz
+#rstats #datascience",6,5
+"1203623631856779264","1375961400875626497","1616889736","<U+270D><U+FE0F> Applying design guidelines to slides with `xaringanthemer` 
+
+<U+0001F464> Katie Jolly @katiejolly6  
+
+<U+0001F517> https://t.co/O14e8xISCf
+#rstats #datascience https://t.co/DpcjRJIDtB",30,171
+"1203623631856779264","1376044970537271296","1616909661","<U+0001F4E6><U+2694><U+FE0F><U+0001F3A8> gameofthrones • <U+0001F3A8> Game of Thrones inspired palette for R
+
+<U+0001F464> Alejandro J Rico @aljrico  
+
+<U+0001F517> https://t.co/FS3NLb7OUN
+#rstats #datascience https://t.co/tv3dnTHN7X",15,77
+"1203623631856779264","1376012239329767424","1616901857","<U+0001F4E6><U+0001F4AC><U+0001F524> udpipe • R package for Tokenization, Parts of Speech Tagging, Lemmatization and Dependency Parsing Based on the UDPipe Natural Language Processing Toolkit
+
+<U+0001F464> Jan Wijffels
+
+<U+0001F517> https://t.co/4kHCeEULnL
+#rstats #datascience https://t.co/dVPhWKRf7T",10,46
+"1203623631856779264","1376308694644781061","1616972538","<U+0001F4E6> r6methods • Generate boilerplate code for R6 classes. Given R6 class create getters and/or setters for selected class fields or use RStudio addins to insert methods straight into class definition.
+
+<U+0001F464> Jakub Sobolewski
+
+<U+0001F517> https://t.co/cw2dbEmRNT
+#rstats #datascience https://t.co/DpxlAQ3dWq",5,14
+"1203623631856779264","1376209542363643907","1616948898","<U+270D><U+FE0F> Chilling Effect Resulting from Mass Surveillance
+
+<U+0001F464> Giuliano Sposito @gsposito  
+
+<U+0001F517> https://t.co/J7F36dov9g
+#rstats #datascience https://t.co/vavVouxXdm",7,10
+"1184011958795800576","1376308306508189696","1616972445","rumors of SAS's demise have been greatly exaggerated <U+0001F602>! @HaroldtheCatLOL @pwang @BobMuenchen @hadleywickham @RickWicklin  #RStats https://t.co/LmllMsqYRM https://t.co/W1bdLlMzr2",1,1
+"967030258661756928","1376303202086187008","1616971228","Indiana COVID-19 Tracker evening update.
+Static Charts: https://t.co/9jqENenclS
+COVIDcast Dashboard: https://t.co/Aj8U8rDVum
+Demographics: https://t.co/EXHpo4hgTj
+Hospitals: https://t.co/Sw3skMZQTH #rstats https://t.co/sfD4Pi7oCy",1,1
+"967030258661756928","1376207102083887107","1616948316","Indiana COVID-19 Tracker noon update.
+Static Charts: https://t.co/9jqENenclS
+COVIDcast Dashboard: https://t.co/Aj8U8rDVum
+Demographics: https://t.co/EXHpo4hgTj
+Hospitals: https://t.co/Sw3skMZQTH #rstats https://t.co/27Y93eblFR",1,3
+"2905522016","1376298859656192000","1616970193","I finally got around to a coding project I've been meaning to do for years: turning my sample #rstats Markov decision model into something compatible with the @DARTHworkgroup approach.
+
+https://t.co/CHHNmYejdD
+
+#healtheconomics #costeffectiveness #opensource",1,3
+"2905522016","1376300054386892806","1616970478","Curious/fearful about building #costeffectiveness models in #rstats? This may help. I walk the reader through my process of building a DARTH-style model, and provide downloadable code so you can adapt it and build your own. https://t.co/AeqQ9PF1Ws",7,10
+"973747963322425344","1376298661005688834","1616970145","How Suez Canal Unblocking Could Reverse Your Stonks <U+0001F916> https://t.co/gD3IWUJ7AR
+-
+
+#memestonks #memestocks #stonks #100DaysOfCode #MachineLearning #SuezCrisis #AI #javascript #RStats #Serverless #DataScience #redditors #DEVCommunity #malkamdior #wallstreetbets https://t.co/53L6BHgyBF",16,4
+"1186330112897105920","1376210117067210754","1616949035","Correct Option: 5 times. In R, the syntax for `for` loop is: `for(var in seq) expr`. The `seq` in `for` loop is evaluated at the start of the loop and changing it subsequently does not affect the loop. Why would you want to do #RStats #DataScience [TimeStamp:28032021163035]",5,4
+"1186330112897105920","1376298050432434176","1616970000","you vs the guy they told you not to worry about
+
+#RStats https://t.co/LeZfnSWkl9",3,9
+"1186330112897105920","1376210118451290121","1616949035","this? No idea, but just an interesting example. Also note that `&lt;&lt;-` in R, allows one to change (or create) variables in parent environments. [see_image_1] #RStats #DataScience [TimeStamp:28032021163035] https://t.co/Q7sLUAajhd",3,2
+"1186330112897105920","1376013901133938688","1616902253","For the given loop, how many times will `""y""` be printed on console in R? [see_image_1] #RStats #DataScience [TimeStamp:28032021033053] https://t.co/YNCubjx1eG",8,16
+"374420755","1376296472199630849","1616969623","TidyX Episode 54 continues looking at classification of @MLB pitches. 
+
+@OSPpatrick and I use KNN in #rstats 4 groups based on last weeks episode to classify pitches. We then use {caret} by @topepos to find the optimal N groups.
+
+https://t.co/vdCrfUDePg",1,4
+"233585808","1376067048678305799","1616914925","CRAN removals: Biolinv ENMTools expp foster geometr GmAMisc GSIF IDSpatialStats latticeDensity ppmlasso sbw stpp TCIU utilityFunctionTools windfarmGA #rstats",2,2
+"233585808","1375991576606949376","1616896931","CRAN updates: singleCellHaystack tarchetypes #rstats",2,2
+"233585808","1376051974903304196","1616911331","CRAN updates: mlflow pcoxtime #rstats",2,1
+"233585808","1375976448553594883","1616893324","New CRAN package adeptdata with initial version 1.1 #rstats",2,1
+"233585808","1376278466203619334","1616965331","CRAN updates: divest simsem #rstats",2,1
+"233585808","1376127472832557061","1616929331","CRAN updates: anndata MRReg #rstats",2,2
+"233585808","1376233171642150917","1616954531","CRAN updates: deaR gausscov #rstats",2,2
+"233585808","1376021787201445888","1616904133","CRAN updates: baymedr CSGo SHAPforxgboost smurf #rstats",3,2
+"233585808","1375961443569373184","1616889746","CRAN updates: doc2vec fastai JuliaConnectoR kayadata salso SmarterPoland SpatialVx #rstats",2,2
+"233585808","1376187907803918342","1616943740","CRAN updates: GDAtools kim MATA pbm rgeoprofile spatstat.linnet yardstick #rstats",2,2
+"233585808","1376142573585195010","1616932931","CRAN updates: acled.api sn #rstats",2,1
+"233585808","1376248264442400769","1616958130","CRAN updates: fsbrain #rstats",2,2
+"233585808","1376157663713759237","1616936529","CRAN updates: ftExtra #rstats",2,1
+"233585808","1376006695021912064","1616900535","CRAN updates: grates sfnetworks spant #rstats",2,1
+"233585808","1376202994593726465","1616947337","CRAN updates: foqat GauPro GNRS stats19 strucchangeRcpp #rstats",3,4
+"233585808","1376293562061578247","1616968930","CRAN updates: srvyr #rstats",3,2
+"233585808","1376067242425786373","1616914971","CRAN updates: BiocManager callr caTools csppData DHARMa dialrjars EDOIF fontawesome hht mrgsolve oce PoissonBinomial psychTools rBiasCorrection RcppSpdlog simpleMLP spatialEco table1 targets #rstats",2,1
+"233585808","1376082145811308544","1616918524","CRAN removals: highriskzone OutlierDetection #rstats",3,3
+"233585808","1375976517315010564","1616893340","CRAN updates: osmplotr #rstats",2,1
+"233585808","1376112343348875268","1616925724","CRAN removals: ForestTools radiomics #rstats",3,1
+"233585808","1376218062932865027","1616950929","CRAN updates: poorman #rstats",2,3
+"844152803991994368","1376293242791206913","1616968854","The link between keyboard layouts and typing speed - Data collection phase #rstats #datascience https://t.co/9L0JxxRAz9",4,3
+"844152803991994368","1376179979336224772","1616941849","RcppSpdlog 0.0.5 on CRAN: New upstream versions @eddelbuettel #rstats #datascience https://t.co/bxYl73lss4",4,3
+"4263007693","1376046908020514816","1616910123","#ReinforcementLearning with Artificial Microswimmers. #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #Python #RStats #TensorFlow #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode
+https://t.co/pmFmsKL5c6 https://t.co/erXsEnnjtq",29,18
+"4263007693","1376211003763986435","1616949246","What is a Neural Network? #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #PyTorch #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #GoLang #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/B1FdX25XrI https://t.co/tzRop4vCGR",31,15
+"4263007693","1376039357967183875","1616908323","Best Tensor #Calculus Books in 2021. #BigData #Analytics #DataScience #IoT #IIoT #PyTorch #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Books #Mathematics #Programming #Coding #100DaysofCode 
+https://t.co/oYkzDQwAgk https://t.co/yy23il6i5y",39,29
+"4263007693","1376269373783031814","1616963163","Datasets for #MachineLearning and Deep Learning. #BigData #Analytics #DataScience #AI #IoT #IIoT #PyTorch #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #GoLang #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/uqHabWRJaz https://t.co/x62kiQFMFb",20,19
+"4263007693","1376278289606701056","1616965288","Engineering Illusions Part I. #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #PyTorch #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #GoLang #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/DucHqONkKB https://t.co/k2xV4eOzMl",18,9
+"4263007693","1376031058572013569","1616906344","Course Files for Complete #Python 3 Bootcamp Course. #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #RStats #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/Fe5Mx52YgZ https://t.co/sTOBTYtXDZ",32,24
+"4263007693","1376048668130820097","1616910542","5 #Books About #QuantumComputing to Start from Scratch. #BigData #Analytics #DataScience #IoT #IIoT #PyTorch #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/xa9wXFSHMx https://t.co/KoxXyngx4z",52,55
+"4263007693","1376044894695870467","1616909643","#TensorFlow Quantum Turns One Year Old. #BigData #Analytics #DataScience #AI #MachineLearning #QuantumComputing #IoT #IIoT #Python #RStats #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/NfG4e8WGPU https://t.co/MP9pe6XiPM",53,41
+"4263007693","1376290262587179008","1616968143","The Transformer Illustrated. #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #PyTorch #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #GoLang #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/jjeOBK3lrf https://t.co/D5zscayDdi",16,8
+"4263007693","1376213514931552258","1616949845","6 #NLProc Books for #DataScientists of All Levels. #BigData #Analytics #DataScience #IoT #IIoT #PyTorch #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Books #Programming #Coding #100DaysofCode 
+https://t.co/IfTxBT24VG https://t.co/Mc6VI7I5mE",17,17
+"4263007693","1376036640733417473","1616907675","Build More Accurate Forecasts with #Azure #MachineLearning. #BigData #Analytics #DataScience #AI #IoT #IIoT #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/HwBKmQFRQR https://t.co/tbHuieQ8BQ",39,22
+"4263007693","1376222316447797252","1616951943","Transfer Learning for #NLProc with Transformers. #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #Python #RStats #TensorFlow #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Books #Programming #Coding #100DaysofCode 
+https://t.co/gWoJoIwxUy https://t.co/IejZDrWZa1",43,22
+"4263007693","1376218541402243076","1616951043","Basic Overview of Building a #MachineLearning Model. #BigData #Analytics #DataScience #AI #IoT #IIoT #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #GoLang #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/j8ufkDBpMd https://t.co/pQHJeQbl1u",47,35
+"4263007693","1376290261068824579","1616968143","Text Generation with #NLProc. #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #PyTorch #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #GoLang #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/6Lc5mfm7Yz https://t.co/Psg4dpNa6k",9,8
+"4263007693","1376214760811794436","1616950142","Deep Learning Versus #MachineLearning: What’s the Difference? #BigData #Analytics #DataScience #AI #IoT #IIoT #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/gzNVWfe8Ly https://t.co/uQBPbgvgHr",29,17
+"4263007693","1376212250277609472","1616949543","Optimizers in Deep Learning. #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #PyTorch #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #GoLang #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/HNooFVordP https://t.co/N81KvUexCi",17,18
+"4263007693","1376217781914451974","1616950862","Recurrent Neural Network Guide – a Deep Dive in RNN. #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #Python #RStats #TensorFlow #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/nlXKcqi0b0 https://t.co/fN10TlcpEg",28,16
+"4263007693","1376041118257778689","1616908742","Practical #Statistics: ""50+ Essential Concepts Using #RStats and #Python."" #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless  #Linux #Programming #Coding #100DaysofCode 
+https://t.co/gXLS6fVdsv https://t.co/ZUJGohQZur",51,74
+"4263007693","1376285481890103302","1616967003","Deep Learning Books in Python and R. #BigData #Analytics #DataScience #IoT #IIoT #PyTorch #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #GoLang #CloudComputing #Serverless #DataScientist #Linux #Books #Programming #Coding #100DaysofCode 
+https://t.co/EHifrdDUJw https://t.co/RvZuBSoOpD",15,6
+"4263007693","1376201678085570561","1616947023","#AI Best: An Approach to #MachineLearning and #BigData #Analytics Lifecycle in #HealthTech for CDOs by @gp_pulipaka. #DataScience #IoT #IIoT #Python #RStats #TensorFlow #JavaScript #ReactJS #CloudComputing #Serverless #Linux #Programming #100DaysofCode 
+https://t.co/TCXHGhYsW8 https://t.co/tBgDzwbiDo",45,41
+"4263007693","1376277185397407748","1616965025","#AI Best: Join Me for A Greater Foundation for #MachineLeaning  w/ @AverConferences. #BigData #Analytics #DataScience #IoT #IIoT #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless #Linux #Programming #Coding #100DaysofCode 
+https://t.co/atxg07hvRj https://t.co/ImHijWVjOA",14,6
+"4263007693","1376277321368371207","1616965058","#AI Best: #ReinforcementLearning: The Great AI Moving from the Lab to the Real World. #BigData #DataScience #MachineLearning #IoT #IIoT #Python #RStats #TensorFlow #JavaScript #ReactJS #CloudComputing #Serverless #Linux #Programming #100DaysofCode 
+https://t.co/2pDv6t0vCg https://t.co/dElCtE2qek",16,9
+"4263007693","1376290265435156485","1616968144","Which #MachineLearning Classifiers Are Best for Small Datasets? #BigData #Analytics #DataScience #AI #IoT #IIoT #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/oYTU33980v https://t.co/FSKVFqTysY",16,13
+"4263007693","1376230866322657292","1616953982","AI Best: The Best Books To Learn Machine Learning From Zero To Hero. #BigData #Analytics #DataScience #IoT #IIoT #Python #RStats #TensorFlow #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Books #Programming #Coding #100DaysofCode 
+https://t.co/gH48b0Uunu https://t.co/e4d5A3egS2",45,68
+"4263007693","1376281788255985677","1616966123","Training Larger Networks for Deep #ReinforcementLearning. #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #Python #RStats #TensorFlow #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Programming #100DaysofCode 
+https://t.co/MCPey4fEY7 https://t.co/sb51TpU10G",29,14
+"4263007693","1376210058829303808","1616949021","All About ML — Part 9: Naïve Bayes Algorithm. #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/6F2zfe9qnI https://t.co/8axWx13VT4",12,11
+"4263007693","1376026034018123778","1616905146","Fundamentals of #MachineLearning for #PredictiveAnalytics. #BigData #Analytics #DataScience #AI #IoT #IIoT #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Books #Programming #Coding #100DaysofCode 
+https://t.co/gqdcw8aOju https://t.co/WtWGZWM1Mn",47,37
+"4263007693","1376048678046199808","1616910545","#D4RL: Datasets for Deep #ReinforcementLearning. #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/MHfhpK4c8m https://t.co/bgxVXTcf0H",33,21
+"4263007693","1376292307067150336","1616968630","AI Best: Best Tensor #Calculus Books in 2021. #BigData #Analytics #DataScience #IoT #IIoT #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Books #Mathematics #Programming #Coding #100DaysofCode 
+https://t.co/oYkzDQwAgk https://t.co/zTpPyI4gdh",25,19
+"4263007693","1376021490743840772","1616904063","Advancing Maintenance Maturity of #IoT with #AWS. #BigData #Analytics #DataScience #AI #MachineLearning #IIoT #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/RKakpOnf5w https://t.co/sF6ejliAZ2",24,16
+"4263007693","1376287745656684555","1616967543","Four Types of Learnings in #MachineLearning. #BigData #Analytics #DataScience #AI #IoT #IIoT #PyTorch #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #GoLang #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/pJC2teme8j https://t.co/0OcWPN4IfI",8,3
+"1276653656260165632","1376289637245784073","1616967994","#TidyTuesday on weekend
+#RStats 
+
+Catching up. Week 12.
+
+I used {ggshadow} and {ggdark}
+
+Codes: https://t.co/Q15Hcb44jC https://t.co/7ezO3hEpyn",4,5
+"710207495734751232","1376287973818400775","1616967597","{styler} 1.4.0 is on CRAN <U+0001F389>  Dry and quiet runs, indention detection in Addin, granular scope selection with I(), doc overhaul and more. #rstats
+
+https://t.co/pw5gdm32fH https://t.co/TetLj14u3M",5,12
+"2857565356","1375969669681717252","1616891708","#Rstudio keyboard shortcut: Unfold All - Shift+Alt+O (Windows), Cmd+Shift+Option+O (Mac). #rstats",2,1
+"2857565356","1376286271132344322","1616967191","#Rstats function: ncol() - number of columns in an array or dataframe",2,1
+"18238982","1376286198713450498","1616967174","Posts on Lorenz Walthert posted on R-bloggers: styler 1.4.0 #rstats https://t.co/R4zOMWit2p",1,0
+"18238982","1376271103144951811","1616963575","George Pipis posted on R-bloggers: 10 Tips and Tricks for Data Scientists Vol.2 #rstats https://t.co/ZL6CzBFwln",1,2
+"18238982","1376255943890120708","1616959961","Method Matters posted on R-bloggers: How Do You Order Songs on an Album? Album Sequencing &amp; Song Tempo Across Musical Genres #rstats https://t.co/wOuWPjQ8Oz",1,0
+"18068926","1376263398275620866","1616961738","Artificial intelligence that more closely mimics the mind
+
+https://t.co/aYj7Bs95nq @MIT
+
+#ArtificialIntelligence #MachineLearning #DeepLearning #DataScience #Python #AI #100DaysofCode #serverless #womenwhocode #Rstats #BigData #Analytics #NeuralNetworks #DigitalTransformation",11,11
+"18068926","1376157082945208326","1616936390","Five Ways Artificial Intelligence Is Changing The Water Industry
+
+https://t.co/1IxcX1nnTI
+
+#ArtificialIntelligence #MachineLearning #DeepLearning #DataScience #Python #AI #100DaysofCode #serverless #womenwhocode #Rstats #BigData #Analytics #NeuralNetworks #DigitalTransformation https://t.co/TntCxdUFJJ",21,12
+"18068926","1376169904227942405","1616939447","Top Conversational AI Trends to Follow in 2021 and Beyond
+
+https://t.co/uAnhJJuUMj @analyticsinme
+
+#AI #MachineLearning #DataScience #BigData #Analytics #DeepLearning #AR #100DaysofCode #serverless #womenwhocode #xAI #Rstats #Python  #DigitalTransformation #ArtificialIntelligence https://t.co/GxYYextZl6",15,9
+"18068926","1376283816524910594","1616966606","AI created some amazing new pickup lines (oh, these will work)
+
+https://t.co/kJPY8koyNY @ZDNet
+
+#AI #MachineLearning #DeepLearning #BigData #Analytics #Python #womenintech #100DaysofCode #serverless #womenwhocode #GPT3 #Rstats #DataScience #NeuralNetworks #ArtificialIntelligence https://t.co/44tFH8ThjO",11,4
+"287836809","1376253011480043520","1616959262","How Do You Order Songs on an Album? Album Sequencing &amp; Song Tempo Across Musical Genres via #rbloggers #rstats #datascience https://t.co/dzON51Slxd",3,2
+"287836809","1376283313984450560","1616966486","styler 1.4.0 via #rbloggers #rstats #datascience https://t.co/r2xp2LKkXZ",5,0
+"287836809","1376268218352992262","1616962887","10 Tips and Tricks for Data Scientists Vol.2 via #rbloggers #rstats #datascience https://t.co/mtYD2Iv9MH",3,0
+"609187397","1376280992822988801","1616965933","Once you are happy with your ggplot, you can get the code used to produce it!
+
+Learning ggplot2
+
+https://t.co/8XXCLp7YWH
+#esquisse #rstats #python #datascience #BuildGGPLOTCode #Ggplot2 #Tableau #Step #CheatSheet #Jumpstart",3,2
+"1026075110569070593","1376014944529960961","1616902502","How to change the font type in a graphic created in the R programming language. The tutorial explains how to change fonts within RStudio and when exporting a graph: https://t.co/n6SdjG2Xpj
+
+#DataViz #datavis #R4DS #RStats",4,11
+"1026075110569070593","1376280440819040261","1616965801","How to draw a grouped barplot in the R programming language: https://t.co/4aKrLa9qhP
+
+#DataScientist #statisticians #RStats",1,2
+"1026075110569070593","1376142221288861703","1616932847","How to perform a one dimensional optimization using the optimize() function in the R programming language: https://t.co/nSxPhtKj2W
+
+#rstudioglobal #DataAnalytics #RStats",1,3
+"2872535697","1376279597529112581","1616965600","New (mini) blog post:
+
+The link between keyboard layouts and typing speed - Data collection phase
+
+https://t.co/QzDOp8Z3ZG
+
+#rstats #datascience https://t.co/Z1Xavi2WNn",5,2
+"369635506","1376278490144735233","1616965336","The most impressive #Youtube Channels for you to Learn AI, #MachineLearning, and #DataScience https://t.co/njVENIiT7l #DEVCommunity #MachineLearning #Python #IoT #flutter #100DaysOfMLCode #AI #javascript #womenwhocode #RStats #Serverless #CodeNewbie #DataScience #100DaysOfCode",15,9
+"778773117036617732","1376276617945829377","1616964890","#rstats teachers, do you assign exploratory data analysis assessments? If yes, how do you grade them at scale? (asking because EDA doesn't have any particular set of rules)",3,3
+"1374432528644280328","1376275540454309889","1616964633","So what kind of programmer are you:
+    #Python, #RStats, #Java, #javascript, #Haskell or #Brainfuck?
+
+(Source https://t.co/K8OQyY4EGa) https://t.co/jPaS5bNBTJ",3,6
+"144592995","1376259651386368000","1616960845","10 Tips and Tricks for Data Scientists Vol.2  {https://t.co/wPsEAsN7Uw} #rstats #DataScience",12,43
+"144592995","1376152664183033858","1616935337","Simulating Emotions during a Basketball Game – Just a Feeling in the Crowd  {https://t.co/EPATdfIfWk} #rstats #DataScience",5,17
+"144592995","1376273471391596544","1616964140","styler 1.4.0  {https://t.co/RIt4DrCuPm} #rstats #DataScience",6,13
+"144592995","1376013030023127041","1616902046","A Model and Simulation of Emotion Dynamics  {https://t.co/vGQGddfzhH} #rstats #DataScience",7,35
+"144592995","1376240751286304776","1616956339","How Do You Order Songs on an Album? Album Sequencing &amp; Song Tempo Across Musical Genres  {https://t.co/vojmzaegOt} #rstats #DataScience",6,19
+"733390000809730049","1376272047391801345","1616963800","""McDonald's"" vs ""McDonalds Corp""
+
+""sam smiht, main street 123"" vs ""Sam Smith, 123 Main Street""
+
+""United States"" vs ""United States of America""
+
+I wrote two posts about fuzzy string matching: 
+- What is it about?
+- Which #rstats packages can help?
+
+https://t.co/OMWhDWUJTp https://t.co/1IGKTVpNDr",5,4
+"79975924","1376223788992495621","1616952294","Primary Immunodeficiencies:
+ -incredible pace of variant/mutation, and newly-
+   identified disease discovery
+-classification
+-DNA <U+0001F9EC>driven
+
+https://t.co/owsiFnNvMK #BioInformatics #technology #rstats #DataScience #itrtg #immunology #genomics #PrimaryImmunodefiency #raredisease https://t.co/lw9lZX7cpA",9,11
+"79975924","1376271999346032646","1616963789","A few recent pieces on matagenomics in pathogen diagnosis:
+<U+0001F9EC><U+0001F9A0>
+1<U+20E3>https://t.co/zplayeVVeh #openscience #rstats #datascience
+
+2<U+20E3>https://t.co/OFmTQYAnX4 #scicomm #immunology #genomics https://t.co/aNEbHMstxP",5,3
+"400694446","1376271916760190978","1616963769","Working for a bit on Sunday for conferences with two powerful and smart women and laughing at very nerdy jokes.
+#RStats #rladies https://t.co/Zjlm6Co00B",2,11
+"299873724","1376270436980436997","1616963416","Twitter/#rstats/#distill friends, I am really excited to share my personal website that I have been working on the last few months; please check it out: 
+
+https://t.co/LHy6uWgG9B",2,4
+"299873724","1376270439182430218","1616963417","Thank you to @thomas_mock for your blogpost on #distill that nudged me to take the plunge, @rstudio for an awesome product + interface, and the #rstats community. Hoping to make data blogging using R more of a habit, we'll see if it sticks.",1,1
+"14629263","1376266960950943749","1616962587","Trying to decide how many iterations guide_content needs per layer to help you decide whether this layer works for you. This is layer 9 riding gradient descent from random noise to my temporary hex sticker in only 20 iterations. Probably not QUITE enough to judge yet... #rstats https://t.co/s1ArU13EsG",2,0
+"2490859483","1376266781627719690","1616962545","10 Tips and Tricks for Data Scientists Vol.2  {https://t.co/JVgE9MA1Ks} #rstats #DataScience",3,3
+"2490859483","1376088069745610758","1616919936","A Model and Simulation of Emotion Dynamics  {https://t.co/pooK4VhMDn} #rstats #DataScience",2,3
+"946151815","1376265291697680390","1616962189","A 1951 USGS map of Mt. Fairweather, Alaska. Most of the 4,671m (15,325 feet) mountain lies within Glacier Bay National Park and Preserve but its summit borders Tatshenshini-Alsek Provincial Park, British Columbia. 
+
+#rayshader adventures, an #rstats tale https://t.co/vurTQUxG5s",4,18
+"946151815","1375972018538041350","1616892268","Prismatic attractor, made possible by @aschinchon.
+
+#rayshader adventures in #generative #rtistry, an #rstats tale https://t.co/O6kKNREuzs",5,27
+"946151815","1375969424147165189","1616891649","A first attempt at The Making of Guadalupe Peak, inspired by @charlie_verdel. This was my original intention but encoding 50MB+ files into a video using {av} turned out to be trying.
+
+#rayshader adventures, an #rstats tale https://t.co/em0sqYa36G https://t.co/dT0P7MN8jY",2,12
+"983470194982088704","1376264368288071692","1616961969","The next R4DS Office Hours begin at Mar 28, 2021 03:30PM CDT! Have an #rstats question you've been meaning to ask? Head over to our slack via https://t.co/XpQXP5Iano, and we'll try to get you an answer! See the calendar for upcoming office hours: https://t.co/rb7kh5s6pS",2,0
+"983470194982088704","1376226844744224769","1616953023","The next R4DS Office Hours begin at Mar 28, 2021 01:00PM CDT! Have an #rstats question you've been meaning to ask? Head over to our slack via https://t.co/XpQXP5Iano, and we'll try to get you an answer! See the calendar for upcoming office hours: https://t.co/rb7kh5s6pS",2,2
+"291831562","1376032564142612480","1616906703","Can AI be hypnotized? https://t.co/1b4xV0hlLY
+
+#MachineLearning #Python #AI #100DaysOfCode #DevOps
+#IoT #flutter #javascript #Serverless #womenintech #IIoT
+#cybersecurity #RStats #CodeNewbie #tech #WomenWhoCode https://t.co/ZtluuzMKXQ",15,6
+"291831562","1375991122544181251","1616896822","Are AI-generated inventions patentable? https://t.co/r9F9Bq14qo
+
+#MachineLearning #RPA #Python #AI #100DaysOfCode #IIoT #DataScience
+#Robotics #IoT #flutter #javascript #Serverless #tech #womenintech
+#cybersecurity #RStats #CodeNewbie #CopyRights nodejs #DeepLearning https://t.co/g8NLsaQMG8",26,7
+"291831562","1376157236607737861","1616936427","How AI Can Help Companies Set Prices More Ethically https://t.co/vC8cFfNgkq
+
+#MachineLearning #Python #AI #100DaysOfCode #DevOps
+#IoT #flutter #javascript #Serverless #womenintech #IIoT
+#cybersecurity #RStats #CodeNewbie #tech #WomenWhoCode https://t.co/6NTWzVA5iC",28,17
+"291831562","1376262918556295171","1616961624","Top 5 Artificial Intelligence Companies with Market Share https://t.co/kQmdhiVQ7Y
+
+#MachineLearning #Python #AI #100DaysOfCode #DEVCommunity
+#DevOps #IoT #flutter #javascript #Serverless #womenintech #IIoT
+#cybersecurity #RStats #CodeNewbie #tech #5G #DeepLearning https://t.co/RqjBDeAu9F",44,16
+"291831562","1375960939183345667","1616889626","Don’t Arm Robots in Policing | Human Rights Watch https://t.co/FCfTfi3Xye
+
+#MachineLearning #Python #AI #100DaysOfCode #IIoT #DataScience
+#Robotics #NYPD #IoT #flutter #javascript #Serverless #tech #NYC
+#cybersecurity #RStats #CodeNewbie #Law nodejs #DeepLearning https://t.co/iG3UYl3M7H",34,22
+"291831562","1376232713989058570","1616954422","A Nutrition Label for AI https://t.co/GrjY8TneCJ
+
+#MachineLearning #Python #AI #100DaysOfCode #IIoT #DataScience
+#BigData #IoT #flutter #javascript #Serverless #tech #Nutrition
+#cybersecurity #RStats #CodeNewbie nodejs #Ethics #DeepLearning https://t.co/zzc108lesx",17,7
+"23760451","1376261159699894273","1616961204","Spent far longer than anticipated today writing some #rstats functions to allow me to better deal with some annoyances with @RetroPieProject scraper. I may turn it into a package. I might even write some tests. The world is my oyster. https://t.co/WgGRi023k1",2,1
+"1264433760","1376171815337398272","1616939903","<U+2705>18 Best #DataScience Courses on @Udemy
+<U+0001F449><U+0001F3FD>https://t.co/LQQcOHJnMk
+
+#AugmentedReality #DeepLearning #Analytics #DataScience #BigData #AI #MachineLearning #ML #DL #IoT #IIoT #IoTPL #Python #RStats #CloudComputing #Serverless #5G #RPA #NLP #Programming #Coding #100DaysofCode #udemy https://t.co/NsEzAEQ7Sa https://t.co/AuSR2LnDPq",9,2
+"1264433760","1376217110498717698","1616950702","#MachineLearning Practice Test
+<U+0001F449><U+0001F3FD>https://t.co/swFgZASZKn
+
+@udemy #BigData #Analytics #DataScience #AI #MachineLearning #ML #DL #IoT #IIoT #IoTPL #5G #NLP #RPA #PyTorch #Python #RStats #CloudComputing #Serverless #5G #DataScientist #Programming #Coding #100DaysOfCode #DEVCommunity https://t.co/IMyJTpjfMw https://t.co/2NgpqmEvcw",3,1
+"1264433760","1376173944944922626","1616940411","#Book: C# in Depth<U+0001F468><U+0001F3FD><U+200D><U+0001F4BB>
+<U+0001F449><U+0001F3FD>https://t.co/KPD4nM4CYA
+
+#csharp #BigData #Analytics #DataScience #AI #MachineLearning #ML #DL #IoT #IIoT #IoTPL #5G #NLP #RPA #PyTorch #Python #RStats #CloudComputing #Serverless #CyberSecurity #robotics #automation #Programming #Coding #100DaysOfCode #dev https://t.co/kIe5eBxoQb https://t.co/Zp96Qbv8m7",18,7
+"1264433760","1376253789548785664","1616959447","Free #eBook: #Network #Automation
+<U+0001F449><U+0001F3FD>https://t.co/vNoXWpqrNs
+@gp_pulipaka
+
+#BigData #Analytics #DataScience #AI #ML #MachineLearning #DL #IoT #IIoT #IoTPL #PyTorch #Python #RStats #CloudComputing #Serverless #5G #RPA #NLP #robotics #blockchain #programming #100DaysOfCode #DX #tech https://t.co/xGyzNFrDhV https://t.co/KllvA2klSZ",9,2
+"1264433760","1376260861224947717","1616961133","Make Money #Coding: 4 Ways To #Earn #Income With Your Coding #Skills
+<U+0001F449><U+0001F3FD>https://t.co/KrcxR1dJKv
+
+#webdev #codenewbie #Analytics #DataScience #AI #ML #IoT #IIoT #IoTPL #RPA #NLP #Python #RStats #TensorFlow #Cloud #Serverless #DataScientist #Programming #100DaysofCode #DEVCommunity https://t.co/h8w3kjD8qD https://t.co/QvVnvGJIzl",17,5
+"1264433760","1376217916115283971","1616950894","8 #Digital skills we must teach our children
+https://t.co/s6w0iGem2j
+@wef
+
+#skills #futureofwork #AI #ML #BigData #DataScience #innovation #IoT #IIoT #IoTPL #Cybersecurity #Python #ArtificialIntelligence #Analytics #RStats #Cloud #Serverless #100DaysOfCode #femtech v/ @CloudiLab https://t.co/gW8WDOueve https://t.co/NNkxIBm0TM",9,6
+"1264433760","1376255166534594564","1616959775","#Book: #MachineLearning Systems
+<U+0001F449><U+0001F3FD>https://t.co/Qbb1aDlaMQ
+
+#BigData #Analytics #DataScience #AI #ML #DL #IoT #IIoT #IoTPL #PyTorch #Python #RStats #CloudComputing #Serverless #5G #RPA #NLP #robotics #blockchain #CNN #ANN #programming #coding #DEVCommunity #100DaysOfCode #DX #tech https://t.co/oVY3oHQTiJ https://t.co/cAD8HC6COl",32,9
+"1264433760","1376257691610460164","1616960377","Using #TensorIoT for Analyzing the Outliers <U+0001F468><U+0001F3FD><U+200D><U+0001F4BB>
+<U+0001F449><U+0001F3FD>https://t.co/rmVkXJRKSU
+
+#BigData #Analytics #DataScience #AI #MachineLearning #ML #IoT #IIoT #IoTPL #RPA #NLP #Python #RStats #TensorFlow #CloudComputing #Serverless #DataScientist #Programming #Coding #100DaysofCode #DEVCommunity https://t.co/ndS1CBerob https://t.co/OVr2nopbIg",30,16
+"1264433760","1376259951191015427","1616960916","How to Invest During a Global Crisis
+https://t.co/Jr9MRm2Q9i
+v @SourabhSKatoch
+
+#DEVCommunity #MachineLearning #ML #AI #100DaysOfCode #Python #IoT #IIoT #RStats #Serverless #Cloud #NLP #RPA #5G #CodeNewbie #DataScience #fintech #finance #COVID19 #cybersecurity #analytics #bigdata https://t.co/11xhFGqhQt https://t.co/9nGFDajqOm",15,11
+"1264433760","1376170723685904384","1616939643","#AI Takes a #Video &amp; Fills the Missing Pixels Behind an Object
+Video Inpainting: @Microsoft Research
+<U+0001F449><U+0001F3FD>https://t.co/MzDDGgB0Pq
+
+#MachineLearning #AI #DL #100DaysOfCode #DEVCommunity #IoT #IIoT #IoTPL #Python #Serverless #womenintech #cybersecurity #RStats #DataScience #Analytics https://t.co/RaUSWhZyoX https://t.co/uqgaOTRdBd",10,1
+"1264433760","1376254876158660608","1616959706","<U+0001F923> #sundayvibes #programminghumor
+Fixing bug in production<U+0001F468><U+0001F3FD><U+200D><U+0001F4BB>
+
+#BigData #Analytics #DataScience #AI #ML #MachineLearning #IoT #IIoT #IoTPL #PyTorch #Python #RStats #CloudComputing #Serverless #5G #RPA #NLP #robotics #blockchain #programming #100DaysOfCode #ThinkBIGSundayWithMarsha https://t.co/gccDfSx27R https://t.co/wM7C7SV35f",13,8
+"1264433760","1376213161599188995","1616949761","How to get started with #Coding <U+0001F468><U+0001F3FD><U+200D><U+0001F4BB>
+#sundayvibes
+
+v @SourabhSKatoch
+#DEVCommunity #Programming #IoT #IIoT #IoTPL #100DaysOfCode #Machinelearning #ML #AI #Python #CloudComputing #Serverless #cybersecurity #RStats #programming #DataScience #WomenWhoCode #ThinkBIGSundayWithMarsha #DX https://t.co/b45PCtGWoN https://t.co/DBxU8Gxtzz",6,1
+"1264433760","1376258323410993155","1616960528","#Holi2021 #HappyHoli #HappyHoli2021 
+
+#Holi
+#Bigdata #DataScience #Analytics #ML #MachineLearning #AI #DL #100DaysOfCode #Python #DEVCommunity #IoT #IIoT #IoTPL #RPA #NLP #flutter #Serverless #WomenWhoCode #CyberSecurity #CloudComputing #RStats #programming #coding #tech https://t.co/gRvAALVvQo https://t.co/LN48mHG7iM",5,3
+"1264433760","1376222879176613890","1616952078","#DeepLearning Inference via Learned Cache
+#Infographic
+v/ @gp_pulipaka
+
+#BigData #Analytics #DataScience #AI #MachineLearning #ML #IoT #IIoT #IoTPL #NLP #RPA #PyTorch #Python #RStats #CloudComputing #Serverless #5G #DataScientist #Programming #Coding #100DaysOfCode #DEVCommunity https://t.co/9ZPUz0mTfv https://t.co/z2eCXJXaGK",4,2
+"253246806","1376260152957956099","1616960964","Hey #RStats fam! I'm trying to add biomart information to a list of excluded variants and have a fuzzy_inner_join() implementation but it's <U+0001F40C> Anyone know of a faster way (i.e. @Bioconductor, data.table, etc.) this could be done (also take #Python) <U+0001F937><U+200D><U+2642><U+FE0F>  https://t.co/a3joeCCtxj https://t.co/hdEzYJooYh",3,0
+"18638210","1376257484562837510","1616960328","#Rstats package to generate a color palette inspired by #Evergreen <U+0001F609> https://t.co/raH6ITcctx #SuezCrisis #SuezCanel https://t.co/eKqBl1BPe7",5,24
+"625117095","1376256302800834563","1616960046","First attempt at a @charlie_verdel inspired map. 
+1991 Geo map of Utsunomiya Japan
+#rstats #rayshader https://t.co/L4ceqD5TJN",2,5
+"1217077743654801408","1376252808177930243","1616959213","Sunday isn't the best day for a #coding tutorial but here you go. Watch ""Print #rstats step- by-step results of base-R and tidyverse pipeline with {boomer}"" https://t.co/A2VcKcRqPO Thanks to @antoine_fabri",5,5
+"1254869948796674048","1376249396971507713","1616958400","5 Amazing Websites Every Developer Should Know
+.
+.
+.
+.
+.
+#BigData #Analytics #DataScience #DeepLearning #MachineLearning #IoT #Python #RStats #JavaScript #ReactJS #GoLang #Serverless #Linux #Programming #Coding #100DaysOfCode https://t.co/GSX8DoFrMv",8,9
+"1254869948796674048","1376250138033745921","1616958577","What Is A Data Structure?
+.
+.
+.
+.
+.
+#BigData #Analytics #DataScience #DeepLearning #MachineLearning #IoT #Python #RStats #JavaScript #ReactJS #GoLang #Serverless #Linux #Programming #Coding #100DaysOfCode https://t.co/WUCHvtVUEg",14,11
+"207166307","1376250054709800962","1616958557","Computer vision and #deeplearning AI combined in self-walking #robotic exoskeletons
+@ruben_arce_s
+#artificialintelligence #AI
+#DigitalTransformation #Analytics #bigdata #iot #iiot #datascience #machinelearning #Python #100DaysOfCode #RStats #defstar5
+https://t.co/Fm0gOIIKIX",13,9
+"867857724670857217","1376248565983481861","1616958202","#rdata #rstats: Quarterly run off triangle of accumulated claims data - https://t.co/4nyTlTQFKW",1,1
+"987493026","1376247905779060741","1616958044","""The Pretentiousness Curve""
+
+Pretentiousness peaks in one's university years and maintains high levels as the individual seeks to ingratiate themselves in society. Fortunately, it subsides throughout the average lifespan.
+
+#rstats #ggplot2 #dataviz #datafam https://t.co/SvnBvBv12W",3,16
+"1293157544035340289","1376247178532958209","1616957871","Measure The Effectiveness Of Covid-19 Vaccinations
+https://t.co/QHwSf0zQT1
+#COVID19 #covid #Israel #vaccation #Pfizer #python #pythonprogramming #rstats #statistics #analytics",1,1
+"1293157544035340289","1376237995485974535","1616955682","Tips &amp; Tricks for Data Scientists vol.1
+https://t.co/2UsXCXGhjV
+
+#R #RStats #Python #DataScience #MachineLearning #DataAnalytics",4,1
+"1293157544035340289","1376238115153707008","1616955710","Tips &amp; Tricks for Data Scientists vol.1
+https://t.co/dY7UscUlKY
+
+#R #RStats #Python #DataScience #MachineLearning #DataAnalytics",4,1
+"595286659","1376244656690839553","1616957270","Elegante R-Programmierung mit purrr::map und genisteten Datensätzen https://t.co/FaEfwN168h #rstats",2,1
+"146603441","1376242782818467846","1616956823","Probably the last one from this code #RStats #rtistry https://t.co/qNZoPVRvKC",2,3
+"1155470031225884675","1376236526208622593","1616955331","Virtual Try-on : Next Big thing in Luxury Business <U+25B6><U+FE0F>
+#Analytics #MachineLearning #AI #Python #Rstats #Reactjs #IoT #IIoT #ML #NLP #Linux #flutter #javascript #AR #VR 
+#BigData #CloudComputing #Serverless #ArtificialIntelligence
+#SmartHome #100DaysOfCode
+https://t.co/36aUZDJjAF https://t.co/AevMQFOnux",12,3
+"1155470031225884675","1376238355587821568","1616955767","Open - Multi Vendor RAN innovation via #5G <U+25B6><U+FE0F>
+#Analytics #BigData #AI #Python #Rstats #Reactjs #DataScientist
+#MachineLearning #javascript #ML #NLP #Linux #Serverless #flutter #IoT #IIoT #CloudComputing #ArtificialIntelligence #SmartCity #100DaysOfCode
+https://t.co/sQBPYYvK4i https://t.co/IPTyGehUb8",5,4
+"1340698247199911937","1376235524319440899","1616955092","Want Logo Designs??? click the link below:
+https://t.co/ptr9qx1u8x
+
+#logo_design #modern_logo #unique_logo #fiverr #upwork #clean_logo #luxury_logo #AI #Analytics #AR #BigData #Cloud #DataScience #DataViz #DeepLearning #DL #fintech #Flutter #IoT #NodeJS #RStats #Tech #VR #USA https://t.co/4XzjFCKv8n",16,17
+"799860979039436800","1376234432084983814","1616954832","My #TidyTuesday turned into a Tidy Weekend <U+0001F605>, but better late than never. In this visualization I show that developed nations tend to support less UN motions related to colonialism than developing countries. #rstats #dataviz https://t.co/Y2J1YwFJ5i",4,13
+"1327925920624087040","1376217526380556288","1616950801","Is it so smart for a robot to line up to recharge after work? #AI #DEVCommunity #MachineLearning #Python #IoT #flutter #100DaysOfMLCode #javascript #womenwhocode #Serverless #CodeNewbie #DataScience #100DaysOfCode #Analytics #MachineLearning #Python #Rstats #Reactjs https://t.co/dkAJY2YPsM",27,17
+"1327925920624087040","1375991030978347008","1616896801","Hundreds of drones took Van Gogh's 'The Starry Night' to the skies -- and set a Guinness World Record.(6)#BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #Python #RStats #TensorFlow #JavaScript #CloudComputing #Serverless #Linux #Programming #Coding #100DaysofCode https://t.co/rrtxJxYxW6",20,9
+"1327925920624087040","1376233122702917641","1616954520","This kitchen robot can prepare and plate freshly-cooked meals at just the touch of a button! 
+by @UNILADTECH 
+#AI #MachineLearning #Python #IoT #flutter #100DaysOfMLCode #javascript #womenwhocode #Serverless #CodeNewbie #DataScience #100DaysOfCode #Analytics #Rstats #Reactjs https://t.co/5hzaNXYkGf",24,16
+"271844937","1376221682579427333","1616951792","Automatically #bypass Content-Security-Policy for #XSS exploitation. 
+#BigData #Analytics #DataScience #MachineLearning #IoT #IIoT #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless #Linux #Programming #Coding #100DaysOfCode #DigitalTransformation https://t.co/F2xHFHemr0",7,5
+"271844937","1376232990532067333","1616954488","Different Types Of #CyberAttacks 
+#ManInTheMiddle #SQLInjection #CrossSiteScripting #XSS #DDOS
+#DataScience #IoT #IIoT #PyTorch #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #GoLang #CloudComputing #Serverless #DataScientist #Linux #Powershell #Coding #100DaysOfCode https://t.co/ruWlZvAqis",26,12
+"2863623573","1376232766820515846","1616954435","#radian is an excellent #RStats interface written in #Python https://t.co/JmLV6h4fUa",1,2
+"554757120","1376172436140482566","1616940051","#DeepLearning and #NeuralNetworks | 
+#BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #PyTorch #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode via @gp_pulipaka | 
+https://t.co/hYhlYMSyj1 https://t.co/IXfQ73iz1U",12,7
+"554757120","1376232744561311745","1616954430","#Mathematics and #MachineLearning | #BigData #Analytics #DataScience #IoT #IIoT #PyTorch #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Books #Programming #Coding #100DaysofCode via @gp_pulipaka | 
+https://t.co/bOVat83G8I https://t.co/MeMRNrnMmY",6,2
+"1351775404344934400","1376229991105585157","1616953773","Finally got a chance to play with @benbbaldwin's nfl4th package!
+https://t.co/tlxFVQUdDF
+
+Enter a list of teams to highlight 4th down go rate on plays the model suggests they should go for it (Go Rate &gt; 1).
+
+#BearDown #ChicagoBears #R #rstats #NFL #NFLTwitter #DataVisualization https://t.co/oDNfN1ffWM",2,10
+"363290316","1376218156398747648","1616950952","11,800 suscriptores!!!
+
+https://t.co/BpHuHVJps8
+
+#youtube #youtubers #youtubechannel #youtubevideos #youtubechannel #rstats #python #pythonlearning https://t.co/73Lc0B4Dix",1,1
+"1201147579561631749","1376003204207415298","1616899703","Check out new work on my @dribbble profile. 
+https://t.co/6lCjo0qoWE
+
+#MachineLearning #DEVCommunity #DataScience #Python #100DaysOfCode #IoT #100DaysOfMLCode #Serverless #womenwhocode #cybersecurity #RStats #logos #logo #YouTube #business #logodesign #fx #photography #pixelart",13,5
+"1201147579561631749","1376217134208937987","1616950708","Check out new work on my @dribbble profile. 
+https://t.co/6waxu8AF8v
+
+#MachineLearning #DEVCommunity #DataScience #Python #100DaysOfCode #IoT #100DaysOfMLCode #Serverless #womenwhocode #cybersecurity #RStats #coffee #handmade #YouTube #business #logodesign #fx #photography #pixel https://t.co/yCiSYI0qaW",5,5
+"844327366239379456","1376216265686142983","1616950501","Your company lives of #PowerPoint slide decks. Why not automate them? Learn how in this 10-minute #R Tutorial.
+
+#Rstats #Productivity #Python",2,3
+"844327366239379456","1376175503929974789","1616940782","#Shiny can be a bit intimidating. To help, I put together a short tutorial to get you started. It has a #video too! https://t.co/o30jUN4kaQ
+
+#rstats #tidyverse #datascience #python https://t.co/ZgIy3VIXrt",3,12
+"1053697748321501184","1376215162043174914","1616950238","Imbalance Data in Classification.
+
+#AI #ML #CloudComputing #futureofwork #DataScientist #BigData #IIoT #IoT #selfdrivingcars #smartcity #deeplearning #AR #VR #cybersecurity #analytics #fashiontech #Serverless #Linux #RStats #JavaScript #ReactJS #Engineering #Python #100daysofcode https://t.co/tRHJ8kRtGJ",2,3
+"1053697748321501184","1376201583285964801","1616947000","How to future-proof yourself?
+
+#AI #ML #CloudComputing #futureofwork #DataScientist #BigData #IIoT #selfdrivingcars #smartcity #deeplearning #AR #VR #cybersecurity #analytics #fashiontech #Serverless #Linux #RStats #JavaScript #ReactJS #Engineering #Python #100daysofcode #coding https://t.co/TQDXe1TObF",13,8
+"1053697748321501184","1376214414970470410","1616950060","Knowledge vs Confidence
+
+#AI #ML #CloudComputing #futureofwork #DataScientist #BigData #IoT #selfdrivingcars #smartcity #deeplearning #AR #VR #cybersecurity #analytics #fashiontech #Serverless #Linux #RStats #JavaScript #ReactJS #Engineering #Python #blockchain #100daysofcode #5G https://t.co/9f1qJFiVfo",18,9
+"1344578197","1376214920035991552","1616950180","Gotta love some of the crazy encoding #rstats. It seems like the second dash is a bit bigger than the first one. https://t.co/DG6qeF28tw",2,1
+"1292191416802664449","1376213973339541504","1616949954","Learn Social Media Hacking! What Is Phishing?
+
+https://t.co/DPoXhe7kW2
+
+#BigData #Analytics #DataScience #DeepLearning #MachineLearning #IoT #Python #RStats #JavaScript #ReactJS #GoLang #Serverless #Linux #Programming #Coding #100DaysOfCode https://t.co/w91UnlQOvl",3,3
+"1292191416802664449","1376214256920629249","1616950022","20 Python Tips And Tricks For New Python Developers!
+https://t.co/pc8Psz6CGS
+.
+.
+.
+.
+.
+#BigData #Analytics #DataScience #DeepLearning #MachineLearning #IoT #Python #RStats #JavaScript #ReactJS #GoLang #Serverless #Linux #Programming #Coding #100DaysOfCode https://t.co/LG0EKQnQOl",6,2
+"1292191416802664449","1376214318631415808","1616950037","Want to be a Hacker? Follow This!
+https://t.co/AnDtuZLsTa
+.
+.
+.
+.
+.
+#BigData #Analytics #DataScience #DeepLearning #MachineLearning #IoT #Python #RStats #JavaScript #ReactJS #GoLang #Serverless #Linux #Programming #Coding #100DaysOfCode #Hacking https://t.co/RDxpBc9oKL",6,2
+"1292191416802664449","1376214058123157506","1616949974","Want to learn Programming? Try this.
+https://t.co/Xp95YK6I1m
+.
+.
+.
+.
+.
+#BigData #Analytics #DataScience #DeepLearning #MachineLearning #IoT #Python #RStats #JavaScript #ReactJS #GoLang #Serverless #Linux #Programming #Coding #100DaysOfCode https://t.co/CUyZnIAFGc",3,2
+"1292191416802664449","1376214421995888641","1616950061","Web Development From Scratch!
+https://t.co/0lOCsumJaA
+.
+.
+.
+.
+.
+#BigData #Analytics #DataScience #DeepLearning #MachineLearning #IoT #Python #RStats #JavaScript #ReactJS #GoLang #Serverless #Linux #Programming #Coding #100DaysOfCode https://t.co/CYn9yjH8nR",12,2
+"325430154","1376209138800295947","1616948802","What is #MLOps?
+#AI #ML #CloudComputing #futureofwork #DataScientist #BigData #IoT #RPA #selfdrivingcars #smartcity #deeplearning #AR #VR #cybersecurity #analytics #fashiontech #Serverless #Linux #RStats #JavaScript #ReactJS #Engineering #Python #blockchain #100daysofcode #coding https://t.co/IxBNJguVAR",21,11
+"325430154","1376203138970030084","1616947371","Cognitive #Biases in the Modern World.
+
+#AI #ML #CloudComputing #futureofwork #DataScientist #BigData #IIoT #IoT #selfdrivingcars #smartcity #cybersecurity #analytics #fashiontech #Serverless #Linux #RStats #JavaScript #ReactJS #Python #100daysofcode #Devops #coding #programming https://t.co/YkvfMUMTvf",19,11
+"325430154","1376049910756216832","1616910839","The #AGI architecture - Where is the learning and reasoning module?
+
+https://t.co/UKyByyxZZI
+
+#AI #CloudComputing #futureofwork #DataScientist #BigData #IoT #selfdrivingcars #smartcity #deeplearning #5G #cybersecurity #analytics #fashiontech #Serverless #Linux #RStats #JavaScript",8,2
+"325430154","1376206114606448641","1616948081","Non-Fungible Tokens
+
+#NFT #AI #ML #CloudComputing #futureofwork #DataScientist #BigData #IIoT #IoT #selfdrivingcars #smartcity #deeplearning #AR #VR #cybersecurity #analytics #fashiontech #Serverless #Linux #RStats #JavaScript #ReactJS #Engineering #Python #blockchain #coding #5G https://t.co/N01eQmQUWj",13,7
+"525876213","1376134609788932096","1616931032","Can anyone help me understand the empty groups logic in {dplyr}?
+
+#RStats
+
+https://t.co/sMKv2Qzf7G",3,4
+"525876213","1376205816542461953","1616948009","Just submitted a new version of the {poorman} <U+0001F4E6> to CRAN. Version 0.2.5 should hopefully be available soon.
+
+#RStats
+
+https://t.co/hS5G6WKShw https://t.co/MOIIhL3OCP",5,16
+"45841081","1376204630141632516","1616947727","R para programadores, cap. 2 - Caracteres no R 11 https://t.co/njDUUFIDte via @YouTube 
+
+Introdução suave às expressões regulares em R através de grep(). Décimo-primeiro  vídeo da série.
+
+#Rstats #introR #cursogratuito #programador",2,2
+"45841081","1375964938003447813","1616890580","R ideas -- benchmark para R, usando programa de cálculo de eps
+https://t.co/14dIUge1S9  via @YouTube 
+
+Apresentação de benchmarks em R, sobre o programa find_eps
+
+#Rstats #sourcecode #programming #benchmark",1,1
+"614549020","1376204595127590919","1616947718","@shunley42 This calls for a poll! #rstats
+
+Which would you prefer?",1,4
+"317965625","1376201463362375687","1616946972","I was going to start my blogdown blog again, but the book (https://t.co/wdFkU9hGXa) has the warning in the image below. Anyone got a feel for how much things have changed since 2019? Debating whether to go ahead or find an alternative for my #rstats &amp; #pydata blogging! https://t.co/isBwzFhym6",2,4
+"1139531075703590917","1376200193226407943","1616946669","REST APIs with Flask and Python
+
+<U+23E9> https://t.co/JHve35SIHA
+
+<U+0001F525> @udemy #REST #APIs #Flask #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #Python #RStats #CloudComputing #Serverless #Linux #Programming #Coding #100DaysofCode #100DaysOfMLCode https://t.co/jJZJ47cjhF",4,1
+"34524063","1376199972048211972","1616946616","Dados do @brasil_io, que eu processei com o pacote EpiNow2 no R.
+
+#RStats #COVID19",1,1
+"618808825","1376199421386493952","1616946485","Let us explore eight #visualization techniques that every #DataScientist or #DataScience enthusiast should totally know about - https://t.co/k6TpRpJw4d by @TDataScience 
+
+#AI #Python #Bigdata #DataVisualization #MachineLearning #TensorFlow #ArtificialIntelligence #Rstats #IoT https://t.co/MgtmxNlB3q",5,1
+"926925155728752641","1376197226318417924","1616945961","I recently gave a 50-min guest lecture, ""A Conceptual Introduction to Data Design and Visualization,"" that I'm sharing below. If you are new to but interested in #DataScience or #rstats, especially within the medical or social sciences, check it out. https://t.co/RebpTJbYck",7,18
+"34688211","1376196274945425418","1616945735","zdeskR #RStats package updated at CRAN. @Zendesk API does not have consistent methods for doing incremental updates but we have updated the functions so that one can get tickets with a start and/or end date and a workaround to get incremental user list. https://t.co/kLELLBpUkt",2,0
+"18262356","1376192434695180290","1616944819","Pancakes, #rstats, and a bike ride. Can’t ask for a better Sunday!",2,6
+"142256864","1375990277903507457","1616896621","This #Holi2021 is all about being shielded. Time to play some  #holi
+#Bigdata #MachineLearning #AI #100DaysOfCode #Python #DEVCommunity #IoT #flutter #javascript #Serverless  #WomenWhoCode #CyberSecurity #RStats https://t.co/yvBRKB5sjZ",19,9
+"142256864","1376191738893594629","1616944653","Greek onus owing devour.
+Knowledge awe vs Intuitive Nesting loop. #Holi2021 is shielded. Time to play some  #holi
+#Bigdata #MachineLearning #AI #100DaysOfCode #Python #DEVCommunity #IoT #flutter #javascript #Serverless  #WomenWhoCode #CyberSecurity #RStats https://t.co/yvBRKB5sjZ https://t.co/LOYtICKRki",26,10
+"942607834063294465","1376191500380344328","1616944596","Only the data scientists in the room will understand the joy from hearing the fan noise and the feeling the heat generated from your laptop when the model you are running spin every inch of your machine's CPUs
+
+#DataScience #RStats #Stats #ML https://t.co/2FSga6S6Hs",8,33
+"431074013","1376189897271296000","1616944214","{xaringan} makeover for my French #rstats #shiny workshop completed at 99 % (I still have an issue with progress/notification {webshot}s, but I will fix it later <U+0001F937><U+200D><U+2642><U+FE0F>)
+
+https://t.co/n1yLVfIkgE
+https://t.co/UnZSVMSHCv https://t.co/4ShxBSUwvi",4,6
+"3175593127","1376184972319490054","1616943040","#Today's new #video...
+
+ What is #Helm chart on #Kubernetes.
+
+https://t.co/FswBHavHNJ
+
+#DataScience #Docker #Linux #MachineLearning #cybersecurity  #BigData #Google #rstats #AI #100daysofcode #cloud #ArtificialIntelligence #web",1,1
+"1685825136","1376184149246107648","1616942844","Incomplete b/c:<U+0001F447>
+
+#AIEthics is an imperative to use #AI for #SafetyFirst #family #eldercare &amp; #childcare <U+0001F614>
+
+#BigData #Python #RStats #Java #JavaScript #Linux #100DaysOfCode #robots #robotics #smarthome #ML #influence #IoT #technologies #gerotech #aging #tech #ageing #home https://t.co/4Bxlr4EGY1 https://t.co/9HAtGCyoeQ",20,16
+"1685825136","1376178249684893699","1616941437","@Eli_Krumova @TheIoT @Kred #AIEthics is an imperative to use #AI for #SafetyFirst #family #eldercare &amp; #childcare <U+0001F614>
+
+#BigData #Python #RStats #Java #JavaScript #Linux #100DaysOfCode #robots #robotics #smarthome #ML #influence #IoT #IoTPL #IIoT #IoTNews #IoTSecurity #tech #TechTrends #technologies https://t.co/q0CAaMtpXh",8,2
+"815555071517872128","1376184058414260226","1616942822","Tableau meets R. The #esquisse R package is a Drag-and-Drop ggplot2 builder that makes it easy to explore data and convert it to ggplot2 code. I made a video tutorial on it. Learn more: https://t.co/vzp2Z3tuuZ
+
+#rstats #python #datascience https://t.co/pZg1Kb5TBv",22,110
+"815555071517872128","1376151344059326474","1616935022","[How to Become a Data Scientist] Whether it's in finance or any domain, becoming a data scientist is a strategy... that does NOT involve learning every technique out there. Learn how to become a data scientist (strategically): https://t.co/eHYgqjuY3I
+
+#python #rstats #datascience https://t.co/392igkhM1c",6,12
+"815555071517872128","1376137874521919493","1616931811","[Time Series Webinar] #DeepLearning is having a massive impact on business #forecasting. This is why @bizScienc &amp; @saturn_cloud are teaming up on #TimeSeries Deep Learning #Training on @nvidia #GPU. Join our webinar: https://t.co/upkdQCVB2q
+
+#rstats #python https://t.co/9D4DE9mOME",3,8
+"3213365697","1376182979622539276","1616942565","** ¿Te gustaría una beca al programa más completo de Ciencia de Datos  de Latam? ** 
+<U+0001F60F><U+0001F60F>
+
+Universitario(a) de Latam escríbenos a info@see-ec.org 
+
+__Info del programa:
+https://t.co/uo3YpuKdq2
+
+#DataScience #Estadistica #CienciaDeDatos #Python #RStats #SQL #BigData #DSforGoods https://t.co/pqI00JxnNG",10,11
+"124094903","1376180426272870401","1616941956","How can I find the MSE for different k=1,2..9 ? @rstatstweet #r #RStats https://t.co/w4nhvbG7do",2,0
+"369720430","1376177325348433921","1616941217","I wasn't really satisfied with my last #TidyTuesday but didn't have more time to spend on it. I finally took a bit of extra time today to makes some changes.
+
+Code : https://t.co/Pqie3OtgA3
+
+#rstats #dataviz #TidyTuesday #r4ds https://t.co/WDWZLEnhQS https://t.co/ZGYNl7B92R",4,9
+"1285988552006828037","1376177225691725825","1616941193","UN votes data with ggplot2 maps
+
+code: https://t.co/r9axAkGTfR
+
+#TidyTuesday #RStats https://t.co/ZPK0a10I9z",4,6
+"1241762784502824965","1376176377913827328","1616940991","@DogGeneticsLLC @ivanpoggio @miR_community @_useRconf @R_Forwards ¡Hola Liz! Gracias por tus comentarios. En #MetaDocencia conocemos y admiramos mucho tu trabajo para mejorar la accesibildad de #rstats. En este equipo de #MetaDocencia, además de Iván, también trabajan @mariela_rajng y @patriloto, ambas son #RLadies <U+0001F49C>",1,3
+"2385131","1376176138142224388","1616940934","RcppSpdlog 0.0.5 on CRAN: New upstream versions
+Modern C++ logging for R extension packages
+https://t.co/7ABceU6l1F
+#rcpp #RStats 
+
+/cc @gabi_melman @vzverovich https://t.co/dhkACPr5rC",2,8
+"15837844","1376172506244079620","1616940068","Find trends, detect anomalies, + more to help scientists gain new insights from GeoMx® Digital Spatial Profiler data
+
+Get your shot at the $25K prize pool in the @nanostringtech #SpatialOmicsHackathon #rstats &gt;&gt; https://t.co/9HKq89fp6p https://t.co/kSqXOUlYon",1,0
+"17581779","1376171774564519936","1616939893","Working on using some of the more exciting #rstats wk <U+0001F4E6> features in the forthcoming release of the geos <U+0001F4E6>! In addition to cross-platform reproducible access to GEOS 3.9.1, geos vectors now propagate a 'crs' attribute. Particularly slick when using sf! https://t.co/ET3sF02HmB",11,51
+"1140400577052053505","1376168591414984713","1616939134","Bom dia #RStats e #fintwit . Alguém aí sabe dizer como eu consigo os financial reports de empresas brasileiras?  Eu sei que na B3 eu consigo visualizar indo em ""Empresas Listadas"", mas como eu consigo importar isso de maneira organizada em R? #webscrapping",2,4
+"322215719","1376165962932649985","1616938508","#TidyTuesday week 13 - UN votes
+
+UMAP dimensionality reduction for the UN voting patterns (inspired by @juliasilge) split by issue and continent.
+
+Code: https://t.co/Gq7bhPk7kd
+
+#rstats #r4ds #dataviz https://t.co/nXkDk0wSUK",5,11
+"737142202481016832","1376148411884347400","1616934323","#VogueWilliams  https://t.co/iq7xQ6SLNF
+@DailyMail
+
+#bigdata
+#LiNKEDiN
+#fashion #WOMEN
+#iNSURtech #USA<U+0001F426>
+#SOCiALmedia
+#IIoT #IoT #Tech #Linux #UK #javaScript #FinTech #dataScience #AI #dataScientist #Rstats #FemTech #100daysOfCode #FRENCHtech #France #digitalTransformation #NEWS",1,1
+"737142202481016832","1376164936934514693","1616938263","#ScotLANd 
+https://t.co/hY0SDSL0dM @MailOnline
+
+#bigdata
+#LiNKEDiN
+#fashion #WOMEN
+#iNSURtech #USA
+#SOCiALmedia
+#IIoT #IoT #Tech #Linux #UK #javaScript #FinTech #dataScience #AI #dataScientist #Rstats #FemTech #100daysOfCode #FRENCHtech #France #digitalTransformation
+#MOvies #WEb",2,0
+"737142202481016832","1376023354981851137","1616904507","#KateHudSOn https://t.co/DwhhgDouFR @DailyMail 
+#bigdata
+#LiNKEDiN
+#fashion #WOMEN
+#iNSURtech #USA
+#SOCiALmedia
+#IIoT #IoT #Tech #Linux #UK #javaScript #FinTech #dataScience #AI #dataScientist #Rstats #FemTech #100daysOfCode #FRENCHtech #France #digitalTransformation #MOvies #WEb",6,1
+"737142202481016832","1376048250789056512","1616910443","#TVtime: 
+27 of the best SHOWs https://t.co/r3jJwbV8Ng
+
+#bigdata
+#LiNKEDiN
+#fashion #WOMEN
+#iNSURtech #USA
+#SOCiALmedia
+#IIoT #IoT #Tech #Linux #UK #javaScript #FinTech #dataScience #AI #dataScientist #Rstats #FemTech #100daysOfCode #FRENCHtech #France #digitalTransformation #WEb",20,8
+"737142202481016832","1376043227136991236","1616909245","#SNL #Miami 
+#MayaRudolph https://t.co/6wnXKLvykm 
+
+#bigdata
+#LiNKEDiN
+#fashion #WOMEN
+#iNSURtech #USA
+#SOCiALmedia
+#IIoT #IoT #Tech #Linux #UK #javaScript #FinTech #dataScience #AI #dataScientist #Rstats #FemTech #100daysOfCode #FRENCHtech #France #digitalTransformation #MOvies",8,2
+"737142202481016832","1376027755033231365","1616905556","Forrester Wave: Hybrid #Cloud Management Q42020 https://t.co/PG5Dn88FqD 
+
+#VMware 
+#CloudComputing 
+
+#bigdata 
+#AI #IoT #Tech #Data #IIoT #USA #Linux #UK #javaScript #FinTech #dataScience #IT #WomenWhoCode #Rstats #FemTech #100daysOfCode #FRENCHtech #France #digitalTransformation https://t.co/H3DPm4xTHC",16,8
+"737142202481016832","1376102935881375746","1616923481","#GwenStefani https://t.co/fFP8eXkOaR @DailyMail
+
+#bigdata
+#LiNKEDiN
+#fashion #WOMEN
+#iNSURtech #USA
+#SOCiALmedia
+#IIoT #IoT #Tech #Linux #UK #javaScript #FinTech #dataScience #AI #data #WEb #Rstats #FemTech #100daysOfCode #FRENCHtech #France #digitalTransformation #MUSiC #SiNGER",2,0
+"737142202481016832","1376148324764459008","1616934302","#King of filth John Waters
+#MrsMaisel https://t.co/B5h7EXuG1d
+
+#bigdata
+#AI #IoT #Tech #Data #IIoT #USA #Linux #UK #javaScript #FinTech #dataScience #SOciaLmediA #fashion #WomenWhoCode #Rstats #FemTech #100daysOfCode #FRENCHtech #France #digitalTransformation #MOvies #TvTime #WEb",11,4
+"895213223724666880","1376157939778600962","1616936595","Where and when you can find maximum temperatures greater than 25 ºC in Europe? <U+2600><U+FE0F>Summer is coming. 
+
+#rstats #rspatial #dataviz #climate https://t.co/frkU4WPbiC",32,95
+"1241814552","1376157551025385476","1616936502","This past week's #TidyTuesday counts, posted through #rstats courtesy of #rtweet!
+
+#TidyTuesday details: https://t.co/sElb4fcv3u https://t.co/pzd4xp7619",3,6
+"1199352590145708033","1376119390555414528","1616927404","Algebra Made Easy | Master Algebra 1 and 2 
+
+<U+27A1><U+FE0F> https://t.co/BAFreO6XLL
+
+<U+2705> @udemy #math #Algebra #MadeOnFiverr
+#100DaysOfCode #Machinelearning #IoT #100DaysOfMLCode #Python #javascript #Serverless #womenwhocode #cybersecurity #RStats #CodeNewbie #DataScience #DEVCommunity https://t.co/S0MxHh5voE",15,3
+"1199352590145708033","1376142027923013633","1616932801","Machine Learning Practice Test 
+
+<U+27A1><U+FE0F> https://t.co/fqxHrvZo2G
+
+<U+0001F525> @udemy #AugmentedReality #DeepLearning #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #Python #RStats #CloudComputing #Serverless #Linux #Coding #100DaysofCode #100DaysOfMLCode https://t.co/rqQIKbGgxb",32,28
+"1199352590145708033","1376113017331453960","1616925884","6 Courses in Cart Best Data Science on Udemy to Consider 
+
+<U+27A1><U+FE0F> https://t.co/udH55TILN3
+
+<U+0001F525> @udemy #AugmentedReality #DeepLearning #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #Python #RStats #CloudComputing #Serverless #Linux #Coding #100DaysofCode #100DaysOfMLCode https://t.co/dwCDxQ0IMn",23,12
+"1199352590145708033","1376157121889234947","1616936400","SAP Lumira Discovery 2.3 from Beginner to Professional 
+
+<U+27A1><U+FE0F> https://t.co/M4quW9agnq
+
+<U+0001F578><U+FE0F>@udemy #sapnapfanart #BigDataAnalytics #DataScience #IoT #IIoT #Python #RStats #CloudComputing #Serverless #ehealth #Mathematics #Coding #selfDrivingCar #5G #4IR #100DaysOfCode #100DaysOfMLCode https://t.co/VJlJc490XC",7,7
+"120629514","1376156942364635137","1616936357","Happy to announce ftExtra 0.2.0, which enhances flextable.
+This release improved  supports on footnotes, citations, and paragraphs. At the same time, performance has been improved significantly.
+
+Changelog: https://t.co/EFvsPyAROF
+
+CRAN: https://t.co/IgrhB4erIJ
+
+#rstats",3,10
+"788280502125944832","1376156340649742340","1616936214","If you want to get started with Machine Learning + R, check out this upcoming Meetup: ""Machine Learning in R""  by awesome @kbandara164. Looking forward to this meetup tomorrow.  #rstats #ML #AI #OpenSource  #RLadies https://t.co/Pvaqnm7KtO",4,10
+"1107784103498264583","1376154338381475844","1616935736","Here's a prettier take on a visualization from yesterday. Spending in the US National School Lunch Program -- you can see how the #pandemic affected spending in this program (note: funds for 2020 were spent before #COVID was a thing). Made using #RStats and the #tidyverse https://t.co/DV1IMnxDAZ",2,5
+"1107784103498264583","1376147721036427264","1616934158","I have a submission for @accidental__aRt this morning!
+
+#RStats #whoops https://t.co/YfSEjakQWv",2,14
+"1295354412433469442","1376152099910602755","1616935202","Check out my #Gig on Fiverr 
+https://t.co/CMSxeQd0zU   
+
+#Coding #Analytics #Rstats #reactjs #AI #IoT #IIoT #DEVCommunity #flutter #Coding #SmartCity #DataScience #MachineLearning #BigData #Ethereum  #programmingmemes #developer #javascript #python #datascience #SoftwareDeveloper https://t.co/CXQtEAHtfG",10,4
+"1346074963988664322","1376150388093693954","1616934794","Check out for website development:
+https://t.co/OC4T79sgPf
+
+#MachineLearning #DEVCommunity #DataScience #Python #100DaysOfCode #IoT #100DaysOfMLCode #flutter #javascript #Serverless #womenwhocode #cybersecurity #RStats #AI #CodeNewbies #Website #webdev #gamedev #100DaysOfCode",25,9
+"1346074963988664322","1376117043087372290","1616926844","Check out for website development:
+https://t.co/OC4T79sgPf
+
+#MachineLearning #DEVCommunity #DataScience #Python #100DaysOfCode #IoT #100DaysOfMLCode #flutter #javascript #Serverless #womenwhocode #cybersecurity #RStats #Co #DataScience #Python #cybersecurity #data #infosec",21,5
+"1346074963988664322","1376116813243686922","1616926789","Check out for website development:
+https://t.co/OC4T79sgPf
+
+#MachineLearning #DEVCommunity #DataScience #Python #100DaysOfCode #IoT #100DaysOfMLCode #flutter #javascript #Serverless #womenwhocode #cybersecurity #RStats #Co #cybersecurity #data #infosec #javascript #web #AI #data",25,8
+"1346074963988664322","1376117652653928449","1616926990","Check out for website development:
+https://t.co/OC4T79sgPf
+
+#MachineLearning #DEVCommunity #DataScience #Python #100DaysOfCode #IoT #100DaysOfMLCode #flutter #javascript #Serverless #womenwhocode #cybersecurity #RStats #AI #CodeNewbies #Website #webdev #gamedev #100DaysOfCode",33,5
+"1346074963988664322","1376117333752639489","1616926914","Check out for website development:
+https://t.co/OC4T79sgPf
+
+#MachineLearning #DEVCommunity #DataScience #Python #100DaysOfCode #IoT #100DaysOfMLCode #flutter #javascript #Serverless #womenwhocode #cybersecurity #RStats #Co #cybersecurity #javascript #100DaysOfCode",15,3
+"1274612150732861441","1376148011433164802","1616934228","Machine learning with Python: Cheatsheet
+
+#BigData #Analytics #MachineLearning #DataScience #AI #IoT #IIoT #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #VueJS #GoLang #CloudComputing #Serverless #DataScientist #Linux #B2B #CEO #CXO #CTO #CIO #Python #Business https://t.co/ugh0SbyCk5",28,16
+"1343609681772613632","1376146796003565568","1616933938","FP&amp;A Monthly Cash Flow Forecast Modeling 
+
+https://t.co/LDVLVXKwsB
+
+@CFI #fiverrgigs #Excel #MadeOnFiverr
+#100DaysOfCode #Machinelearning #IoT #100DaysOfMLCode #Python #javascript #Nodejs #Serverless #womenwhocode #cybersecurity #RStats #CodeNewbie #DataScience #DEVCommunity https://t.co/6aVrMFIGIl",15,2
+"1068951084","1376142048219303950","1616932806","Looking for an easy way to give back to the #opensource tools you love?
+
+Become a NumFOCUS open science champion: https://t.co/149WtpFFVo
+
+#python #pydata #julialang #rstats #bayesian #bigdata #machinelearning #dataviz #openscience #opendata #datascience https://t.co/AeF6yXgQpd",18,9
+"1279478506406076416","1376054921519230976","1616912033","https://t.co/NSFQHjANjP
+See it and like it 
+#Coding #Analytics #Rstats #reactjs #AI #IoT  #IIoT #DEVCommunity #flutter #Coding #SmartCity #DataScience #MachineLearning #BigData  #programmingmemes  #developer #javascript #python #datascience #SoftwareDeveloper",21,3
+"1279478506406076416","1376085664182149123","1616919363","https://t.co/krDut545hu
+See it and like it 
+#Coding #Analytics #Rstats #reactjs #AI #IoT  #IIoT #DEVCommunity #flutter #Coding #SmartCity #DataScience #MachineLearning #BigData  #programmingmemes  #developer #javascript #python #datascience #SoftwareDeveloper",8,3
+"1279478506406076416","1376139142359179267","1616932113","https://t.co/SlhjyIpt7C
+See it and like it 
+#Coding #Analytics #Rstats #reactjs #AI #IoT  #IIoT #DEVCommunity #flutter #Coding #SmartCity #DataScience #MachineLearning #BigData  #programmingmemes  #developer #javascript #python #datascience #SoftwareDeveloper",8,3
+"908230076","1376138183344222208","1616931884","Guide To PyOD: A Python Toolkit For Outlier Detection
+
+#BigData #Analytics #DataScience #AI #python #pandas #RStats #TensorFlow #Java #JavaScript #ReactJS #GoLang #CloudComputing #DataScientist #Linux #Programming #Coding #100DaysofCode #machinelearning
+
+https://t.co/HOCGJfnMAa",18,10
+"466400265","1376133779392135171","1616930834","Graph art #016
+Model: Barabasi-Albert (ageing) with deleted edges
+Layout: Fruchterman-Reingold
+Vertices: 10,000
+Created with #rstats #ggplot2 #igraph #tidygraph #ggraph
+#graphart #mathart #generativeart https://t.co/29UDDiEJpQ",2,6
+"3448770088","1376131140797538306","1616930205","Cosillas que aprendemos en el curso de R para analistas basado en @jonollington 
+Parece sencillo pero hay que jugar con el hexbin para cuadrar las etiquetas en cada zona...
+#rstats https://t.co/S7bOj53Joc",7,53
+"870090583359934465","1376125772168114176","1616928925","Whyyyyy do I have to input credit card information to use google maps on #rstats I hate it here",2,3
+"3259000821","1376122217994596354","1616928078","5 #Books About #QuantumComputing to Start from Scratch. #BigData #Analytics #DataScience #IoT #IIoT #PyTorch #Python #RStats #TensorFlow  #CloudComputing #Serverless #DataScientist  #Programming #Coding #100DaysofCode 
+https://t.co/5szGKdv8bl https://t.co/LTgnLjmmR0
+@gp_pulipaka",12,4
+"3259000821","1376026864741978116","1616905344","Fundamentals of #MachineLearning for #PredictiveAnalytics. #BigData #Analytics #DataScience #AI #IoT #IIoT #Python #RStats #TensorFlow #CloudComputing #Serverless #DataScientist #Books #Programming  #100DaysofCode 
+https://t.co/DQ8xtA3ZVY https://t.co/XCDzza9qt5
+@gp_pulipaka",14,4
+"1011438486073872385","1376119679677313025","1616927473","powerlmm - Calculate power for the 'time x treatment' effect in two- and three-level multilevel longitudinal studies with missing data. Both the third-level factor (e.g. therapists, schools, or physicians), and the second-level factor (e.g. subj... #rstats https://t.co/bReBykgJT5",2,9
+"1258867508175679489","1376111870004899841","1616925611","Data is not like oil. Data is like water. 
+It's essential for life, and it needs to be clean and accessable.
+
+- Crawford Del Prete
+
+#AI #100DaysOfCode #MachineLearning #DataScience #tech #100DaysOfMLCode #RStats",10,12
+"932608390441906177","1376103945404317696","1616923722","<U+0001F389> @EresBiotech'de 17-18 Nisanda verecegim R Programlamaya Giris Egitimi için kayitlar basladi! <U+0001F389> #RStats 
+
+Ayni zamanda bu egitimi çekilisle bir kisiye hediye edecegim. Siz de bu çekilise katilip ücretsiz R egitimi almak isterseniz, detaylar asagida <U+0001F447>
+https://t.co/QitDTFjN0X",5,4
+"1017627671415537666","1376102051793444864","1616923270","@rstats4ds #Rstats #Rhelp: how do I copy results output into an excel spreadsheet? I've tried 
+results&lt;-()
+write_xlsx(results, ""results.xlsx"")
+but it says different number of rows...",1,0
+"2851639594","1376098684870492160","1616922467","That feeling when your students are leaps and bounds ahead of the #rstats #dataviz game after only 14 weeks <U+0001F929><U+0001F308><U+2B50><U+FE0F><U+0001F3A8>
+
+Awesome work  @SarinaSinghK <U+0001F44F><U+0001F3C6> https://t.co/jyLkTnCVmJ",3,16
+"1045689358874013696","1376098001643429897","1616922304","https://t.co/OBgb5M0fZR
+See it and like it 
+#Coding #Analytics #Rstats #reactjs #AI #IoT  #IIoT #DEVCommunity #flutter #Coding #SmartCity #DataScience #MachineLearning #BigData  #programmingmemes  #developer #javascript #python #datascience #SoftwareDeveloper",14,4
+"1045689358874013696","1376040187948494850","1616908521","https://t.co/jErEIfVErd
+See it and like it 
+ #developer #javascript #python #datascience #SoftwareDeveloper #Coding #Analytics #Rstats #reactjs #UI #IoT  #IIoT #DEVCommunity #flutter #Coding #SmartCity #DataScience #MachineLearning #BigData  #programmingmemes",8,1
+"929266633943736320","1376096759278145540","1616922008","#Help #rstats #rstudio
+
+I have 2 dataframes, a long format (repeated measures), and a wide format (single measure, questionnaire). I'm stuggling with combining these two data frames (or including the single measure ""score"" on the df1), by id. Does anybody knows a way to do it ? https://t.co/ISckdVt8mD",2,3
+"65408485","1376095113789599748","1616921616","I'm sending you the data in an excel file.
+
+#data  #rstats https://t.co/lhYrvicFMW",2,3
+"567537377","1376094807018369024","1616921543","Building #dataforgood end2end project with #opensource: check out this #shinyapp showing proportion of green electricity ov r time in UK <U+0001F30D> Bonus: data workflows (GitHub Actions) schedule daily data updates &amp; redeploy app on push to main branch #rstats https://t.co/gUsiVvJdwW",11,37
+"1117333567","1376093554100027393","1616921244","What's your dark-secret weak point in #rstats? The one you fall for regardless of how many times you've been around the block? 
+
+""Hi, my name is Leo and when I use #ggplot I sometimes put stuff inside aes(...) that should be outside and vice versa.""
+
+There. That's better.",4,7
+"1184739347188203522","1376061806536392704","1616913675","We Provide Professional Portfolio or Blogs Websites
+To get&gt;&gt; https://t.co/Y5LUIjNfvN
+#DEVCommunity #Machinelearning #100DaysOfCode #IoT #100DaysOfMLCode #Python #flutter #javascript #web #womenwhocode #cybersecurity #RStats #CodeNewbie #DataScience #Web https://t.co/8EYXmn2v5e",21,6
+"1184739347188203522","1376062138511360004","1616913754","Are you Looking for the best website designer?
+visit&gt;&gt;&gt; https://t.co/Y5LUIjNfvN
+#theinsaneapp #ML #AI #MachineLearning #DataScience #rstats #100DaysOfMLCode  #reactjs #serverless #website #WomenWhoCode #Linux #100DaysOfCode #python #programming #deeplearning #coding #VoteBiden https://t.co/G9wCUvS9BR",15,7
+"1184739347188203522","1376092248039772163","1616920933","#100DaysOfCode day 100: With this puppy animation,  visit&gt;&gt; https://t.co/Y5LUIjNfvN 
+#DEVCommunity #Machinelearning #100DaysOfCode #IoT #100DaysOfMLCode #Python #flutter #javascript #web #womenwhocode #cybersecurity #RStats #CodeNewbie #DataScience https://t.co/v3HGIJJu4w",22,11
+"1294575604696784896","1376088454925328386","1616920028","The first rule of #programming. If it works don't touch. Sunday Funday humor <U+0001F602> 
+
+#BigData #DataScience #AI #MachineLearning #IoT #IIoT #Python #RStats #TensorFlow #golang #ReactJS #CloudComputing #Serverless  #Coding #100DaysofCode #RPA #womanwhocode #womenintech https://t.co/o18YwX2S9D",24,9
+"1020750443960561670","1376086588896260099","1616919583","Trialling different visualisations in R with random ""fun"" data that I have created. R throws a fit any time I try to plot a graph. This is going well... #rstats #ggplot2 #tidyverse",3,3
+"1348873854","1376083334518956036","1616918807","Agree <U+0001F447> knowing when not to use #rstats is an underdiscussed skill. Need a quick dashboard and have powerBI? Use it. Need to quickly share a quick summary/ calc. Use excel. Writing a quick report? Probably quicker to write in word. https://t.co/b1xG3NzsQ2",3,4
+"707958287384363008","1376082127779987456","1616918520","Produce #statistics is like a take a picture of the reality. The pictures of statistics are #data. It is important 'you don't use photoshop' to change the numbers... and that you should respect the privacy.
+
+#Rstats #r #GDP #privacy #SundayMotivation #OFFICIALstatistics #ntts2021 https://t.co/XxRzApvfyS",1,2
+"707958287384363008","1376067783285297158","1616915100","too strong?
+
+ #statistics #DataScience #Rstats #r #GDP #privacy #SundayMotivation #OFFICIALstatistics #ntts2021 https://t.co/thDzzU3xdo",2,2
+"829405647124852736","1376082038219022339","1616918498","I know everyone loves R Markdown and R Studio. I do, too, for lots of things. But I still go back to LyX to create lecture materials. LyX branches are just sooo convenient.  Does anyone else do this? Am i missing something? #rstats #lyx #rstudio",1,0
+"39387668","1376080549794754562","1616918144","#RStats C gurus: Anyone know how to set a return SEXP value to 'invisible()' from within C?",2,2
+"1353244441281228802","1376076854591950850","1616917263","For correlation hypotheses, in addition to the joint distribution in a scatterplot, one may also wish to visualize the marginal distributions for each variable.
+
+This is easy to do using the {ggMarginal} function from {ggExtra} <U+0001F4E6>!
+
+https://t.co/OgS1XsmY1U
+
+#rstats #DataScience https://t.co/wE8mmJwnIx",15,73
+"2458568605","1376073882952556546","1616916554","Almost got crazy with one of the advantages of working on #R... the multiple ways to fix something, and the multiple responses to a single problem available in the community <U+0001F92A> #rstats",1,3
+"1288412821898706944","1376070892724219905","1616915841","Glue vs paste??#rstats",2,0
+"102880695","1376068636557774849","1616915303","Please check my latest blog on Exploring LinkedIn connections data using R Shiny
+https://t.co/WedBN26oNC
+#rstats #dataviz @appsilon @rstudio",4,5
+"1328949324","1376067617224556544","1616915060","Introducción a dplyr | Máxima Formación
+#rstats #felizdomingo #dplyr #stats #rstatsES
+#videotutorial https://t.co/W76GX53huE",3,7
+"1153198855548260353","1376067534907146240","1616915041","Welcome to the weekly review of the #EconTwitter list by @MakronomMagazin, today with tweets by @FuestClemens, @armin_steinbach, @PhilipLeButt and @PhilippaSigl. #rstats https://t.co/8AaMK3sPus",2,0
+"115633460","1376067137618518018","1616914946","#rstats https://t.co/6fC6YiF1cF",2,1
+"1192767757697404930","1376066412628869120","1616914773","#Azure #MachineLearning. #BigData #Analytics #DataScience #AI #IoT #IIoT #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode https://t.co/bCtKPNhKL9",10,0
+"1161385423412912128","1376066101382164481","1616914699","Updated #rstats package doc2vec yesterday on CRAN. Now allowing document clustering with top2vec and transfer learning using pretrained word vectors. Package at https://t.co/FKF7T6H2cq https://t.co/k6oIUBMGrY",10,18
+"328439695","1376051444550340611","1616911204","gm package: Create music easily, and show musical scores and audio files in R Markdown documents, R Jupyter Notebooks and RStudio https://t.co/BesEMIO3qK #Rstats https://t.co/xi5tu3h3RI",9,20
+"900335799077658624","1376047181828915200","1616910188","Crack #DataScience Interviews: Advanced #SQL Skills in 2021.
+#Python #BigData #Analytics #AI #IoT #IIoT #RStats #Java #TensorFlow #JavaScript #ReactJS #CloudComputing #MachineLearning #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode
+https://t.co/xZFW4ZbJG8 https://t.co/TDmg1onU9J",8,1
+"900335799077658624","1376046236466343936","1616909963","AI Advantages in Banking Grow, Adding Pressure for Broad Adoption. #Python #BigData #Analytics #AI #IoT #IIoT #RStats #CPP #Java #TensorFlow #JavaScript #SQL #DataCenter #MachineLearning #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode
+https://t.co/meZzUEbR24 https://t.co/ZhE77cEOwh",13,7
+"900335799077658624","1376049414322720772","1616910720","50 Best Free Machine Learning and Data Science Books. #BigData #Analytics #DataScience #IoT #IIoT #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/hLU66stI6A
+@gp_pulipaka https://t.co/dlZqwSm885",15,8
+"900335799077658624","1376045304085118978","1616909740","Why #MachineLearning is Going to Explode and How You Can Prepare for it. #Python #BigData #Analytics #AI #DataScience #IoT #IIoT #RStats #Java #TensorFlow #JavaScript #ReactJS #C #CPP  #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode
+https://t.co/4sJsoctGu7 https://t.co/y0Co8euzrq",10,4
+"900335799077658624","1376048338836062210","1616910464","#TensorFlow Quantum Turns One Year Old. #BigData #Analytics #DataScience #AI #MachineLearning #QuantumComputing #IoT #IIoT #Python #RStats #CPP #Java #JavaScript #ReactJS #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/1C47E9oQEi
+@gp_pulipaka https://t.co/eEGDNcYJFW",12,6
+"900335799077658624","1376046740390957058","1616910083","Feature Store: Data Platform for Machine Learning. #Python #BigData #Analytics #AI #DataScience #IoT #IIoT #PyTorch #RStats #Java #TensorFlow #JavaScript #ReactJS #Server #DataCenter #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode https://t.co/nbIxEVAyzG https://t.co/LKcERpc3bb",14,4
+"900335799077658624","1376047553536475136","1616910277","MLOps for Research Teams.
+#Python #BigData #Analytics #AI #DataScience #IoT #IIoT #RStats #Java #TensorFlow #JavaScript #ReactJS #C #CPP #SQL #CloudComputing #DataCenter #MachineLearning #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode
+https://t.co/yVcOgj3QRz https://t.co/XvPSyrf01H",7,0
+"900335799077658624","1376048995143925761","1616910620","Pi 2 Design Announces the #IoT Shield for the #RaspberryPi. #BigData #Analytics #DataScience #AI #MachineLearning #IIoT #Python #RStats #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/qdNt2SWs5k
+@gp_pulipaka https://t.co/46M4BoerW2",7,1
+"900335799077658624","1376048878370324483","1616910593","Fundamentals of #MachineLearning for #PredictiveAnalytics. #BigData #Analytics #DataScience #AI #IoT #IIoT #Python #RStats #TensorFlow #Java #JavaScript #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/Dpfqpv9mSs
+@gp_pulipaka https://t.co/CUJCoMQqqm",10,2
+"900335799077658624","1376049185791864834","1616910666","Overview: State-of-the-Art #MachineLearning #Algorithms. #BigData #Analytics #DataScience #AI #IoT #IIoT #PyTorch #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless #Linux #Programming #Coding #100DaysofCode 
+https://t.co/fRivmgxlLR
+@gp_pulipaka https://t.co/QtlWjOKWFb",18,5
+"900335799077658624","1376045599036956677","1616909811","The rise of APIs.
+#Python #BigData #Analytics #AI #DataScience #IoT #IIoT #RStats #Java #TensorFlow #JavaScript #ReactJS #C #CPP #SQL #CloudComputing #Server #DataCenter #MachineLearning #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode
+https://t.co/izjfLbLKrq https://t.co/9yuQ5QbV5h",14,6
+"900335799077658624","1376050030063288322","1616910867","How to Choose a #Programming Language. #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #Python #RStats #TensorFlow #C #CPP #Java #CSharp #SQL #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Coding #100DaysofCode 
+https://t.co/ZYZM4D9wxz https://t.co/ZfXWRc5eFb",13,6
+"900335799077658624","1376048523695816704","1616910508","Best Tensor #Calculus Books in 2021. #BigData #Analytics #DataScience #IoT #IIoT #Python #RStats #TensorFlow #C #CPP #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Mathematics #Programming #Coding #100DaysofCode 
+https://t.co/32GptAJuPj
+@gp_pulipaka https://t.co/IizbzME00T",11,0
+"900335799077658624","1376049610553229314","1616910767","#Android #Programming for New Learners, 2nd Ed. #BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #Python #RStats #TensorFlow #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Coding #100DaysofCode 
+https://t.co/KKDWEKJIIe
+@gp_pulipaka https://t.co/qA8aG4kKrE",15,3
+"900335799077658624","1376048020362510338","1616910388","What is MLOps<U+200A>—<U+200A>Everything You Must Know to Get Started. #Python #BigData #Analytics #AI #ML #DataScience #IoT #IIoT #RStats #CPP #Java #TensorFlow #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode https://t.co/UYodFHHALB https://t.co/dATIB4t5SQ",8,2
+"900335799077658624","1376046395359105024","1616910001","linked list.
+
+#Python #BigData #Analytics #AI #DataScience #IoT #IIoT #PyTorch #RStats #Java #TensorFlow #JavaScript #ReactJS #C #CPP #CSharp #SQL #CloudComputing #Server #DataCenter #MachineLearning #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode https://t.co/ltHjqqUEwS",9,1
+"900335799077658624","1376048755573657601","1616910563","Build More Accurate Forecasts with #Azure #MachineLearning. #BigData #Analytics #DataScience #AI #IoT #IIoT #Python #RStats #TensorFlow #CPP #Java #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode 
+https://t.co/gcpIvz96mY https://t.co/C6zkesrhHA",21,5
+"900335799077658624","1376045916025675776","1616909886","How banks rank data. 
+#Python #BigData #Analytics #AI #DataScience #IoT #IIoT #PyTorch #RStats #Java #TensorFlow #JavaScript #ReactJS #C #CPP #CSharp #Server #DataCenter #MachineLearning #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode
+https://t.co/Fou8iGHRHV https://t.co/v3pmpm60jO",10,8
+"900335799077658624","1376044988069507072","1616909665","Tier 1 &amp; 2-3 Banks | The Emerging Digital Architecture. #Python #BigData #Analytics #AI #DataScience #IoT #IIoT #RStats #CPP #Java #SQL #TensorFlow #JavaScript #ReactJS #MachineLearning #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode
+https://t.co/iVy4BZaMwR https://t.co/anE96YrpGt",9,4
+"395414198","1376041426941698053","1616908816","Data Scientist trading at Kraken
+#BigData #Analytics #DataScience #AI #MachineLearning #IoT #IIoT #NLProc #Python #RStats #TensorFlow #JavaScript #ReactJS #CloudComputing #Serverless #DataScientist #Linux #Statistics #Programming #Coding #100DaysofCode
+https://t.co/yNkH4zYmm2",9,2
+"79818808","1376041115661524993","1616908742","My first article published for ""Geek Culture"", a new tech publication by @startitup_
+
+Explore your activity on Google with #R: How to Analyze and Visualize your Location History <U+0001F4CA> 
+
+#Rstats #DataAnalytics #DataViz #DataAnalysis #DataVisualization
+
+https://t.co/QbfsfspsGK",3,4
+"834605108939743233","1376030873011712003","1616906300","Do you want to learn to program in Python, R or Matlab and do not know where to begin? Join us for our free introductory courses in April at @IMASUTAS. Places are limited so sign up: https://t.co/H9S4VY9Emh
+#pythonprogramming #Rprogramming #rstats #data #hobart",10,9
+"234226460","1376023080699490306","1616904442","OK. Seems all the heavy algebra is really to provide theoretical grounding for understanding probability distributions. Seems we won't need to do the number crunching ourselves, but we need to comprehend what we're coding #rstats to do for us. Whew.",2,3
+"1370931957849235459","1376021229577113605","1616904001","#Python A-Z™: Python For Data Science With Real Exercises! | #Udemy 
+
+=&gt; https://t.co/A0eMGI3Asl
+
+#100daysofcode #DataScience #Python #MachineLearning #ArtificialIntelligence #DataAnalysis #DeepLearning #TensorFlow #womenwhocode #IoT #IIoT #RStats #free #coupons #javascript30",16,4
+"118526360","1376008096695390212","1616900869","Una actualización de los gráficos, usando los datos de #vacunación #COVID19 mas recientes para  #Peru 
+
+Ya hay 523,468 que recibieron una dosis, y 249,408 que han recibido una segunda dosis.
+
+#rstats https://t.co/KajBZ574Bg",1,0
+"215547565","1376006523390939137","1616900494","#rstats #COVID19 #vaccination #Argentina per age range https://t.co/USCCyq9kNL",1,1
+"987645988037976065","1376006145257639937","1616900404","Today's #rstats cheatsheet: tsbox
+Download: https://t.co/s8MFVGuZ40
+See more: https://t.co/KgJ4eggU4l
+Contribute your own: https://t.co/KLVFg0ougL https://t.co/VFaKDZeLeJ",8,15
+"1335278877661409284","1376005318329655299","1616900207","#100DaysOfMLCode #Machinelearning #100DaysOfCode #IoT #100DaysOfMLCode #Python #flutter #javascript #Serverless #womenwhocode #cybersecurity #RStats #CodeNewbie #DataScience #DEVCommunity #Data #ArtificialIntelligence #100daysofcodechallenge #javascript30 https://t.co/eA31jpkQmA",15,2
+"1335278877661409284","1375995721149714440","1616897919","#DEVCommunity #Programming #IoT #IoTPL #AI #OHN21  #100DaysOfCode #1Robot1Day #MachineLearning #ML #Airdrop #Python #CloudComputing #Analytics #Serverless #womenwhocode #cybersecurity #RStats #CodeNewbie #DataScience #5G #RTXOn #RStats #sevgikazanacak https://t.co/0eVfgXLPZX",15,3
+"47332433","1376004230964637701","1616899948","me: okay, time to make slides
+me: *spends 6 hours picking out the perfect gifs*
+...
+me, presenting: hang on, the gif will loop in a second
+
+Sound familiar? Check out FreezeFrame from #rstats {xaringanExtra}: start gifs when you get to the slide! 
+
+https://t.co/0AnzjNZyFF",20,160
+"3867945679","1375988228252073986","1616896132","@chantalsimonato @sminaev2015 @FriseSally @angelicagallegs @YukariKingdom18 @mhall55nine @eoff_sylvia @semicvet50 @BrindusaB1 @PasqualeTotaro @dianadep1 @yebosfaye @Biagio960 @agustin_gut @monicasloves @huskorkut @scastaldi9 @torillo59 @albertopetro2 @piotr408 @Jilliemary @DuckLemon @francescofrong2 @ejlazar @nieuwemarlean @LuisaM56_ @duckylemon @longsight9a @EricJSwensson @marienassar_ @marmelyr @maluisa_3 @rightwingleo2 @MojoBag4U @rosmarie1291 @peac4love @ersu1880 @marie_nassar Be happy
+#futureofwork <U+2747><U+FE0F>
+#cybersecurity #cyberforensics
+#AI #ML #BigData #cloud #IoT #robotics #bioinformatics  
+#hpc #100DaysOfCode #Python #java #keras #reactjs #VueJS #RStats #NoSQL #Linux #AWS #infosec #art #ff #arte 
+#artist Arnab #ArtistOnTwitter #HappyHoli #Holi #HoliHai https://t.co/g22WBIGZ6W",25,16
+"3867945679","1375993968761004035","1616897501","@narendramodi @rsprasad @drharshvardhan @smritiirani @arvindsubraman @amitabhk87 @PrakashJavdekar @sureshpprabhu @nsitharaman @arunjaitley @PMOIndia @rajnathsingh @CitiznMukherjee @Ramnathgovind @jayantsinha @manoharparrikar @nitin_gadkari @RailMinIndia @NITIAayog @the_hindu @thehindubiz @TheHinduScience @iitkanpur1 @iitkharagpur @iitbombay @iitdelhi @isro @DRDO_India @republic @ETNOWlive @nasscom @_DigitalIndia @IndiaToday @iiscbangalore @ncert @AmitShah Respected PM <U+0001F490><U+0001F64F> grateful for your vision. please promote affordable healthcare for all
+#HappyHoli #Holi
+#HoliHai #MannKiBaat #yoga
+#AI #ML #IoT #genomics #pharma
+#100DaysOfCode #Python #java #keras #reactjs #VueJS #RStats #NoSQL #Scala #Linux #artist Arnab #ArtistOnTwitter #art https://t.co/gz8g8f1j1T",18,12
+"788018144","1375974947391074305","1616892966","DAGitty in #Rstats help needed: can DAGitty do a g-comp like calculation in its simulations, ie, after simulating a data set, can DAGity create new predicted values for some variables in the system while setting others to a specific value (eg x=0 vs x=1)? #RStats #epitwitter",2,10
+"1191224048","1375974701479120897","1616892907","Participated in my first #hacktoberfest in 2020 @github. Totally forgot about the t-shirt until it arrived today many months beyond October (I just assumed someone stole the package earlier this year) <U+0001F602>
+
+Still very exciting <U+0001F389>
+
+@WeAreRLadies #WomenWhoCode #rstats https://t.co/RndY6XDoGu",4,6
+"2365729350","1375966139621203973","1616890866","#Rstats https://t.co/JVwz6vhGau",2,2
+"2321122829","1375960957860638724","1616889631","Three steps to making a cute<U+0001F485>#rstats shiny app:
+
+1<U+20E3> find a website/color palette/brand for inspiration!<U+0001F3A8>
+
+2<U+20E3> use the page inspector<U+0001F9D0>
+
+3<U+20E3> read @sharlagelfand's blog post<U+0001F447>
+
+i'm not much of a designer, but i think with all this i could possibly try! thank you, sharla!<U+0001F64C> https://t.co/o7K01M7Fiy",7,20
