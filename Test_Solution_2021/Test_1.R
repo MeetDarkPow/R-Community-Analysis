@@ -4,6 +4,7 @@ api_secret_key <- "h5ra23jvrY8nq7vkUBld1mXXYwjsKR5iyNoH2CATUNKO1rdzq3"
 acc_token <- "1013338789580713984-2oRZj3Btzvgl0yZqJ8Wfr0GEmTzW34"
 acc_secret <- "92oQXpMxvdNI7gwIAji2ZfEdN905eGudFoeNWd4sb6Wnn"
 
+# loading libraries
 library(rtweet)
 
 token <- create_token(
@@ -14,6 +15,7 @@ token <- create_token(
   access_secret = acc_secret
 )
 
+# checking for existing file, if not create the file
 if(!file.exists("Test_Solution_2021/rstats_data/rstats_Tweet.csv")){
   empty_df <- data.frame(User_ID = character(), Status_ID = character(),
                          Tweet_Date = character(), Tweet_Text = character(),
@@ -21,6 +23,7 @@ if(!file.exists("Test_Solution_2021/rstats_data/rstats_Tweet.csv")){
   write_as_csv(empty_df, file_name = "Test_Solution_2021/rstats_data/rstats_Tweet")
 }
 
+# readind file
 read_df <- read_twitter_csv("Test_Solution_2021/rstats_data/rstats_Tweet.csv")
 
 # searching for required #rstats tweets
