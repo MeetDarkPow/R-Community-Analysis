@@ -4,7 +4,7 @@
 Meet Bhatnagar <br>
 February-March 2020 <br>
 
-[![Project](https://img.shields.io/badge/Project-R%20Community%20Exploration-brightgreen)](https://github.com/rstats-gsoc/gsoc2020/wiki/R-Community-Explorer)
+[![Project](https://img.shields.io/badge/Project-R%20Community%20Exploration-brightgreen)](https://github.com/rstats-gsoc/gsoc2021/wiki/R-Community-Explorer%3A-Twitter)
 
 ## Details of coding project
 
