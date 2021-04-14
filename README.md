@@ -12,8 +12,8 @@ December, 2019 - Present <br>
 
 Package dependencies : *rtweet*, *flexdashboard*, *lubridate*, *anytime*, *dplyr*, *plotly*, *leaflet*, *DT*, *crosstalk* <br>
 
-Twitter dashboard analysis - : https://meetdarkpow.github.io/RCE-sample-dashboard/rstats_sample_dashboard.html <br>
-R Events dashboard analysis - 
+Twitter dashboard analysis: https://meetdarkpow.github.io/RCE-sample-dashboard/rstats_sample_dashboard.html <br>
+R Events dashboard analysis: https://meetdarkpow.github.io/RConf-sample-dashboard/rconf_sample_dashboard.html
 
 ### B. Twitter Exploration
 
