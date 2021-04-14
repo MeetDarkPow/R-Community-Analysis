@@ -2,13 +2,256 @@
 ================
 
 Meet Bhatnagar <br>
-February, 2020 - Present <br>
+December, 2019 - Present <br>
 
 [![Project](https://img.shields.io/badge/Project-R%20Community%20Exploration-brightgreen)](https://github.com/rstats-gsoc/gsoc2021/wiki/R-Community-Explorer%3A-Twitter)
 
 ## Details of coding project
 
-### A. CRAN Exploration
+### A. Dashboard Visualization
+
+Package dependencies : *rtweet*, *flexdashboard*, *lubridate*, *anytime*, *dplyr*, *plotly*, *leaflet*, *DT*, *crosstalk* <br>
+
+Twitter dashboard analysis - : https://meetdarkpow.github.io/RCE-sample-dashboard/rstats_sample_dashboard.html <br>
+R Events dashboard analysis - 
+
+### B. Twitter Exploration
+
+Package Dependencies : *rtweet*, *tidytext*, *ggplot2*, *dplyr*, *igraph*, *ggraph*, *widyr*, *tidyr*. <br>
+
+**All of the Twitter Exploration till now has been divided into Five Sections**
+
+* Searching and text mining twitter data
+* Statistics for tweets between specified dates
+* Twitter users - unique locations
+* Count of unique words found in tweets
+* Word network of tweets - Paired Word Analysis
+
+Let's see a detailed view of these following sections :-
+
+#### **Searching and text mining twitter data**
+
+```
+install.packages("rtweet")
+
+library(rtweet)
+
+# searching for #rstats tweets 
+rstats_tweets <- search_tweets(q="#rstats", retryonratelimit = T)
+head(rstats_tweets)
+
+# cleaning tweets
+# storing a cleaned tweet in a separate column named "stripped_text"
+rstats_tweets$stripped_text <- gsub("http.*","",rstats_tweets$text) 
+rstats_tweets$stripped_text <- gsub("https.*","",rstats_tweets$stripped_text)
+rstats_tweets$stripped_text <- gsub("#.*","",rstats_tweets$stripped_text)
+rstats_tweets$stripped_text <- gsub("@.*","",rstats_tweets$stripped_text)
+```
+
+#### **Statistics for tweets between specific dates**
+
+This section gives us an insight for getting the number of #rstats tweets between specified dates.
+
+```
+install.packages("ggplot2")
+
+library(ggplot2)
+
+# past tweets date
+rt <- as.Date(rstats_tweets$created_at)
+
+# daily number of tweets
+daily <- as.Date("2020-02-11")
+daily_number_tweets <- sum(rt == daily, na.rm = TRUE)
+
+# tweets between specific dates
+since <- as.Date("2020-02-10")
+until <- as.Date("2020-02-15")
+weekend <- as.Date(since:until, origin="1970-01-01")
+weekly_number_tweets <- c()
+for(i in 1:length(weekend)){
+  weekly_number_tweets <- c(weekly_number_tweets, sum(rt == weekend[i], na.rm = TRUE))
+}
+weekly_frame <- data.frame(weekend, weekly_number_tweets)
+
+# ploting 
+weekly_plot <- ggplot(data=weekly_frame, aes(x=weekend, y=weekly_number_tweets, group=1)) +
+  geom_line(linetype="dashed", color="blue", size=1.2)+
+  geom_point(color="red", size=3) +
+  ggtitle("#rstats tweets between 2020-02-10 and 2020-02-15") +
+  theme(axis.text.x=element_text(angle=45, hjust=1))+
+  xlab("Days") + ylab("Number of Tweets")
+```
+Output plot: <br>
+<img src="Images/rt_date_specific.png" height="40%" width="40%"> <br>
+
+#### **Twitter users - unique locations**
+
+Getting an idea of locations from where the most #rstats tweets were made from different locations of the world.
+
+```
+install.packages("rtweet")
+install.packages("ggplot2")
+
+library(rtweet)
+library(ggplot2)
+
+# Name of account from where tweets were from
+head(rstats_tweets$screen_name)
+unique(rstats_tweets$screen_name)
+
+# location from where tweets were from
+users <- search_users("#rstats", n=500)
+
+length(unique(users$location))
+
+# ploting Twitter users - Unique Locations
+users %>%
+  ggplot(aes(location)) +
+  geom_bar() + coord_flip() +
+  labs(x = "Count",
+       y = "Location",
+       title = "Twitter users - Unique Locations ")
+
+# ploting Twitter user's for tweeting #rstats in top 50 unique locations
+users %>%
+  count(location, sort = TRUE) %>%
+  mutate(location = reorder(location,n)) %>%
+  na.omit() %>%
+  top_n(50) %>%
+  ggplot(aes(x = location,y = n)) +
+  geom_col() +
+  coord_flip() +
+  labs(x = "Location",
+       y = "Count",
+       title = "Twitter user's for tweeting #rstats in top 50 unique locations ")
+```
+Output Plots: <br>
+(i) Twitter users - Unique Locations: <br>
+<img src="Images/twitter_user_uniq_loc.png" height="60%" width="60%"> <br>
+(ii) Twitter user's for tweeting #rstats in top 50 unique locations: <br>
+<img src="Images/twitter_top_user_loc.png" height="60%" width="60%"> <br>
+
+#### **Count of unique words found in tweets** 
+
+Taking the count of most unique words which were most frequently used in #rstats tweets by the users.
+
+```
+install.packages("rtweet")
+install.packages("ggplot2")
+install.packages("dplyr")
+install.packages("tidytext")
+install.packages("igraph")
+install.packages("ggraph")
+
+library(rtweet)   
+library(ggplot2) 
+library(dplyr)
+library(tidytext) 
+library(igraph)   
+library(ggraph)
+
+# selecting clean text
+rstats_tweets_clean <- rstats_tweets %>%
+  select(stripped_text) %>%
+  unnest_tokens(word, stripped_text)
+
+# ploting Count of unique words in tweets {Stop words present}
+rstats_tweets_clean %>%
+  count(word, sort = TRUE) %>%
+  top_n(15) %>%
+  mutate(word = reorder(word, n)) %>%
+  ggplot(aes(x=word, y=n)) + 
+  geom_col() +
+  xlab(NULL)+
+  coord_flip() +
+  labs(x="count",
+       y= "Unique words",
+       title = "Count of unique words in tweets")
+
+# searching what are stop_words 
+data("stop_words")
+head(stop_words)
+
+# number of rows, text has before removal of stop words
+nrow(rstats_tweets_clean)
+
+# removing stop words
+rstats_tweet_words <- rstats_tweets_clean %>%
+  anti_join(stop_words)
+ 
+# number of rows, text has after removal of stop words
+nrow(rstats_tweet_words)
+
+# WE CAN LITERALLY SEE THE DIFFERENCE IN NUMBER OF ROWS
+
+# ploting Count of unique words in tweets {Stop words removed}
+rstats_tweet_words %>%
+  count(word, sort = TRUE) %>%
+  top_n(15) %>%
+  mutate(word = reorder(word, n)) %>%
+  ggplot(aes(x = word, y = n)) +
+  geom_col() +
+  xlab(NULL) +
+  coord_flip() +
+  labs(y = "Count",
+       x = "Unique words",
+       title = "Count of unique words found in tweets",
+       subtitle = "Stop words removed from the list")
+```
+Output Plots: <br>
+(i) Count of unique words in tweets {Stop words present}: <br>
+<img src="Images/countuniq_wstop_words.png" height="50%" width="50%"> <br>
+(ii) Count of unique words found in tweets {Stop words removed}: <br>
+<img src="Images/countuniq_stop_words.png" height="50%" width="50%"> <br>
+
+
+#### **Word network of tweets - Paired Word Analysis**
+
+The tweets text is studied and most frequently 2 words used together are collected with their respective word frequency. These words do include stop-words too. So, for the proper study we have to remove the stop-words from the tweets text. Therefore, after removing the stop-words we get a proper information of 2 words used together. An output word network can be created of these words displayed as below.
+
+```
+install.packages("widyr")
+install.packages("tidyr")
+
+library(widyr)
+library(tidyr)
+
+# forming pair-words
+rstats_tweets_paired_words <- rstats_tweets %>%
+  dplyr::select(stripped_text) %>%
+  unnest_tokens(paired_words, stripped_text, token = "ngrams", n = 2)
+# count of pair-words
+rstats_tweets_paired_words %>%
+  count(paired_words, sort = TRUE)
+
+# separating pair-words into 2 columns
+rstats_tweets_separated_words <- rstats_tweets_paired_words %>%
+  separate(paired_words, c("word1", "word2"), sep = " ")
+
+rstats_tweets_filtered <- rstats_tweets_separated_words %>%
+  filter(!word1 %in% stop_words$word) %>%
+  filter(!word2 %in% stop_words$word)
+
+rstats_words_counts <- rstats_tweets_filtered %>%
+  count(word1, word2, sort = TRUE)
+head(rstats_words_counts)
+
+# ploting word network for #rstats
+rstats_words_counts %>%
+  filter(n >= 30) %>%
+  graph_from_data_frame() %>%
+  ggraph(layout = "fr") +
+  geom_node_point(color = "darkslategray4", size = 3) +
+  geom_node_text(aes(label = name), vjust = 1.8, size = 3) +
+  labs(title = "Word Network: Tweets using the hashtag - rstats",
+     subtitle = "Text mining twitter data ",
+       x = "", y = "")
+```
+Output plot: <br>
+<img src="Images/word_network.png" height="70%" width="70%"> <br>
+
+### C. CRAN Exploration
 
 Package Dependencies : *rvest*, *installr*, *ggplot2*, *data.table*, *cranlogs*, *lubridate*, *magrittr*, *tm*, *wordcloud*, *RColorBrewer*, *SnowballC*, *miniCRAN*, *igraph*, *cowplot*, *NLP*, *xml2*. <br>
 
@@ -408,243 +651,7 @@ plot(makeDepGraph(tags, includeBasePkgs=FALSE, suggests=TRUE, enhances=TRUE),
 Output plot:<br>
 <img src="Images/Network_Package_Graph.png" height="70%" width="70%"> <br>
 
-### B. Twitter Exploration
-
-Package Dependencies : *rtweet*, *tidytext*, *ggplot2*, *dplyr*, *igraph*, *ggraph*, *widyr*, *tidyr*. <br>
-
-**All of the Twitter Exploration till now has been divided into Five Sections**
-
-* Searching and text mining twitter data
-* Statistics for tweets between specified dates
-* Twitter users - unique locations
-* Count of unique words found in tweets
-* Word network of tweets - Paired Word Analysis
-
-Let's see a detailed view of these following sections :-
-
-#### **Searching and text mining twitter data**
-
-```
-install.packages("rtweet")
-
-library(rtweet)
-
-# searching for #rstats tweets 
-rstats_tweets <- search_tweets(q="#rstats", retryonratelimit = T)
-head(rstats_tweets)
-
-# cleaning tweets
-# storing a cleaned tweet in a separate column named "stripped_text"
-rstats_tweets$stripped_text <- gsub("http.*","",rstats_tweets$text) 
-rstats_tweets$stripped_text <- gsub("https.*","",rstats_tweets$stripped_text)
-rstats_tweets$stripped_text <- gsub("#.*","",rstats_tweets$stripped_text)
-rstats_tweets$stripped_text <- gsub("@.*","",rstats_tweets$stripped_text)
-```
-
-#### **Statistics for tweets between specific dates**
-
-This section gives us an insight for getting the number of #rstats tweets between specified dates.
-
-```
-install.packages("ggplot2")
-
-library(ggplot2)
-
-# past tweets date
-rt <- as.Date(rstats_tweets$created_at)
-
-# daily number of tweets
-daily <- as.Date("2020-02-11")
-daily_number_tweets <- sum(rt == daily, na.rm = TRUE)
-
-# tweets between specific dates
-since <- as.Date("2020-02-10")
-until <- as.Date("2020-02-15")
-weekend <- as.Date(since:until, origin="1970-01-01")
-weekly_number_tweets <- c()
-for(i in 1:length(weekend)){
-  weekly_number_tweets <- c(weekly_number_tweets, sum(rt == weekend[i], na.rm = TRUE))
-}
-weekly_frame <- data.frame(weekend, weekly_number_tweets)
-
-# ploting 
-weekly_plot <- ggplot(data=weekly_frame, aes(x=weekend, y=weekly_number_tweets, group=1)) +
-  geom_line(linetype="dashed", color="blue", size=1.2)+
-  geom_point(color="red", size=3) +
-  ggtitle("#rstats tweets between 2020-02-10 and 2020-02-15") +
-  theme(axis.text.x=element_text(angle=45, hjust=1))+
-  xlab("Days") + ylab("Number of Tweets")
-```
-Output plot: <br>
-<img src="Images/rt_date_specific.png" height="40%" width="40%"> <br>
-
-#### **Twitter users - unique locations**
-
-Getting an idea of locations from where the most #rstats tweets were made from different locations of the world.
-
-```
-install.packages("rtweet")
-install.packages("ggplot2")
-
-library(rtweet)
-library(ggplot2)
-
-# Name of account from where tweets were from
-head(rstats_tweets$screen_name)
-unique(rstats_tweets$screen_name)
-
-# location from where tweets were from
-users <- search_users("#rstats", n=500)
-
-length(unique(users$location))
-
-# ploting Twitter users - Unique Locations
-users %>%
-  ggplot(aes(location)) +
-  geom_bar() + coord_flip() +
-  labs(x = "Count",
-       y = "Location",
-       title = "Twitter users - Unique Locations ")
-
-# ploting Twitter user's for tweeting #rstats in top 50 unique locations
-users %>%
-  count(location, sort = TRUE) %>%
-  mutate(location = reorder(location,n)) %>%
-  na.omit() %>%
-  top_n(50) %>%
-  ggplot(aes(x = location,y = n)) +
-  geom_col() +
-  coord_flip() +
-  labs(x = "Location",
-       y = "Count",
-       title = "Twitter user's for tweeting #rstats in top 50 unique locations ")
-```
-Output Plots: <br>
-(i) Twitter users - Unique Locations: <br>
-<img src="Images/twitter_user_uniq_loc.png" height="60%" width="60%"> <br>
-(ii) Twitter user's for tweeting #rstats in top 50 unique locations: <br>
-<img src="Images/twitter_top_user_loc.png" height="60%" width="60%"> <br>
-
-#### **Count of unique words found in tweets** 
-
-Taking the count of most unique words which were most frequently used in #rstats tweets by the users.
-
-```
-install.packages("rtweet")
-install.packages("ggplot2")
-install.packages("dplyr")
-install.packages("tidytext")
-install.packages("igraph")
-install.packages("ggraph")
-
-library(rtweet)   
-library(ggplot2) 
-library(dplyr)
-library(tidytext) 
-library(igraph)   
-library(ggraph)
-
-# selecting clean text
-rstats_tweets_clean <- rstats_tweets %>%
-  select(stripped_text) %>%
-  unnest_tokens(word, stripped_text)
-
-# ploting Count of unique words in tweets {Stop words present}
-rstats_tweets_clean %>%
-  count(word, sort = TRUE) %>%
-  top_n(15) %>%
-  mutate(word = reorder(word, n)) %>%
-  ggplot(aes(x=word, y=n)) + 
-  geom_col() +
-  xlab(NULL)+
-  coord_flip() +
-  labs(x="count",
-       y= "Unique words",
-       title = "Count of unique words in tweets")
-
-# searching what are stop_words 
-data("stop_words")
-head(stop_words)
-
-# number of rows, text has before removal of stop words
-nrow(rstats_tweets_clean)
-
-# removing stop words
-rstats_tweet_words <- rstats_tweets_clean %>%
-  anti_join(stop_words)
- 
-# number of rows, text has after removal of stop words
-nrow(rstats_tweet_words)
-
-# WE CAN LITERALLY SEE THE DIFFERENCE IN NUMBER OF ROWS
-
-# ploting Count of unique words in tweets {Stop words removed}
-rstats_tweet_words %>%
-  count(word, sort = TRUE) %>%
-  top_n(15) %>%
-  mutate(word = reorder(word, n)) %>%
-  ggplot(aes(x = word, y = n)) +
-  geom_col() +
-  xlab(NULL) +
-  coord_flip() +
-  labs(y = "Count",
-       x = "Unique words",
-       title = "Count of unique words found in tweets",
-       subtitle = "Stop words removed from the list")
-```
-Output Plots: <br>
-(i) Count of unique words in tweets {Stop words present}: <br>
-<img src="Images/countuniq_wstop_words.png" height="50%" width="50%"> <br>
-(ii) Count of unique words found in tweets {Stop words removed}: <br>
-<img src="Images/countuniq_stop_words.png" height="50%" width="50%"> <br>
-
-
-#### **Word network of tweets - Paired Word Analysis**
-
-The tweets text is studied and most frequently 2 words used together are collected with their respective word frequency. These words do include stop-words too. So, for the proper study we have to remove the stop-words from the tweets text. Therefore, after removing the stop-words we get a proper information of 2 words used together. An output word network can be created of these words displayed as below.
-
-```
-install.packages("widyr")
-install.packages("tidyr")
-
-library(widyr)
-library(tidyr)
-
-# forming pair-words
-rstats_tweets_paired_words <- rstats_tweets %>%
-  dplyr::select(stripped_text) %>%
-  unnest_tokens(paired_words, stripped_text, token = "ngrams", n = 2)
-# count of pair-words
-rstats_tweets_paired_words %>%
-  count(paired_words, sort = TRUE)
-
-# separating pair-words into 2 columns
-rstats_tweets_separated_words <- rstats_tweets_paired_words %>%
-  separate(paired_words, c("word1", "word2"), sep = " ")
-
-rstats_tweets_filtered <- rstats_tweets_separated_words %>%
-  filter(!word1 %in% stop_words$word) %>%
-  filter(!word2 %in% stop_words$word)
-
-rstats_words_counts <- rstats_tweets_filtered %>%
-  count(word1, word2, sort = TRUE)
-head(rstats_words_counts)
-
-# ploting word network for #rstats
-rstats_words_counts %>%
-  filter(n >= 30) %>%
-  graph_from_data_frame() %>%
-  ggraph(layout = "fr") +
-  geom_node_point(color = "darkslategray4", size = 3) +
-  geom_node_text(aes(label = name), vjust = 1.8, size = 3) +
-  labs(title = "Word Network: Tweets using the hashtag - rstats",
-     subtitle = "Text mining twitter data ",
-       x = "", y = "")
-```
-Output plot: <br>
-<img src="Images/word_network.png" height="70%" width="70%"> <br>
-
-### C. GitHub Exploration
+### D. GitHub Exploration
 
 Package Dependencies : *httr*, *jsonlite*, *ggplot2*, *cowplot*, *xml2*, *rvest*, *stringr*, *formattable*. <br>
 
