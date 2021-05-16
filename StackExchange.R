@@ -10,6 +10,7 @@ library(rlist)
 library(jsonlite)
 library(dplyr)
 library(lubridate)
+library(purrr)
 
 # Questions related queries from `fromDate` till `toDate`
 # 2 parameters - fromDate, toDate
@@ -22,8 +23,8 @@ Ques_query <- function(fromDate, toDate, pg=1){
   fromDate <- as.numeric(as.POSIXct(fromDate, tz="UTC"))
   toDate <- as.numeric(as.POSIXct(toDate, tz="UTC"))
   
-  ques_df <- data.frame(ID=integer(), Title=character(), View_Count=integer(), 
-                        Answer=logical(), Link=character())
+  ques_df <- data.frame(Date=character(),ID=integer(), Title=character(), View_Count=integer(), 
+                        Score=integer(),Answer=logical(),Tags=list(), Link=character(),Resources=list())
   repeat{
     
     wbpg <- paste0("https://api.stackexchange.com/2.2/questions?key=", key, "&page=", pg, "&pagesize=100&fromdate=", fromDate, "&todate=", toDate, "&order=desc&sort=activity&access_token=", token, "&tagged=r&site=stackoverflow")
@@ -35,16 +36,23 @@ Ques_query <- function(fromDate, toDate, pg=1){
       break
     }
     
-    len <- as.vector(1:length(wbpg_items))
+    quesDate <- map_chr(wbpg_items, "creation_date")
+    quesId <- map_int(wbpg_items, "question_id")
+    quesTitle <- map_chr(wbpg_items, "title")
+    quesViewCount <- map_int(wbpg_items, "view_count")
+    quesScore <- map_int(wbpg_items, "score")
+    quesAnswered <- map_lgl(wbpg_items, "is_answered")
+    quesTags <- map(wbpg_items, "tags")
+    quesLink <- map_chr(wbpg_items, "link")
+    quesResource <- wbpg_items
     
-    quesId <- lapply(len, function(x){wbpg_items[[x]][["question_id"]]})
-    quesTitle <- lapply(len, function(x){wbpg_items[[x]][["title"]]})
-    quesViewCount <- lapply(len, function(x){wbpg_items[[x]][["view_count"]]})
-    quesAnswered <- lapply(len, function(x){wbpg_items[[x]][["is_answered"]]})
-    quesLink <- lapply(len, function(x){wbpg_items[[x]][["link"]]})
-    
-    df <- data.frame(ID=unlist(quesId), Title=unlist(quesTitle), View_Count=unlist(quesViewCount), 
-                     Answer=unlist(quesAnswered), Link=unlist(quesLink))
+    df <- tibble(
+      Date = quesDate, ID = quesId,
+      Title = quesTitle, View_Count = quesViewCount,
+      Score = quesScore, Answer = quesAnswered,
+      Tags = quesTags, Link = quesLink,
+      Resources = wbpg_items
+    )
     
     ques_df <- rbind(ques_df, df)
     pg <- pg + 1
