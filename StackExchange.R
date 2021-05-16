@@ -60,6 +60,17 @@ Ques_query <- function(fromDate, toDate, pg=1){
   ques_df
 }
 
+# Top 20 Questions based on their View Count in past 30 days
+# 1 parameter - toDate (i.e. till date)
+# TopQues_query("2021-01-01")
+
+TopQues_query <- function(toDate){
+  
+  fromDate <- as.character(as.Date(toDate)-30)
+  ques_df <- Ques_query(fromDate, toDate)
+  top_ques_df <- head(arrange(ques_df, desc(View_Count)), n=20)
+  top_ques_df
+}
 
 # Obtaining list of Question IDs whose Answer is PRESENT on Stack Overflow
 Ques_df <- Ques_query("2021-01-01", "2021-01-02")
