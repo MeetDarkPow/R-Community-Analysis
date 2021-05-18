@@ -75,6 +75,7 @@ TopQues_query <- function(toDate){
 # Questions query yearly function
 # This function takes year as input parameter and returns monthly questions in 12 RDS files
 # 12 RDS Files is corresponding to 12 Months 
+# Later, combining all 12 RDS files to one big file named -> "2020_Combined.rds"
 # QuesRDS_year_query("2020")
 
 library(raster)
