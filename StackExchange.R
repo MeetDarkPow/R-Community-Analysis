@@ -72,6 +72,42 @@ TopQues_query <- function(toDate){
   top_ques_df
 }
 
+# Questions query yearly function
+# This function takes year as input parameter and returns monthly questions in 12 RDS files
+# 12 RDS Files is corresponding to 12 Months 
+# QuesRDS_year_query("2020")
+
+library(raster)
+dir.create("StackExch_data")
+dir.create("StackExch_data/Questions")
+
+QuesRDS_year_query <- function(year){
+  
+  dir.create(paste0("StackExch_data/Questions/",year))
+  month <- 1
+  repeat{
+    
+    if(month<10){
+      month <- paste0("0", month)
+    }
+    start_date <- paste0(year,"-",as.character(month),"-01")
+    end_date <- as.character(ceiling_date(as.Date(start_date), unit = "month")-1)
+    
+    temp_df <- Ques_query(start_date, end_date)
+    path <- paste0("StackExch_data/Questions/",year,"/",year,"_",month,".rds")
+    saveRDS(temp_df, file = path)
+    
+    month <- as.numeric(month)+1
+    if(month==13){
+      break
+    }
+    Sys.sleep(time = 30)
+  }
+  rds_files <- list.files(path = paste0("StackExch_data/Questions/",year,"/"), pattern = "\\.rds$", full.names = TRUE)
+  final_stack <- do.call("rbind", lapply(rds_files, readRDS))
+  saveRDS(final_stack, file = paste0("StackExch_data/Questions/",year,"/",year,"_Combined.rds"))
+}
+
 # Obtaining list of Question IDs whose Answer is PRESENT on Stack Overflow
 Ques_df <- Ques_query("2021-01-01", "2021-01-02")
 temp_ques_df <- filter(Ques_df, Answer==TRUE)
