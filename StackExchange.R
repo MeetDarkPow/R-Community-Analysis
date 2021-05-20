@@ -20,8 +20,8 @@ library(purrr)
 
 Ques_query <- function(fromDate, toDate, pg=1){
   
-  fromDate <- as.numeric(as.POSIXct(fromDate, tz="UTC"))
-  toDate <- as.numeric(as.POSIXct(toDate, tz="UTC"))
+  fromDate <- as.integer(as.POSIXct(fromDate, tz="UTC"))
+  toDate <- as.integer(as.POSIXct(toDate, tz="UTC"))
   
   ques_df <- data.frame(Date=character(),ID=integer(), Title=character(), View_Count=integer(), 
                         Score=integer(),Answer=logical(),Tags=list(), Link=character(),Resources=list())
