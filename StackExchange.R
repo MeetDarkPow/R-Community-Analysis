@@ -109,7 +109,7 @@ QuesRDS_year_query <- function(year){
   saveRDS(final_stack, file = paste0("StackExch_data/Questions/",year,"/",year,"_Combined.rds"))
 }
 
-# Questions Count per year Dataframe function
+# Questions Count and Page Views per year function
 # Two parameters - Start year, End year
 # Qcount_year(2008, 2020)
 
@@ -117,22 +117,22 @@ Qcount_year <- function(start_year, end_year){
   
   year <- start_year:end_year
   qcount <- c()
+  pg_views <- c()
   i <- 1
   repeat{
     
     path <- paste0("StackExch_data/Questions/",year[i],"/",year[i],"_Combined.rds")
     temp_df <- readRDS(file = path)
     qcount <- c(qcount, nrow(temp_df))
+    pg_views <- c(pg_views, sum(temp_df$View_Count))
     i <- i+1
     if(i>length(year)){
       break
     }
   }
-  qc_df <- data.frame(Year = year, Question_Count = qcount)
+  qc_df <- data.frame(Year = year, Question_Count = qcount, Page_Views = pg_views)
   qc_df
 }
-
-
 
 # Obtaining list of Question IDs whose Answer is PRESENT on Stack Overflow
 Ques_df <- Ques_query("2021-01-01", "2021-01-02")
