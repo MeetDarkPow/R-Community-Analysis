@@ -210,7 +210,7 @@ library(RColorBrewer)
 library(SnowballC)
 library(ggplot2)
 
-blog_wordcloud <- function(year){
+blog_barplot_wordcloud <- function(year){
   
   temp_df <- year_blogs(year)
   df <- temp_df[!duplicated(temp_df$Title),]
