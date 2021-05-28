@@ -208,6 +208,7 @@ library(tm)
 library(wordcloud)
 library(RColorBrewer)
 library(SnowballC)
+library(ggplot2)
 
 blog_wordcloud <- function(year){
   
@@ -215,10 +216,10 @@ blog_wordcloud <- function(year){
   df <- temp_df[!duplicated(temp_df$Title),]
   
   data <- toString(df$Title)
-  data <- str_replace_all(data, "[[:punct:]]", " ")
+  data <- tolower(data)
+  data  <- gsub("[^0-9A-Za-z///' ]"," " , data ,ignore.case = TRUE)
   
   docs <- Corpus(VectorSource(data), readerControl = list(reader=readPlain, language="en"))
-  docs <- tm_map(docs, content_transformer(tolower))
   docs <- tm_map(docs, removeNumbers)
   docs <- tm_map(docs, removeWords, stopwords("english"))
   docs <- tm_map(docs, stripWhitespace)
@@ -227,10 +228,20 @@ blog_wordcloud <- function(year){
   m <- as.matrix(dtm)
   v <- sort(rowSums(m),decreasing=TRUE)
   d <- data.frame(word = names(v),freq=v)
-  head(d, 20)
+
+  top_words <- head(d, 20)
+  plot1 <- ggplot(data=top_words, aes(x=reorder(word, -freq), y=freq)) +
+    geom_bar(stat="identity", fill="steelblue")+
+    geom_text(aes(label=freq), vjust=-0.3, size=2.5)+
+    theme_minimal()+
+    theme(axis.text.x=element_text(angle=90, hjust=1))+
+    labs(title = "Top title words for blogs posted on R-Bloggers",
+         x = "Words", y = "Frequency of Words")
   
   set.seed(1234)
-  wordcloud(words = d$word, freq = d$freq, min.freq = 10,
-            max.words=550, random.order=FALSE, rot.per=0.35, 
-            colors=rev(colorRampPalette(brewer.pal(9,"Blues"))(32)[seq(8,32,6)]))
+  list(plot1, 
+       wordcloud(words = d$word, freq = d$freq, min.freq = 15,
+                 max.words=550, random.order=FALSE, rot.per=0.35, 
+                 colors=rev(colorRampPalette(brewer.pal(9,"Blues"))(32)[seq(8,32,6)])))
+  
 }
