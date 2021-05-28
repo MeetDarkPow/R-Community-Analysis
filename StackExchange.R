@@ -134,6 +134,7 @@ Qcount_year <- function(start_year, end_year){
   qc_df
 }
 
+
 # Obtaining list of Question IDs whose Answer is PRESENT on Stack Overflow
 Ques_df <- Ques_query("2021-01-01", "2021-01-02")
 temp_ques_df <- filter(Ques_df, Answer==TRUE)
@@ -295,4 +296,65 @@ GComnt_query <- function(fromDate, toDate, pg=1){
   }
   cmt_df
 }
+
+
+# Word-Cloud and Bar plot for top title words used in R related questions on StackOverflow
+# Reading data gathered from .rds files
+# For example: take sample for start year -> 2008, end year -> 2020
+
+library(stringr)
+library(NLP)
+library(tm)
+library(wordcloud)
+library(RColorBrewer)
+library(SnowballC)
+library(ggplot2)
+
+ques_barplot_wordcloud <- function(start_year, end_year){
+  
+  year <- start_year:end_year
+  str <- ""
+  i <- 1
+  repeat{
+    
+    path <- paste0("StackExch_data/Questions/",year[i],"/",year[i],"_Combined.rds")
+    temp_df <- readRDS(file = path)
+    data <- toString(temp_df$Title)
+    str <- paste(str, data)
+    
+    i <- i+1
+    if(i>length(year)){
+      break
+    }
+  }
+  str <- tolower(str)
+  str  <- gsub("[^0-9A-Za-z///' ]", " ", str, ignore.case = TRUE)
+  
+  docs <- Corpus(VectorSource(str), readerControl = list(reader=readPlain, language="en"))
+  docs <- tm_map(docs, removeNumbers)
+  docs <- tm_map(docs, removeWords, stopwords("english"))
+  docs <- tm_map(docs, stripWhitespace)
+  
+  dtm <- TermDocumentMatrix(docs)
+  m <- as.matrix(dtm)
+  v <- sort(rowSums(m),decreasing=TRUE)
+  d <- data.frame(word = names(v),freq=v)
+  
+  top_words <- head(d, 20)
+  plot1 <- ggplot(data=top_words, aes(x=reorder(word, -freq), y=freq)) +
+    geom_bar(stat="identity", fill="steelblue")+
+    geom_text(aes(label=freq), vjust=-0.3, size=2.5)+
+    theme_minimal()+
+    theme(axis.text.x=element_text(angle=90, hjust=1))+
+    labs(title = "Top title words for Questions posted on StackOverflow",
+         x = "Words", y = "Frequency of Words")
+  
+  set.seed(1234)
+  list(plot1, 
+       wordcloud(words = d$word, freq = d$freq, min.freq = 1000,
+                 max.words=1000000, random.order=FALSE, rot.per=0.35, 
+                 colors=rev(colorRampPalette(brewer.pal(9,"Blues"))(32)[seq(8,32,6)])))
+}
+
+
 
