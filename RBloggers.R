@@ -199,8 +199,8 @@ year_blogs <- function(year_date){
   Year_Blog_Information
 }
 
-# Word-Cloud for a particular year
-# taking sample for a year -> 2020
+# Word-Cloud and Bar plot for top title words used in blogs posted on RBloggers of a particular year
+# For example: take sample for a year -> 2020
 
 library(stringr)
 library(NLP)
