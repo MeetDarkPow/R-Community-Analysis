@@ -217,7 +217,7 @@ blog_barplot_wordcloud <- function(year){
   
   data <- toString(df$Title)
   data <- tolower(data)
-  data  <- gsub("[^0-9A-Za-z///' ]"," " , data ,ignore.case = TRUE)
+  data  <- gsub("[^0-9A-Za-z///' ]", " ", data, ignore.case = TRUE)
   
   docs <- Corpus(VectorSource(data), readerControl = list(reader=readPlain, language="en"))
   docs <- tm_map(docs, removeNumbers)
