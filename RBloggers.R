@@ -5,7 +5,7 @@ library(rvest)
 wbpg <- read_html("https://www.r-bloggers.com/blogs-list/")
 
 blog_typename <- wbpg %>%
-  html_nodes("#content a") %>%
+  html_nodes(".entry a") %>%
   html_text()
 
 blog_typecount <- length(blog_typename)
@@ -98,7 +98,7 @@ ggplot(data=monthly_df, aes(x=Month, y=Count)) +
 
 ### Extracting blog information from R Bloggers
 
-# Version 1
+## Version 1
 library(rvest)
 library(purrr)
 
@@ -112,7 +112,7 @@ pg_max <- 1:as.numeric(gsub(",", "", pg_max))
 # 'pg_max' variable gives the number of blog pages available on R-bloggers
 # BUT!!!! the max number I can access on the website is till page number 45.
 # So, in my mapping function which created the data-frame named 'Blog_Information'
-# I have taken input from page 1 till page 45.
+# I have taken input from page 1 till page 45. -> 11 Jan, 2021
 # As soon as the website allows till 'pg_max' just put "pg_max" instead of "1:45" as input
 surf_wbpg <- "https://www.r-bloggers.com/page/%d/"
 
@@ -139,7 +139,7 @@ map_df(1:45, function(i){
 
 View(Blog_Information)
 
-# Version 2
+## Version 2
 library(rvest)
 library(purrr)
 
@@ -197,4 +197,40 @@ year_blogs <- function(year_date){
     month_blogs(year = year_date, month = i)
   }) -> Year_Blog_Information
   Year_Blog_Information
+}
+
+# Word-Cloud for a particular year
+# taking sample for a year -> 2020
+
+library(stringr)
+library(NLP)
+library(tm)
+library(wordcloud)
+library(RColorBrewer)
+library(SnowballC)
+
+blog_wordcloud <- function(year){
+  
+  temp_df <- year_blogs(year)
+  df <- temp_df[!duplicated(temp_df$Title),]
+  
+  data <- toString(df$Title)
+  data <- str_replace_all(data, "[[:punct:]]", " ")
+  
+  docs <- Corpus(VectorSource(data), readerControl = list(reader=readPlain, language="en"))
+  docs <- tm_map(docs, content_transformer(tolower))
+  docs <- tm_map(docs, removeNumbers)
+  docs <- tm_map(docs, removeWords, stopwords("english"))
+  docs <- tm_map(docs, stripWhitespace)
+  
+  dtm <- TermDocumentMatrix(docs)
+  m <- as.matrix(dtm)
+  v <- sort(rowSums(m),decreasing=TRUE)
+  d <- data.frame(word = names(v),freq=v)
+  head(d, 20)
+  
+  set.seed(1234)
+  wordcloud(words = d$word, freq = d$freq, min.freq = 10,
+            max.words=550, random.order=FALSE, rot.per=0.35, 
+            colors=rev(colorRampPalette(brewer.pal(9,"Blues"))(32)[seq(8,32,6)]))
 }
