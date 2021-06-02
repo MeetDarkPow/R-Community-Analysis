@@ -357,4 +357,15 @@ ques_barplot_wordcloud <- function(start_year, end_year){
 }
 
 
+###################################################################################################
+
+# New Method to extract query
+
+
+library(plyr)
+year <- 2020
+data1 <- read.csv(file = paste0("QueryResults_",year,"_1.csv"))
+data2 <- read.csv(file = paste0("QueryResults_",year,"_2.csv"))
+final_data <- rbind(data1, data2)
+write.csv(final_data, file = paste0("QueryResults_",year,".csv"), row.names = FALSE)
 
