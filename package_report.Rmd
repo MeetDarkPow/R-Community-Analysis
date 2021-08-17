@@ -18,7 +18,7 @@ library(jsonlite)
 library(ggplot2)
 library(lubridate)
 library(dplyr)
-dailyPKG = fromJSON("https://cranlogs.r-pkg.org/downloads/total/2012-01-01:2020-12-31")
+dailyPKG = fromJSON("https://cranlogs.r-pkg.org/downloads/daily/2012-01-01:2020-12-31")
 downloads <- dailyPKG$downloads[[1]]
 dailypkg_dwnld <- data.frame(Date=as.Date(downloads$day), Count=downloads$downloads)
 dailypkg_dwnld$Year = year(dailypkg_dwnld$Date)
