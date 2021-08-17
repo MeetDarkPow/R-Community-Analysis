@@ -79,7 +79,7 @@ ggplot(data=yearly_event_count, aes(x=Year, y=Count)) +
 
 Yearly chart of Bioconductor package downloads
 
-```{r bioconductor}
+```{r bioconductor, bioconductor.height = 20, bioconductor.width = 15}
 library(data.table)
 library(packageRank)
 library(magrittr)
@@ -91,12 +91,12 @@ setDT(bioc_dwnld_df)
 bioc_dwnld_df[, .(count = sum(Nb_of_downloads)), Year] %>%
   ggplot(aes(Year, count)) + 
   geom_bar(stat="identity", fill="steelblue") + 
-  geom_text(aes(label=count), hjust=-0.1, color="red", size=4) +
+  geom_text(aes(label=count), vjust=-0.3, color="red", size=2.3) +
   labs(
     title = "Bioconductor Package downloads by Year on RStudio CRAN mirror", 
     subtitle = "data via {cranlogs}", 
     x = "Year Classification", y="Number of Downloads"
-  ) + theme_minimal() + coord_flip()
+  ) + theme_minimal()
 ```
 
 ## GitHub
