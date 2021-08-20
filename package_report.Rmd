@@ -3,9 +3,17 @@ title: "Package and Repository Analysis"
 author: "Meet Bhatnagar"
 date: "16/08/2021"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
+
+<style type="text/css">
+.main-container {
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(warning = FALSE, message = FALSE, echo = TRUE)
@@ -57,6 +65,35 @@ ggplot(data=pkg_subm_df, aes(x=Year, y=subm_count)) +
   geom_text(aes(label=subm_count), vjust=-0.3, size=3.6)+
   labs(title="Package Submission Yearly Count", x="Year", y = "Submission Count")+ 
   theme_minimal()
+```
+
+3. Top 50 Downloaded Packages
+
+```{r top_pkg}
+library(pkgsearch)
+pkg_dwnld_df <- head(cran_top_downloaded(), 50)
+pkg_dwnld_df$package <- factor(pkg_dwnld_df$package, levels = pkg_dwnld_df$package)
+ggplot(data=pkg_dwnld_df, aes(x=package, y=count)) +
+  geom_bar(stat="identity", fill="steelblue")+
+  theme_minimal()+
+  theme(axis.text.x=element_text(angle=45, hjust=1))+
+  labs(title = "Most Popular 50 CRAN Packages",
+       x = "Packages", y = "Number of downloads")
+```
+
+4. Top 50 Package Author
+
+```{r top_pkg_author}
+library(pkgsearch)
+library(DT)
+pkg_name <- pkg_dwnld_df$package
+pkg_name <- pkg_dwnld_df$package
+df <- cran_packages(pkg_name)
+pkg_dwnld_df$author <- df$Author
+pkg_dwnld_df$author <- gsub(" \\[[^\\]]*\\]", "", pkg_dwnld_df$author, perl=TRUE)
+pkg_dwnld_df$author <- gsub("\\([^\\]]*\\)", "", pkg_dwnld_df$author, perl=TRUE)
+pkg_dwnld_df$author <- gsub("[\r\n]", "", pkg_dwnld_df$author)
+datatable(pkg_dwnld_df)
 ```
 
 ## R meetup events
