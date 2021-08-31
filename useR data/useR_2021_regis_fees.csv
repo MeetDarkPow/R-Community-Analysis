@@ -1,0 +1,7 @@
+Year,Reg_type,Participant_type,Presentation_type,High_Income_Country_fees,Higher_Middle_Income_Country_fees,Lower_Middle_Income_Country_fees,Low_Income_Country_fees
+2021,Early,Student,Conference,$25,$8.5,$3.5,$0
+2021,Early,Academic,Conference,$50,$17,$7,$0
+2021,Early,Industry,Conference,$75,$25.5,$10.5,$0
+2021,Early,Student,Tutorials,$15,$6,$3,$0
+2021,Early,Academic,Tutorials,$30,$11,$5,$0
+2021,Early,Industry,Tutorials,$50,$17,$7,$0
