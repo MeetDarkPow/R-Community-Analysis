@@ -1,0 +1,28 @@
+Year,Reg_type,Participant_type,Conf_reg_fee,Tutorial_fee,Conf_dinner,Childcare_fee,Childcare_fee_2_10,Childcare_fee_10_14
+2016,Early,Student, $125 , $0 ,$75,NA,NA,NA
+2016,Early,Academic, $250 , $0 ,$75,NA,NA,NA
+2016,Early,Industry, $450 , $0 ,$75,NA,NA,NA
+2016,Regular,Student, $150 , $0 ,$75,NA,NA,NA
+2016,Regular,Academic, $300 , $0 ,$75,NA,NA,NA
+2016,Regular,Industry, $500 , $0 ,$75,NA,NA,NA
+2016,Late,Student, $175 , $0 ,$75,NA,NA,NA
+2016,Late,Academic, $350 , $0 ,$75,NA,NA,NA
+2016,Late,Industry, $550 , $0 ,$75,NA,NA,NA
+2016,On-Site,Student, $250 , $0 ,$75,NA,NA,NA
+2016,On-Site,Academic, $400 , $0 ,$75,NA,NA,NA
+2016,On-Site,Industry, $600 , $0 ,$75,NA,NA,NA
+2017,NA,Student,€ 650, $0 ,€ 15,NA,€ 33.05,€ 66.12
+2017,NA,Academic,€ 375, $0 ,€ 45,NA,€ 33.05,€ 66.12
+2017,NA,Industry,€ 125, $0 ,€ 65,NA,€ 33.05,€ 66.12
+2018,Early,Student, $175 , $50 ,$100,$20,NA,NA
+2018,Early,Academic, $375 , $50 ,$100,$20,NA,NA
+2018,Early,Industry, $575 , $50 ,$100,$20,NA,NA
+2018,Regular,Student, $250 , $50 ,$100,$20,NA,NA
+2018,Regular,Academic, $500 , $50 ,$100,$20,NA,NA
+2018,Regular,Industry, $800 , $50 ,$100,$20,NA,NA
+2019,Early,Student,€ 150,€ 50,€ 50,€ 20,NA,NA
+2019,Early,Academic,€ 300,€ 50,€ 50,€ 20,NA,NA
+2019,Early,Industry,€ 500,€ 50,€ 50,€ 20,NA,NA
+2019,Regular,Student,€ 200,€ 50,€ 50,€ 20,NA,NA
+2019,Regular,Academic,€ 400,€ 50,€ 50,€ 20,NA,NA
+2019,Regular,Industry,€ 600,€ 50,€ 50,€ 20,NA,NA
