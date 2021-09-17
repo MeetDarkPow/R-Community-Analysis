@@ -1,9 +1,17 @@
-tdf <- read.csv("useR_key_dates.csv")
-df <- tdf[-4]
+# Reading useR archive data
+archive_df <- read.csv("useR_key_dates.csv")
 
+# Removing present Summary column
+df <- archive_df[-4]
+
+# Conference start date data-frame
 conf_start_dates <- df[df$Action=="Conference opens",]
+
+# Classification based on yearly data
 year <- unique(df$Year)
 
+
+# Function to compute - Weeks, Days
 date_summary <- function(start_date, event_date){
   
   from <- start_date
@@ -19,9 +27,9 @@ date_summary <- function(start_date, event_date){
   smry
 }
 
-# Row Index
-rowi <- 0
 
+# Updating Summary Column
+rowi <- 0
 for(i in 1:length(year)){
   temp_df <- df[df$Year==year[i],]
   edate <- conf_start_dates$Date[i]
