@@ -1,3 +1,9 @@
+tdf <- read.csv("useR_key_dates.csv")
+df <- tdf[-4]
+
+conf_start_dates <- df[df$Action=="Conference opens",]
+year <- unique(df$Year)
+
 date_summary <- function(start_date, event_date){
   
   from <- start_date
@@ -12,3 +18,24 @@ date_summary <- function(start_date, event_date){
   smry <- paste0(diff_in_weeks, " Weeks, ", as.numeric(diff_in_days)%%7, " Days before the conference")
   smry
 }
+
+# Row Index
+rowi <- 0
+
+for(i in 1:length(year)){
+  temp_df <- df[df$Year==year[i],]
+  edate <- conf_start_dates$Date[i]
+  n <- length(temp_df$Year)
+  for(x in 1:n){
+    sdate <- temp_df$Date[x]
+    res <- date_summary(sdate, edate)
+    df$Summary[rowi + x] <- res
+  }
+  df$Summary[rowi+n-1] <- str_replace(df$Summary[rowi+n-1], "before the conference", "conference started")
+  res <- date_summary(edate, df$Date[rowi+n])
+  res <- str_replace(res, "before the conference", "conference ended")
+  df$Summary[rowi+n] <- res
+  rowi <- rowi + n
+}
+
+View(df)
