@@ -75,9 +75,26 @@ ethn_2018_df <- user2018 %>% group_by(`To what ethnic group(s) do you identify?`
 ethn_2018_df <- data.frame(append(ethn_2018_df, c(Year=2018), after = 0))
 colnames(ethn_2018_df) <- c('Year', 'Ethnicity', 'Count')
 
+load("useR2020/useR2020_ethnicity.RData")
+ethn_2020_df <- which_ethnicity %>% group_by(ethnicity_group) %>% summarise(count = n())
+ethn_2020_df <- data.frame(append(ethn_2020_df, c(Year=2020), after = 0))
+colnames(ethn_2020_df) <- c('Year', 'Ethnicity', 'Count')
+
+cumm_ethnicity_df <- do.call("rbind", list(ethn_2016_df, ethn_2017_df,
+                                           ethn_2018_df, ethn_2020_df))
 
 
+# Cumulative Country Count Data-Frame
 
+ctry_2016_df <- useR20162 %>% group_by(Q5) %>% summarise(count = n())
 
+ctry_2017_df <- useR20172 %>% group_by(CurrentResidenceCountry) %>% summarise(count = n())
 
+ctry_2018_df <- read.csv("useR2018/stats_from_local_organisers/countries.csv")
+
+ctry_2019_df <- read.csv("useR2019/stats_from_local_organisers/countries.csv", header = F)
+
+ctry_2020_df <- useR2020_s %>% group_by(`In what country do you currently reside?`) %>% summarise(count = n())
+
+ctry_2021_df <- read.csv("useR2021/stats_from_local_organisers/countries.csv")
 
