@@ -1,0 +1,4 @@
+- 1806 participants in total (as in countries.csv)
+- levels.csv. does not include committee members, R Foundation members
+- countries.csv is "badge country", i.e. country of residence
+- no gender recorded on registration, use survey instead
