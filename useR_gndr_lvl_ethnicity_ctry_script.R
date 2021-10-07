@@ -28,6 +28,8 @@ colnames(gender_2020_df) <- c('Year', 'Type', 'Count')
 cumm_gender_df <- do.call("rbind", list(gender_2016_df, gender_2017_df, gender_2018_df,
                             gender_2019_df, gender_2020_df))
 
+View(cumm_gender_df)
+
 
 # Cumulative Levels Data-Frame
 
@@ -58,6 +60,8 @@ colnames(level_2021_df) <- c('Year', 'Level', 'Count')
 cumm_level_df <- do.call("rbind", list(level_2016_df, level_2017_df, level_2018_df,
                                        level_2019_df, level_2020_df, level_2021_df))
 
+View(cumm_level_df)
+
 
 # Cumulative Ethnicity Type Data-Frame
 
@@ -83,6 +87,8 @@ colnames(ethn_2020_df) <- c('Year', 'Ethnicity', 'Count')
 cumm_ethnicity_df <- do.call("rbind", list(ethn_2016_df, ethn_2017_df,
                                            ethn_2018_df, ethn_2020_df))
 
+View(cumm_ethnicity_df)
+
 
 # Cumulative Country Count Data-Frame
 
@@ -104,18 +110,28 @@ country_name <-
 ctry_2016_df <- useR20162 %>% group_by(Q5) %>% summarise(count = n())
 code <- countrycode(ctry_2016_df$Q5, origin = 'country.name', destination = 'iso3c')
 ctry_2016_df$iso <- code
-
 ctry_2016_df <- subset(ctry_2016_df, select = c(count, iso))
-
 main_df <- left_join(country_name, ctry_2016_df, by = c("iso_code" = "iso"))
 
 ctry_2017_df <- useR20172 %>% group_by(CurrentResidenceCountry) %>% summarise(count = n())
+code <- countrycode(ctry_2017_df$CurrentResidenceCountry, origin = 'country.name', destination = 'iso3c')
+ctry_2017_df$iso <- code
+ctry_2017_df <- subset(ctry_2017_df, select = c(count, iso))
+main_df <- left_join(main_df, ctry_2017_df, by = c("iso_code" = "iso"))
 
 ctry_2018_df <- read.csv("useR2018/stats_from_local_organisers/countries.csv")
+code <- countrycode(ctry_2018_df$Booking.Country, origin = 'country.name', destination = 'iso3c')
+ctry_2018_df$iso <- code
+ctry_2018_df <- subset(ctry_2018_df, select = c(n, iso))
+main_df <- left_join(main_df, ctry_2018_df, by = c("iso_code" = "iso"))
 
 ctry_2019_df <- read.csv("useR2019/stats_from_local_organisers/countries.csv", header = F)
+
 
 ctry_2020_df <- useR2020_s %>% group_by(`In what country do you currently reside?`) %>% summarise(count = n())
 
 ctry_2021_df <- read.csv("useR2021/stats_from_local_organisers/countries.csv")
 
+
+
+colnames(ethn_2016_df) <- c('Year', 'Ethnicity', 'Count')
