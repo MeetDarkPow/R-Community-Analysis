@@ -1,3 +1,5 @@
+# SET "useR" FOLDER AS WORKING DIRECTORY TO RUN THIS SCRIPT
+
 # Cumulative Gender Data-Frame
 
 library(dplyr)
