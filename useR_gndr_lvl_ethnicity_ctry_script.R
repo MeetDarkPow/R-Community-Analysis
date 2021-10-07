@@ -86,7 +86,28 @@ cumm_ethnicity_df <- do.call("rbind", list(ethn_2016_df, ethn_2017_df,
 
 # Cumulative Country Count Data-Frame
 
+library(countrycode)
+
+country_name <-
+  countrycode::codelist %>%
+  as_tibble() %>%
+  select(
+    name = country.name.en, country = iso3c
+  ) %>%
+  dplyr::mutate(country = dplyr::case_when(
+    name == "Kosovo" ~ "XK",
+    TRUE ~ country
+  ))  %>%
+  filter(!is.na(country)) %>%
+  rename(iso_code = country)
+
 ctry_2016_df <- useR20162 %>% group_by(Q5) %>% summarise(count = n())
+code <- countrycode(ctry_2016_df$Q5, origin = 'country.name', destination = 'iso3c')
+ctry_2016_df$iso <- code
+
+ctry_2016_df <- subset(ctry_2016_df, select = c(count, iso))
+
+main_df <- left_join(country_name, ctry_2016_df, by = c("iso_code" = "iso"))
 
 ctry_2017_df <- useR20172 %>% group_by(CurrentResidenceCountry) %>% summarise(count = n())
 
