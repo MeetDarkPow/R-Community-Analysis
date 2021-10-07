@@ -126,12 +126,23 @@ ctry_2018_df <- subset(ctry_2018_df, select = c(n, iso))
 main_df <- left_join(main_df, ctry_2018_df, by = c("iso_code" = "iso"))
 
 ctry_2019_df <- read.csv("useR2019/stats_from_local_organisers/countries.csv", header = F)
-
+code <- countrycode(ctry_2019_df$V1, origin = 'country.name', destination = 'iso3c')
+ctry_2019_df$iso <- code
+ctry_2019_df <- subset(ctry_2019_df, select = c(V2, iso))
+main_df <- left_join(main_df, ctry_2019_df, by = c("iso_code" = "iso"))
 
 ctry_2020_df <- useR2020_s %>% group_by(`In what country do you currently reside?`) %>% summarise(count = n())
+code <- countrycode(ctry_2020_df$`In what country do you currently reside?`, origin = 'country.name', destination = 'iso3c')
+ctry_2020_df$iso <- code
+ctry_2020_df <- subset(ctry_2020_df, select = c(count, iso))
+main_df <- left_join(main_df, ctry_2020_df, by = c("iso_code" = "iso"))
 
 ctry_2021_df <- read.csv("useR2021/stats_from_local_organisers/countries.csv")
+code <- countrycode(ctry_2021_df$country, origin = 'country.name', destination = 'iso3c')
+ctry_2021_df$iso <- code
+ctry_2021_df <- subset(ctry_2021_df, select = c(n, iso))
+main_df <- left_join(main_df, ctry_2021_df, by = c("iso_code" = "iso"))
 
+colnames(main_df) <- c('Country', 'ISO_Code', '2016', '2017', '2018', '2019', '2020', '2021')
 
-
-colnames(ethn_2016_df) <- c('Year', 'Ethnicity', 'Count')
+View(main_df)
